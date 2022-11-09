@@ -1,7 +1,3 @@
 # Porcheron.uk
 
-Install ruby, and then:
-
-    bundle install
-    bundle update
-    
+Source code for Martin Porcheron's website, built with Jekyll and Bootstrap.
