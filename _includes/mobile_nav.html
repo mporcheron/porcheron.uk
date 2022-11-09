@@ -1,0 +1,25 @@
+<div class="offcanvas offcanvas-end d-md-none" tabindex="-1" id="navOffcanvas" aria-labelledby="navToggler" aria-modal="true" role="dialog">
+    <div class="offcanvas-body d-flex align-items-center">
+        <ul class="navbar-nav justify-content-end flex-grow-1">
+        {%- for menu_item in menu_items -%}
+            {%- unless menu_item.url contains '/page/'-%}
+                <li class="nav-item">
+                    {%- if page.url == menu_item.url or menu_item.url == '/blog/index.html' and paginator.page -%}
+                     <a class="nav-link offcanvas-link py-md-0 py-3 fw-bold text-center" aria-current="page" href="{{ menu_item.url | relative_url }}" alt="{{ menu_item.description }}">
+                        {{ menu_item.label | escape }}
+                    </a>
+                    {%- elsif menu_item.url == '/blog/index.html' and page.collection == 'posts' -%}
+                    <a class="nav-link offcanvas-link py-md-0 py-3 fw-bold text-center" aria-current="page" href="{{ menu_item.url | relative_url }}" alt="{{ menu_item.description }}">
+                        {{ menu_item.label | escape }}
+                    </a>
+                    {%- else -%}
+                     <a class="nav-link offcanvas-link py-md-0 py-3 fw-bold text-center" href="{{ menu_item.url | relative_url }}" alt="{{ menu_item.description }}">
+                        {{ menu_item.label | escape }}
+                    </a>
+                    {%- endif -%}
+                </li>
+            {%- endunless -%}
+        {%- endfor -%}
+        </ul>
+    </div>
+</div>

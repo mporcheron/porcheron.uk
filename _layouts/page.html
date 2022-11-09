@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<section class="d-flex flex-column">
+    <div class="page-title d-md-block d-none">
+        <div class="container-fluid content-header p-lg-4 p-3">
+            <h1 class="container m-0 p-0 fw-bold">
+	            {{ page.title | escape }}
+            </h1>
+        </div>
+    </div>
+
+    <article class="content-container">
+        <div class="pt-md-0 p-md-4 p-3">
+          {{- content -}}
+        </div>
+    </article>
+</section>

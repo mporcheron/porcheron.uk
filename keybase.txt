@@ -1,0 +1,56 @@
+
+==================================================================
+https://keybase.io/mporcheron
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.porcheron.uk
+  * I am mporcheron (https://keybase.io/mporcheron) on keybase.
+  * I have a public key ASCpgONyx4vmd2jwtsAsUhS4VkdnnhiUKBpVsn6bdNTFqAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a980e372c78be67768f0b6c02c5214b85647679e1894281a55b27e9b74d4c5a80a",
+      "host": "keybase.io",
+      "kid": "0120a980e372c78be67768f0b6c02c5214b85647679e1894281a55b27e9b74d4c5a80a",
+      "uid": "a50093454c285411a1d833ec92e42600",
+      "username": "mporcheron"
+    },
+    "merkle_root": {
+      "ctime": 1507666056,
+      "hash": "e5ff268210e6ef3bbee76f82b449be137b0688375e6765d14dfdce8c4410d26c5e56c019bd9dfa4529295cfb8d88a5428d7c246e4f183d4141adc12ffb2a3d10",
+      "hash_meta": "d484de7014529a84374eb71f87821f47598da68f14320704e0a2eeb7b3ca4642",
+      "seqno": 1554545
+    },
+    "service": {
+      "hostname": "www.porcheron.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507666066,
+  "expire_in": 504576000,
+  "prev": "6e2c49d94ca1c0a8c4c85619dad95c12cfcfe6c740e5ce8fdae8d871af16b044",
+  "seqno": 35,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqYDjcseL5ndo8LbALFIUuFZHZ54YlCgaVbJ+m3TUxagKp3BheWxvYWTFA0t7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYTk4MGUzNzJjNzhiZTY3NzY4ZjBiNmMwMmM1MjE0Yjg1NjQ3Njc5ZTE4OTQyODFhNTViMjdlOWI3NGQ0YzVhODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTk4MGUzNzJjNzhiZTY3NzY4ZjBiNmMwMmM1MjE0Yjg1NjQ3Njc5ZTE4OTQyODFhNTViMjdlOWI3NGQ0YzVhODBhIiwidWlkIjoiYTUwMDkzNDU0YzI4NTQxMWExZDgzM2VjOTJlNDI2MDAiLCJ1c2VybmFtZSI6Im1wb3JjaGVyb24ifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDc2NjYwNTYsImhhc2giOiJlNWZmMjY4MjEwZTZlZjNiYmVlNzZmODJiNDQ5YmUxMzdiMDY4ODM3NWU2NzY1ZDE0ZGZkY2U4YzQ0MTBkMjZjNWU1NmMwMTliZDlkZmE0NTI5Mjk1Y2ZiOGQ4OGE1NDI4ZDdjMjQ2ZTRmMTgzZDQxNDFhZGMxMmZmYjJhM2QxMCIsImhhc2hfbWV0YSI6ImQ0ODRkZTcwMTQ1MjlhODQzNzRlYjcxZjg3ODIxZjQ3NTk4ZGE2OGYxNDMyMDcwNGUwYTJlZWI3YjNjYTQ2NDIiLCJzZXFubyI6MTU1NDU0NX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cucG9yY2hlcm9uLnVrIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzMifSwiY3RpbWUiOjE1MDc2NjYwNjYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNmUyYzQ5ZDk0Y2ExYzBhOGM0Yzg1NjE5ZGFkOTVjMTJjZmNmZTZjNzQwZTVjZThmZGFlOGQ4NzFhZjE2YjA0NCIsInNlcW5vIjozNSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDyi15gE6OsQfSDxNE1QlVDLdMrndk8m/HXCOPlUc9Krw16CDtd7lrDCkf0NBj29AN245hbAtE1VuaHSMqINfMEqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgy4uVw42Jenp4y+ez5PAH7ouOwjGCjwmsRY0hGTv0Cn+jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mporcheron
+
+==================================================================

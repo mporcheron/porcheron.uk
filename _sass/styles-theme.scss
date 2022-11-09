@@ -1,0 +1,103 @@
+
+// GLOBAL
+.bg-frost, .bg-superfrost {
+    background: $frost-bg;
+    color: $frost-fg;
+
+    a, a:hover {
+        color: $frost-fg !important;
+    }
+}
+
+.bg-superfrost {
+    background: $superfrost-bg;
+	-webkit-backdrop-filter: $frost-filter;
+    backdrop-filter: $frost-filter;
+}
+
+
+// HEADER
+.navbar {
+    background: $frost-bg;
+    border: $main-border-w solid $main-border;
+    border-bottom: 0;
+    
+    .mobilenav-icon {
+        background-image: $mobilenav-bg-image;
+    }
+        
+    .triangle {
+        width: 0;
+        height: 0;
+        border-left: .5rem solid transparent;
+        border-right: .5rem solid transparent;
+        border-bottom: .5rem solid $content-container-bg;
+    }
+
+    .subsuperfrost {
+        .triangle {
+            border-bottom: .5rem solid $superfrost-notch;
+        }
+    }
+}
+
+.offcanvas {
+    background: $superfrost-bg;
+    
+    &.offcanvas-start {
+	    border-right: $main-border-w solid $main-border !important;
+    }
+    &.offcanvas-end {
+		border-left: $main-border-w solid $main-border !important;
+	}
+}
+
+
+// CONTENT FORMATTING
+.content-header, .content-container {
+    background: $content-container-bg;
+    color: $content-container-fg;
+    border-left: $main-border-w solid $main-border;
+    border-right: $main-border-w solid $main-border;
+}
+
+.pdficon {
+    background-image: $pdficon-bg-image;
+}
+
+figcaption {
+    background: $figcaption-bg;
+    color: $figcaption-fg;
+}
+
+hr {
+	background-color: $main-border;
+}
+
+.card {
+    background: transparent;
+
+    .card-header {
+            color: $card-cap-color;
+            background: $card-cap-bg;
+            border-bottom: $card-border-width solid $card-border-color;
+    }
+
+    .card-body {
+            background: $card-bg;
+            color: $body-color;
+    }
+
+    .card-footer {
+        color: $card-cap-color;
+        background: $card-cap-bg;
+        border-top: $card-border-width solid $card-border-color;
+    }
+}
+
+
+// FOOTER
+footer {
+    border: $main-border-w solid $main-border;
+    border-top: 0;
+}

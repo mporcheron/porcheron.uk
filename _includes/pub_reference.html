@@ -1,0 +1,20 @@
+
+{%- if pub contains 'pdflink' -%}
+	{%- assign icon_class = 'mt-2' -%}
+{% else %}
+	{%- assign icon_class = '' -%}
+{%- endif -%}
+
+<div class="d-flex mb-3">
+  <div class="flex-shrink-0 text-center">
+    {% if pub contains 'pdflink' %}
+        <a href="{{ site.baseurl }}/{{ pub.title | datapage_url: 'pubs' }}" target="_blank" data-action="popup" title="{{ pub.title }}" class="pdficon {{ icon_class }}" aria-label="PDF file icon"><span class="visually-hidden">Download the paper</span></a>
+    {% endif %}
+    {% if pub contains 'bibtex' %}
+    <a href="{{ site.baseurl }}/{{ pub.title | datapage_url: 'pubs/bibtex' }}" target="_blank" rel="nofollow" data-action="popup" title="View BibTeX source" class="text-muted small" aria-label="BibTeX source for this publication">[bib]</a>
+    {% endif %}
+  </div>
+  <div class="flex-grow-1 ms-3">
+        {{ pub.acmref | markdownify }}
+  </div>
+</div>

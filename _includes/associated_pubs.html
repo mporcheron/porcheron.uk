@@ -1,0 +1,10 @@
+<aside class="p-0" id="assoc-pubs">
+	<hr>
+	<h2>Associated publications</h2>
+	{% assign pub_titles = include.pubs | split: "||" %}
+	{% for pub in site.data.pubs %}
+		{% if pub_titles contains pub.title %}
+		{% include pub_reference.html %}
+		{% endif %}
+	{% endfor %}
+</aside>

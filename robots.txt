@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /.well-known
+Disallow: /_profiler
+Disallow: /keybase.txt
+Disallow: /404/
+Disallow: /404.html
+Disallow: /pubs/bibtex/*
+
+
+Sitemap: https://www.porcheron.uk/sitemap.xml

@@ -1,0 +1,121 @@
+name: Martin Porcheron
+author: Martin Porcheron
+title: Martin Porcheron
+email: martin@porcheron.uk
+lang: en-GB
+description: >-
+  A Senior Lecturer in the Department of Computer Science at Swansea University. My research is in the fields of HCI and CSCW. 
+
+baseurl: ""
+url: "http://localhost:4000"
+permalink: /blog/:year/:month/:day/:title/
+repository: mporcheron/porcheron.uk.git
+
+# Social settings
+social:
+    browser:
+        theme_colour: 3A3C45
+    twitter:
+        username: MPorcheron
+        card: /assets/img/twittercard.png
+        card_alt: A photo of Martin Porcheron
+    github:
+        username: MPorcheron
+    scholar:
+        user_id: xqQs-LEAAAAJ
+
+# Build settings
+plugins_dir: ./_plugins
+plugins:
+  - jekyll-feed
+  - jekyll-datapage-generator
+  - jekyll-last-modified-at
+#   - jekyll-minifier
+  - jekyll-optional-front-matter
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll-titles-from-headings
+
+# Liquid config
+liquid:
+  error_mode: strict
+  strict_variables: false
+  strict_filters: true
+
+# SASS generation
+sass:
+    style: compressed
+
+# Title generation from headings
+titles_from_headings:
+    enabled: true
+    strip_title: true
+    collections: true
+
+# Page generation from data
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  - data: pubs
+    template: pub_redirect
+    name: title
+    dir: pubs
+    index_files: false
+  - data: pubs
+    template: pub_bibtex
+    name: title
+    dir: '/pubs/bibtex'
+    index_files: false
+
+# Pagination
+pagination:
+  enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title (page :num/:max)'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+
+# Exclude from minificartion
+# jekyll-minifier:
+#   compress_css: false
+#   exclude: 'feed.xml'
+#   exclude: 'sitemap.xml'
+#   uglifier_args:
+#     harmony: true
+
+# Sitemap configutation
+defaults:
+  - scope:
+      path:            ""
+    values:
+      layout:          "page"
+  - scope:
+      path:            ""
+      type:            "posts" 
+    values:
+      layout:          "post"
+  - scope:
+      path:            "assets/**/*.pdf"
+    values:
+      sitemap:         false
+
+# Excerpt separator
+excerpt_separator: <!--more-->
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
