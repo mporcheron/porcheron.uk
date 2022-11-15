@@ -8,15 +8,11 @@ This information was last updated {% capture last_modified_str %}{{ page.last_mo
 
 ## Advertising
 
-There is no advertising on this website or monetisation of traffic.
+There is no advertising on this website.
 
 ## Analytics
 
-This website uses **Cloudflare Web Analytics** to count visitor numbers and page views. [Cloudflare states that](https://www.cloudflare.com/en-gb/web-analytics/ "Information about Cloudflare Web Analytics"):
-
-> Cloudflare Web Analytics does not use any client-side state, such as cookies or localStorage, to collect usage metrics. We also don’t “fingerprint” individuals via their IP address, User Agent string, or any other data for the purpose of displaying analytics.
->
-> *Last checked: 25th July 2021*
+There are no analytics of users to this website.
 
 ## Collection of personally identifiable information
 
@@ -41,12 +37,5 @@ This website uses Content Delivery Networks (CDNs) to ensure you can access the 
 >
 > Content dated: 13th July 2021<br>
 > Last checked: 25th July 2021
-
-**[Cloudflare](http://cloudflare.com "Visit the Cloudflare website")** is used to optimise image and page delivery. Cloudflare may place a cookie in your browser to provide its services—this is a technical cookie and thus you cannot opt out from it. You can read more these cookies on this [Cloudflare support document](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies "Understanding the Cloudflare Cookies"):
-
-> The *__cflb*, *__cf_bm*, *__cf_ob_info* and *__cf_use_ob*, and *__cfwaitingroom* cookies are strictly necessary to provide the services
->
-> *Content dated: 1st July 2021*<br>
-> *Last checked: 25th July 2021*
 
 If you have questions about anything above, please do not hesitate to [contact me](/contact "My contact details").
