@@ -6,36 +6,52 @@ permalink: /privacy/
 
 This information was last updated {% capture last_modified_str %}{{ page.last_modified_at | date_to_long_string: "ordinal" }}{% endcapture %}{{ page.last_modified_at }}.
 
-## Advertising
+This website does not collect any personally identifiable information, additionally, there is:
 
-There is no advertising on this website.
+* No advertising on this website
+* No analytics or tracking of users or their activities on this website
+* No cookies set by the website owner
+* No non-essential cookies set by third-party service providers (see below)
 
-## Analytics
+## Third-party service providers
 
-There are no analytics of users to this website.
+This website uses three external service providers only.
 
-## Collection of personally identifiable information
+### GitHub Pages
 
-No personally identifiable information is collected by this website owner, although this website is hosted by **[GitHub](https://github.com "The main GitHub website")**, on [GitHub Pages](https://pages.github.com "Information about the GitHub Pages service"), which is owned by [Microsoft](https://www.microsoft.com/ "Microsoft homepage"). The [GitHub Privacy Statement](https://help.github.com/en/github/site-policy/github-privacy-statement#additional-services "Read the Additional Services section of the GitHub Privacy Statement") says:
+This website is hosted by [GitHub](https://github.com "The main GitHub website"), on its [GitHub Pages](https://pages.github.com "Information about the GitHub Pages service") service. GitHub is owned by [Microsoft](https://www.microsoft.com/ "Microsoft homepage"). The [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement#additional-services "Read the Additional Services section of the GitHub Privacy Statement") says:
 
-> GitHub may collect User Personal Information from visitors to your GitHub Pages website, including logs of visitor IP addresses, to comply with legal obligations, and to maintain the security and integrity of the Website and the Service.
+> ...[GitHub] only use strictly necessary cookies to provide, secure, and improve our Website or Service or develop new features and functionality of our Website or Service
 >
-> *Content dated: 19th December 2020*<br>
-> *Last checked: 25th July 2021*
+> *Content dated: 1st September 2022*<br>
+> *Last checked: 15th November 2022*
 
-This website does not set any cookies for user tracking.
-
-Embedded content such as YouTube videos specifically requests content without user tracking or cookies.
-
-## Content Delivery Networks
-
-This website uses Content Delivery Networks (CDNs) to ensure you can access the website and its resources quickly.
+### Google Fonts API
 
 **Google Fonts API** is used to provide custom font support. Privacy information about Google Fonts API is available from [this Google FAQ](https://developers.google.com/fonts/faq2#what_does_using_the_google_fonts_api_mean_for_the_privacy_of_my_users "Privacy information about Google Fonts"):
 
-> No cookies are sent by website visitors to the Google Fonts API. Requests to the Google Fonts API are made to resource-specific domains, such as fonts.googleapis.com or fonts.gstatic.com. This means your font requests are separate from and don't contain any credentials you send to google.com while using other Google services that are authenticated, such as Gmail. … Google Fonts logs records of the CSS and the font file requests, and access to this data is kept secure. Aggregate usage numbers track how popular font families are and are published on our analytics page.
+> The Google Fonts API is designed to limit the collection, storage, and use of end-user data to only what is needed to serve fonts efficiently. The use of the Google Fonts API is unauthenticated and the Google Fonts API does not set or log cookies. Requests to the Google Fonts API are made to resource-specific domains, such as fonts.googleapis.com or fonts.gstatic.com. Font requests are separate from and don't contain any credentials sent to google.com while using other Google services that are authenticated, such as Gmail.
 >
-> Content dated: 13th July 2021<br>
-> Last checked: 25th July 2021
+> The Google Fonts API logs the details of the HTTP request, which includes the timestamp, requested URL, and all HTTP headers (including referrer and user agent string) provided in connection with the use of our CSS API.
+> 
+> IP addresses are not logged.
+>
+> Access to logged data is kept secure. Aggregate usage stats are used to measure the popularity of font families and are published on the Google Fonts [analytics page](https://fonts.google.com/analytics "Statistics about Google Fonts").
+> 
+To learn more about the information Google collects and how it is used and secured, see Google's [Privacy Policy](https://policies.google.com/privacy "Google's Privacy Policy").
+>
+> Content dated: 21st June 2021<br>
+> Last checked: 15th November 2022
+
+### YouTube
+
+This website occasionally embeds videos hosted on the [YouTube](https://www.youtube.com/ "YouTube") service. YouTube is owned by [YouTube](https://www.google.com/ "Google"). Embedded videos are done so using a 'privacy-enhanced mode', which requests content without [influencing user experiences](https://support.google.com/youtube/answer/171780?hl=en-GB#zippy=%2Cturn-on-privacy-enhanced-mode "Google FAQ on Privacy-Enhanced Mode"):
+
+> The privacy-enhanced mode of the YouTube embedded player prevents the use of views of embedded YouTube content from influencing the viewer's browsing experience on YouTube. This means that the view of a video shown in the privacy-enhanced mode of the embedded player will not be used to personalise the YouTube browsing experience, either within your privacy-enhanced mode embedded player or in the viewer's subsequent YouTube viewing experience. 
+>
+> If ads are served on a video shown in the privacy-enhanced mode of the embedded player, those ads will likewise be non-personalised. In addition, the view of a video shown in the privacy-enhanced mode of the embedded player will not be used to personalise advertising shown to the viewer outside of your site or app.
+>
+> Content dated: undated<br>
+> Last checked: 15th November 2022
 
 If you have questions about anything above, please do not hesitate to [contact me](/contact "My contact details").
