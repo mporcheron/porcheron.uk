@@ -11,13 +11,12 @@ This website does not collect any personally identifiable information, additiona
 * No advertising on this website
 * No analytics or tracking of users or their activities on this website
 * No cookies set by the website owner
-* No non-essential cookies set by third-party service providers (see below)
 
-## Third-party service providers
+This website uses three external service providers only, the details for which are below.
 
-This website uses three external service providers only.
+If you have questions about anything above, please do not hesitate to [contact me](/contact "My contact details").
 
-### GitHub Pages
+## GitHub Pages
 
 This website is hosted by [GitHub](https://github.com "The main GitHub website"), on its [GitHub Pages](https://pages.github.com "Information about the GitHub Pages service") service. GitHub is owned by [Microsoft](https://www.microsoft.com/ "Microsoft homepage"). The [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement#additional-services "Read the Additional Services section of the GitHub Privacy Statement") says:
 
@@ -26,7 +25,7 @@ This website is hosted by [GitHub](https://github.com "The main GitHub website")
 > *Content dated: 1st September 2022*<br>
 > *Last checked: 15th November 2022*
 
-### Google Fonts API
+## Google Fonts API
 
 **Google Fonts API** is used to provide custom font support. Privacy information about Google Fonts API is available from [this Google FAQ](https://developers.google.com/fonts/faq2#what_does_using_the_google_fonts_api_mean_for_the_privacy_of_my_users "Privacy information about Google Fonts"):
 
@@ -43,7 +42,7 @@ To learn more about the information Google collects and how it is used and secur
 > Content dated: 21st June 2021<br>
 > Last checked: 15th November 2022
 
-### YouTube
+## YouTube
 
 This website occasionally embeds videos hosted on the [YouTube](https://www.youtube.com/ "YouTube") service. YouTube is owned by [YouTube](https://www.google.com/ "Google"). Embedded videos are done so using a 'privacy-enhanced mode', which requests content without [influencing user experiences](https://support.google.com/youtube/answer/171780?hl=en-GB#zippy=%2Cturn-on-privacy-enhanced-mode "Google FAQ on Privacy-Enhanced Mode"):
 
@@ -51,7 +50,5 @@ This website occasionally embeds videos hosted on the [YouTube](https://www.yout
 >
 > If ads are served on a video shown in the privacy-enhanced mode of the embedded player, those ads will likewise be non-personalised. In addition, the view of a video shown in the privacy-enhanced mode of the embedded player will not be used to personalise advertising shown to the viewer outside of your site or app.
 >
-> Content dated: undated<br>
+> Content dated: _undated_<br>
 > Last checked: 15th November 2022
-
-If you have questions about anything above, please do not hesitate to [contact me](/contact "My contact details").
