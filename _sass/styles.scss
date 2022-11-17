@@ -7,6 +7,14 @@ a[href^="https://doi.org"], a[href^="https://cronfa.swan.ac.uk"] {
     word-break: break-all;
 }
 
+.video-unactivated {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .text-monospace {
     font-family: monospace;
 }

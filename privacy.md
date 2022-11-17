@@ -44,7 +44,9 @@ To learn more about the information Google collects and how it is used and secur
 
 ## YouTube
 
-This website occasionally embeds videos hosted on the [YouTube](https://www.youtube.com/ "YouTube") service. YouTube is owned by [YouTube](https://www.google.com/ "Google"). Embedded videos are done so using a 'privacy-enhanced mode', which requests content without [influencing user experiences](https://support.google.com/youtube/answer/171780?hl=en-GB#zippy=%2Cturn-on-privacy-enhanced-mode "Google FAQ on Privacy-Enhanced Mode"):
+This website occasionally includes videos that are hosted on the [YouTube](https://www.youtube.com/ "YouTube") service. YouTube is owned by [Google](https://www.google.com/ "Google").
+
+By default, videos are not embedded on webpages, but instead a placeholder is displayed. Clicking on this placeholder (which says '_Load YouTube video_') will embed the video in the webpage using a 'privacy-enhanced mode'. YouTube states this embedded video will not [influence your user experience](https://support.google.com/youtube/answer/171780?hl=en-GB#zippy=%2Cturn-on-privacy-enhanced-mode "Google FAQ on Privacy-Enhanced Mode"):
 
 > The privacy-enhanced mode of the YouTube embedded player prevents the use of views of embedded YouTube content from influencing the viewer's browsing experience on YouTube. This means that the view of a video shown in the privacy-enhanced mode of the embedded player will not be used to personalise the YouTube browsing experience, either within your privacy-enhanced mode embedded player or in the viewer's subsequent YouTube viewing experience. 
 >
@@ -52,3 +54,5 @@ This website occasionally embeds videos hosted on the [YouTube](https://www.yout
 >
 > Content dated: _undated_<br>
 > Last checked: 15th November 2022
+
+Please note however, that there are privacy implications of loading embedded content—this is like loading a webpage normally in your browser and carries all the same risks. As such, interaction with any embedded video is subject to [Google's Privacy Policy](https://policies.google.com/privacy?hl=en-GB "YouTube's privacy guidelines"). Therefore, although your use of the embedded video may not influence your user experience on YouTube, Google may sitll collect personally identifiable information.
