@@ -968,16 +968,17 @@
         In *The SAGE Handbook of Digital Society*,
         William Housley, Adam Edwards, Roser Montagut, and Richard Fitzgerald (Eds.).
         SAGE Publications.
-        In Press.
+        Chapter 31.
   bibtex: >-
       @incollection{reeves2022conversational,
         title        = {Conversational AI: Respecifying Participation as Regulation},
         author       = {Reeves, Stuart and Porcheron, Martin},
         year         = {2022},
+        month        = 12,
+        chapter      = 31,
         booktitle    = {The SAGE Handbook of Digital Society},
         editor       = {Housley, William and Edwards, Adam and Montagut, Roser and Fitzgerald, Richard},
         publisher    = {SAGE Publications},
-        note         = {In Press},
       }
   category: chapter
 
