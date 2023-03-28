@@ -1043,7 +1043,7 @@
         Association for Computing Machinery, New York, NY, USA, 22 pages.
         [https://doi.org/10.1145/3544548.3580971](https://doi.org/10.1145/3544548.3580971 "DOI for the CHI '23 paper 'Cyclists’ Use of Technology While on Their Bike'")
   bibtex: >-
-      @inproceedings{bleakley2022exploring,
+      @inproceedings{porcheron2023cycling,
         title        = {Cyclists’ Use of Technology While on Their Bike},
         author       = {Porcheron, Martin and Clark, Leigh and Nicholson, Stuart Alan and Jones, Matt},
         year         = 2023,
@@ -1067,7 +1067,7 @@
         In *CHI Conference on Human Factors in Computing Systems Extended Abstracts* (CHI '23 Extended Abstracts).
         Association for Computing Machinery, New York, NY, USA, 5 Pages. [https://doi.org/10.1145/3544549.3573820](https://doi.org/10.1145/3544549.3573820 "DOI for the CHI '23 workshop 'CUI@CHI: Inclusive Design of CUIs Across Modalities and Mobilities'")
   bibtex: >-
-      @inproceedings{lee2022ethics,
+      @inproceedings{sin2023inclusive,
         title        = {CUI@CHI: Inclusive Design of CUIs Across Modalities and Mobilities},
         author       = {Sin, Jaisie and Candello, Heloisa and Clark, Leigh and Cowan, Benjamin R and Lee, Mina and Munteanu, Cosmin and Porcheron, Martin and Völkel, Sarah Theres and Branham, Stacy and Brewer, Robin and Chaves, Ana Paula and Jaber, Razan and Lazar, Amanda},
         year         = 2023,
