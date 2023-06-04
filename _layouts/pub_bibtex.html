@@ -42,9 +42,11 @@ sitemap: false
 		<h1 class="flex-grow-0 m-0 p-3 text-center">
 			BibTeX for <em>{{ page.title }}</em>
 		</h1>
-		<div class="flex-grow-1 d-flex bg-transparent m-0 p-0 align-items-stretch">
-			<textarea class="w-100 m-0 p-md-5 p-3 border-0 bg-superfrost small font-monospace" id="bibtex-source" readonly="readonly">{{ page.bibtex }}</textarea>
-		</div>
+		<main aria-label="Content" class="flex-grow-1 d-flex m-0 px-3 align-items-stretc">
+			<div class="w-100 p-3 rounded-5">
+			<textarea class="w-100 h-100 m-0 p-md-5 p-3 border-0 rounded-4 small font-monospace" id="bibtex-source" readonly="readonly">{{ page.bibtex }}</textarea>
+			</div>
+		</main>
 		<div class="flex-grow-0 p-3 text-end">
 			<button type="button" data-close="true" class="btn btn-danger mr-2 noparentwin-none">Close</button>
 			<button type="button" data-copy="true" data-close="true" data-target="#bibtex-source" class="btn btn-success mr-2 noparentwin-none" data-dismiss="modal">Copy and close</button>
