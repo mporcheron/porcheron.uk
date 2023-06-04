@@ -1,4 +1,10 @@
 window.addEventListener('load', () => {
+	document.getElementById('siteTitle').addEventListener('click', event => {
+		if (window.innerWidth >= 768) {
+			event.stopPropagation();
+            window.location=document.getElementById('siteTitle').dataset.homepage;
+		}
+	});
     document.querySelectorAll('.nav-link').forEach((link) => {
         link.addEventListener('click', event => {
             event.preventDefault();
@@ -8,7 +14,7 @@ window.addEventListener('load', () => {
             }
             const href = event.currentTarget.href;
             setTimeout(() => {window.location=href;}, 400);
-        });
+        });	
     });
     document.querySelectorAll('.video-unactivated').forEach((link) => {
         link.addEventListener('click', event => {
