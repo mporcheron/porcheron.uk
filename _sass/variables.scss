@@ -60,16 +60,20 @@ $nav-bg-filter: saturate(180%) blur(20px);
 $nav-border-radius: var(--bs-border-radius-xxl);
 $nav-inner-bg: $white;
 $nav-inner-border-radius: var(--bs-border-radius-xl);
+$nav-bg-md: $white;
 $nav-font-size: 1.2rem;
 $nav-font-size-md: 1.5rem;
 $nav-font-family: $font-family-sans-serif;
 $nav-font-family-md: $aside-font-family;
-$nav-link-opacity: .85;
+$nav-link-opacity: .75;
+$nav-link-hover-opacity: .85;
 $nav-chevron-move: .3rem;
 
 
 
 // MAIN
+$main-mt-md: 12.65rem;
+
 $main-bg: $nav-bg;
 $main-bg-filter: $nav-bg-filter;
 $main-line-spacing: 150%;
