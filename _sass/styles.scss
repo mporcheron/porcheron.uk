@@ -23,11 +23,12 @@ html {
 
 body {
     background-color: $body-bg;
-    background: $body-bg-img, $body-bg-gradient;
+	background: $body-bg-gradient;
     background-attachment: fixed;
     direction: ltr;
     min-height: 100%;
     padding: $body-p;
+    @include auto-transition((background), $transition-duration);
 }
 
 aside {
@@ -174,6 +175,10 @@ textarea {
 // DESKTOP
 
 @include media-breakpoint-up(md) {
+	body {
+    	background: $body-bg-img, $body-bg-gradient;
+    }
+    
 	aside {
 		max-width: 25rem;
 	
