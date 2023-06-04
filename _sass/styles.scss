@@ -7,10 +7,6 @@ a[href^="https://doi.org"], a[href^="https://cronfa.swan.ac.uk"] {
     word-break: break-all;
 }
 
-.text-monospace {
-    font-family: monospace;
-}
-
 p:last-child, ol:last-child, ul:last-child {
     margin-bottom: 0;
 }
@@ -28,7 +24,7 @@ body {
     direction: ltr;
     min-height: 100%;
     padding: $body-p;
-    @include auto-transition((background), $transition-duration);
+    @include auto-transition((background-image), $transition-duration);
 }
 
 aside {
@@ -40,24 +36,16 @@ aside {
 	}
 				
 	svg {
-		fill: white;
+		fill: $aside-fg;
 		width: 1rem;
 		margin-right: 1rem;
-		@include auto-transition((opacity, margin), $transition-duration);
+		@include auto-transition((opacity, margin, transform), $transition-duration);
 	}
 
 	header {
 		font-size: $header-font-size;
-		font-weight: $aside-weight;
-		line-height: $aside-line-height;
-	
-		a, a:hover, a:visited, a:active {
-			color: $aside-fg;
-		}
-		
-		svg {
-		    @include auto-transition((transform), $transition-duration);
-		}
+		font-weight: $header-weight;
+		line-height: $header-line-height;
 		
 		a[aria-expanded="true"] {
 			svg {
@@ -95,7 +83,6 @@ aside {
 					opacity: .75;
 				
 					svg {
-						fill: black;
 						width: .5rem;
 						opacity: 0;
 						margin-right: 1rem;

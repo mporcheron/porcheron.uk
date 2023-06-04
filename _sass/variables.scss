@@ -43,14 +43,14 @@ $body-p: 0 0 env(safe-area-inset-bottom) 0;
 // SIDEBAR
 $aside-font-family: 'Squada One', $font-family-sans-serif;
 $aside-font-size: 2.6rem;
-$aside-line-height: 85%;
-$aside-weight: 400;
 $aside-fg: white;
 $aside-p: 10rem 0 3rem 0;
 $aside-hr-h: .3rem;
 
 $header-font-size: 3rem;
 $header-font-size-md: 4rem;
+$header-weight: 400;
+$header-line-height: 85%;
 
 $nav-font-size: 1.2rem;
 $nav-font-size-md: 1.5rem;
