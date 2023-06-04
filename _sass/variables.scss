@@ -19,7 +19,6 @@ $navbar-aside-font-size: $font-size-base * 3;
 
 $code-color: $secondary;
 
-$frost-filter: saturate(180%) blur(20px);
 
 
 // GLOBAL
@@ -28,6 +27,10 @@ $transition-function: ease;
 
 $cta-link-move-right-pl: .5rem;
 $cta-link-move-left-pr: $cta-link-move-right-pl;
+
+$pdficon-h: 2.68rem;
+$pdficon-w: 2rem;
+$pdficon-o: .7;
 
 
 
@@ -52,14 +55,22 @@ $header-font-size-md: 4rem;
 $header-weight: 400;
 $header-line-height: 85%;
 
+$nav-bg: #ffffffaa;
+$nav-bg-filter: saturate(180%) blur(20px);
+$nav-border-radius: var(--bs-border-radius-xxl);
+$nav-inner-bg: $white;
+$nav-inner-border-radius: var(--bs-border-radius-xl);
 $nav-font-size: 1.2rem;
 $nav-font-size-md: 1.5rem;
 $nav-font-family: $font-family-sans-serif;
 $nav-font-family-md: $aside-font-family;
+$nav-link-opacity: .85;
 
 
 
 // MAIN
+$main-bg: $nav-bg;
+$main-bg-filter: $nav-bg-filter;
 $main-line-spacing: 150%;
 
 $main-border-w: .22rem;
@@ -67,12 +78,6 @@ $main-border-r: 1rem;
 
 $footer-font-family: $font-family-sans-serif;
 
-
-
-// UTILITIES
-$pdficon-h: 2.68rem;
-$pdficon-w: 2rem;
-$pdficon-o: .7;
 
 
 // CONTENT FORMATTING

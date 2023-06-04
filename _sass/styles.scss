@@ -11,126 +11,6 @@ p:last-child, ol:last-child, ul:last-child {
     margin-bottom: 0;
 }
 
-
-// BACKGROUND
-html {
-    background-color: $html-bg;
-}
-
-body {
-    background-color: $body-bg;
-	background: $body-bg-gradient;
-    background-attachment: fixed;
-    direction: ltr;
-    min-height: 100%;
-    padding: $body-p;
-    @include auto-transition((background-image), $transition-duration);
-}
-
-aside {
-    font-family: $aside-font-family;
-	color: $aside-fg;
-	
-	a, a:hover {
-		color: $aside-fg;
-	}
-				
-	svg {
-		fill: $aside-fg;
-		width: 1rem;
-		margin-right: 1rem;
-		@include auto-transition((opacity, margin, transform), $transition-duration);
-	}
-
-	header {
-		font-size: $header-font-size;
-		font-weight: $header-weight;
-		line-height: $header-line-height;
-		
-		a[aria-expanded="true"] {
-			svg {
-				transform: rotate(0.25turn);
-			}
-		}
-	}
-	
-	hr {
-		background-color: $aside-fg;
-		height: $aside-hr-h;
-        opacity: 1;
-        border-top: 0;
-	}
-
-	nav {
-		color: black;
-		font-family: $nav-font-family;
-		font-size: $nav-font-size;
-		opacity: 0;
-		@include auto-transition((opacity), $transition-duration);
-			
-		& > div > div {
-			background: #ffffffaa;
-			-webkit-backdrop-filter: $frost-filter;
-			backdrop-filter: $frost-filter;
-			border-radius: var(--bs-border-radius-xxl) !important;
-		
-			ul {
-				background: #ffffff;
-				border-radius: var(--bs-border-radius-xl) !important;
-
-				.nav-link {
-					display: inline-block;	
-					opacity: .75;
-				
-					svg {
-						width: .5rem;
-						opacity: 0;
-						margin-right: 1rem;
-						@include auto-transition((opacity, margin), $transition-duration);
-					}
-				}
-
-				.nav-link:hover, .nav-link.show {
-					opacity: 1 !important;
-				}
-		
-				.nav-link.active {
-					opacity: 1 !important;
-			
-					& svg {
-						opacity: 0
-					}
-				}
-			}
-		}
-
-		&.show {
-			opacity: 1;
-		}
-	}
-	
-	
-	footer {
-		font-family: $footer-font-family;
-		opacity: .75;
-	}
-}
-
-main {
-	& > div { 
-		background: #ffffffaa;
-		-webkit-backdrop-filter: $frost-filter;
-		backdrop-filter: $frost-filter;
-		line-height: $main-line-spacing;
-	
-		article {
-			background: #ffffff;
-		}
-	}	
-}
-
-// UTILITIES
-
 .pdficon {
     display: block;
     width: $pdficon-w;
@@ -159,8 +39,122 @@ textarea {
     }
 }
 
-// DESKTOP
 
+
+// BACKGROUND
+html {
+    background-color: $html-bg;
+}
+
+body {
+    background-color: $body-bg;
+	background: $body-bg-gradient;
+    background-attachment: fixed;
+    direction: ltr;
+    min-height: 100%;
+    padding: $body-p;
+    @include auto-transition((background-image), $transition-duration);
+}
+
+aside {
+    font-family: $aside-font-family;
+	color: $aside-fg;
+	
+	a, a:hover {
+		color: $aside-fg;
+	}
+				
+	svg {
+		fill: $aside-fg;
+		width: 1rem;
+		@include auto-transition((opacity, margin, transform), $transition-duration);
+	}
+	
+	hr {
+		background-color: $aside-fg;
+        border-top: 0;
+		height: $aside-hr-h;
+        opacity: 1;
+	}
+
+	header {
+		font-size: $header-font-size;
+		font-weight: $header-weight;
+		line-height: $header-line-height;
+		
+		a[aria-expanded="true"] {
+			svg {
+				transform: rotate(0.25turn);
+			}
+		}
+	}
+
+	nav {
+		font-family: $nav-font-family;
+		font-size: $nav-font-size;
+		opacity: 0;
+		@include auto-transition((opacity), $transition-duration);
+			
+		& > div > div {
+			background: $nav-bg;
+			-webkit-backdrop-filter: $nav-bg-filter;
+			backdrop-filter: $nav-bg-filter;
+			border-radius: $nav-border-radius !important;
+		
+			ul {
+				background: $nav-inner-bg;
+				border-radius: $nav-inner-border-radius !important;
+
+				.nav-link {
+					display: inline-block;	
+					opacity: $nav-link-opacity;
+				
+					svg {
+						width: .5rem;
+						opacity: 0;
+						margin-right: 1rem;
+					}
+				}
+
+				.nav-link:hover, .nav-link.show {
+					opacity: 1 !important;
+				}
+		
+				.nav-link.active {
+					opacity: 1 !important;
+			
+					& svg {
+						opacity: 0
+					}
+				}
+			}
+		}
+
+		&.show {
+			opacity: 1;
+		}
+	}
+}
+
+
+
+// MAIN
+main {
+	& > div { 
+		background: $main-bg;
+		-webkit-backdrop-filter: $main-bg-filter;
+		backdrop-filter: $main-bg-filter;
+		line-height: $main-line-spacing;
+	
+		article {
+			background: #ffffff;
+		}
+	}	
+}
+
+
+
+// DESKTOP
 @include media-breakpoint-up(md) {
 	body {
     	background: $body-bg-img, $body-bg-gradient;
@@ -188,6 +182,10 @@ textarea {
 				ul {
 					background: transparent;
 					border-radius: 0 !important;
+
+					.nav-item {
+						border-bottom: 0 !important;
+					}
 
 					.nav-link, .nav-link:hover, .nav-link.active, .nav-link.show {
 						color: #fff !important;
