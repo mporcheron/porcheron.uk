@@ -236,6 +236,19 @@ main {
 	}
 }
 
+
+
+// PUB-BIBTEX
+.pub-bibtex {
+	h1 {
+		-webkit-backdrop-filter: $pub-bibtex-h1-bg-filter;
+		backdrop-filter: $pub-bibtex-h1-bg-filter;
+		color: $pub-bibtex-h1-fg;
+		font-size: $pub-bibtex-h1-font-size;
+	}
+
+}
+
 // CONTENT FORMATTING
 // article {
 // 
