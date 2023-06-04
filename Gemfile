@@ -16,7 +16,7 @@ gem "jekyll", "~> 4.3.2"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag"
-  gem "jekyll-datapage-generator", "~> 1.3.0"
+  gem "jekyll-datapage-generator", "~> 1.4.0"
   gem "jekyll-last-modified-at"
   gem "jekyll-menus", :git => "https://github.com/forestryio/jekyll-menus.git"
   gem 'jekyll-optional-front-matter'
