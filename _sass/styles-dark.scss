@@ -1,0 +1,100 @@
+// GLOBAL
+.pdficon {
+    background-image: $pdficon-bg-image-dark;
+    opacity: $pdficon-o-dark;
+}
+
+a {
+	color: $link-color-dark;
+	
+	&.active, &:active {
+		color: $link-active-color-dark;
+	}
+	
+	&:hover {
+		color: $link-hover-color-dark;
+	}
+}
+
+
+
+
+// BACKGROUND
+aside {
+	hr {
+		background-color: $aside-fg-dark;
+	}
+
+	nav {
+		& > div > div {
+			background: $nav-bg-dark;
+		
+			ul {
+				background: $nav-inner-bg-dark;
+				
+				.nav-link, .nav-link:active, .nav-link:hover {
+					color: #ffffff;
+				}
+				
+				.nav-link.active {
+					color: #ffffff !important
+				}
+			}
+		}
+	}
+}
+
+
+
+
+// MAIN
+main {
+	& > div { 
+		background: $main-bg-dark;
+	
+		article {
+			background: $main-inner-bg-dark;
+			color: $main-fg-dark;
+
+			.text-muted {
+				color: $text-muted-fg-dark !important;
+			}
+		}
+	}
+	
+	footer {
+		color: $footer-fg-dark;
+		
+		a, a:active, a:hover, a:visited {
+			color: $footer-fg-dark !important;
+		}
+	}
+}
+
+
+
+
+// DESKTOP
+@include media-breakpoint-up(md) {
+	aside {
+		nav {
+			& > div > div {
+				background: transparent;
+		
+				ul {
+					background: transparent;
+
+					.nav-link, .nav-link:hover, .nav-link.active, .nav-link.show {
+						color: $nav-fg-md-dark !important;
+						
+						svg {
+							fill: $nav-fg-md-dark;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+

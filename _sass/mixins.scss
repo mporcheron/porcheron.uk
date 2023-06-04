@@ -4,11 +4,11 @@
 	transition-duration: $duration;
 	transition-property: $property;
   
-  @each $alt_property in $alt_properties {
-    transition-property: $alt_property;
-  }
+	@each $alt_property in $alt_properties {
+		transition-property: $alt_property;
+	}
 
-  @media (prefers-reduced-motion: reduce) {
-    transition: none;
-  }
+	@media (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
 }

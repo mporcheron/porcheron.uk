@@ -12,6 +12,7 @@ p:last-child, ol:last-child, ul:last-child {
 }
 
 .pdficon {
+    background-image: $pdficon-bg-image;
     display: block;
     width: $pdficon-w;
     height: $pdficon-h;
@@ -59,10 +60,6 @@ body {
 aside {
     font-family: $aside-font-family;
 	color: $aside-fg;
-	
-	a, a:hover {
-		color: $aside-fg;
-	}
 				
 	svg {
 		fill: $aside-fg;
@@ -78,9 +75,14 @@ aside {
 	}
 
 	header {
+		color: $header-fg;
 		font-size: $header-font-size;
 		font-weight: $header-weight;
 		line-height: $header-line-height;
+		
+		a, a:hover, a:visited {
+			color: $header-fg;
+		}
 		
 		a[aria-expanded="true"] {
 			svg {
@@ -134,6 +136,14 @@ aside {
 			opacity: 1;
 		}
 	}
+	
+	footer {
+		color: $footer-fg;
+		
+		a, a:active, a:hover, a:visited {
+			color: $footer-fg !important;
+		}
+	}
 }
 
 
@@ -147,10 +157,16 @@ main {
 		line-height: $main-line-spacing;
 	
 		article {
-			background: #ffffff;
+			background: $main-inner-bg;
+			color: $main-fg;
+
+			.text-muted {
+				color: $text-muted-fg !important;
+			}
 		}
 	}	
 }
+
 
 
 
@@ -188,10 +204,10 @@ main {
 					}
 
 					.nav-link, .nav-link:hover, .nav-link.active, .nav-link.show {
-						color: $nav-bg-md !important;
+						color: $nav-fg-md !important;
 						
 						svg {
-							fill: $nav-bg-md;
+							fill: $nav-fg-md;
 						}
 					}
 
