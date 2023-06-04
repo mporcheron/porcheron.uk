@@ -117,7 +117,7 @@ aside {
 				}
 
 				.nav-link:hover, .nav-link.show {
-					opacity: 1 !important;
+					opacity: $nav-link-hover-opacity;
 				}
 		
 				.nav-link.active {
@@ -188,16 +188,16 @@ main {
 					}
 
 					.nav-link, .nav-link:hover, .nav-link.active, .nav-link.show {
-						color: #fff !important;
+						color: $nav-bg-md !important;
 						
 						svg {
-							fill: white;
+							fill: $nav-bg-md;
 						}
 					}
 
 					.nav-link:hover, .nav-link.show {
 						& svg {
-							opacity: .75;
+							opacity: $nav-link-hover-opacity;
 							margin-left: $nav-chevron-move;
 						}
 					}
@@ -207,7 +207,7 @@ main {
 	}
 	
 	main {
-		margin-top: 12.65rem;
+		margin-top: $main-mt-md;
 	}
 }
 
