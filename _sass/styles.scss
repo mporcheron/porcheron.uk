@@ -50,7 +50,7 @@ html {
 body {
     background-color: $body-bg;
 	background: $body-bg-gradient;
-    background-attachment: scroll;
+	background-attachment: fixed;
     direction: ltr;
     min-height: 100%;
     padding: $body-p;
