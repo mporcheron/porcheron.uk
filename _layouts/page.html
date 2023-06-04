@@ -1,18 +1,13 @@
 ---
 layout: default
 ---
-<section class="d-flex flex-column">
-    <div class="page-title d-md-block d-none">
-        <div class="container-fluid content-header p-lg-4 p-3">
-            <h1 class="container m-0 p-0 fw-bold">
-	            {{ page.title | escape }}
-            </h1>
-        </div>
-    </div>
-
-    <article class="content-container">
-        <div class="pt-md-0 p-md-4 p-3">
-          {{- content -}}
-        </div>
-    </article>
-</section>
+<div class="me-lg-5 mx-3 mb-2 p-3 rounded-5">
+	<article class="h-100 p-md-5 p-3 rounded-4">
+		<h1 class="m-0 p-0 pt-md-0 pb-4 fw-bold text-md-start text-center">
+			{{ page.title | escape }}
+		</h1>
+		<section>
+			{{- content -}}
+		</section>
+	</article>
+</div>

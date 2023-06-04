@@ -1,7 +1,12 @@
 ---
 label: Teaching
 description: A summary of my teaching experience both at Swansea University, and previously the University of Nottingham.
-position: 3
+
+menu:
+  main:
+    label: Teaching
+    title: Courses/modules Martin Porcheron has taught while working in academia
+    weight: 2
 ---
 
 # Teaching

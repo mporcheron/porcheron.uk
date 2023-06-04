@@ -2,6 +2,12 @@
 label: Research
 description: A summary of my research, which is the domains of HCI and CSCW, and list of projects I have been involved in.
 position: 2
+
+menu:
+  main:
+    label: Research
+    title: Research projects I've been involved in
+    weight: 1
 ---
 
 # Research

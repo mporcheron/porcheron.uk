@@ -3,6 +3,12 @@ label: Contact
 description: >-
   A number of ways to contact me, as well as a list containing some of my social media profiles.
 position: 7
+
+menu:
+  main:
+    label: Contact me
+    title: Contact and social media details for Martin Porcheron
+    weight: 4
 ---
 
 # Contact me
