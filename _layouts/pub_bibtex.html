@@ -47,10 +47,9 @@ sitemap: false
 			<textarea class="w-100 h-100 m-0 p-md-5 p-3 border-0 rounded-4 small font-monospace" id="bibtex-source" readonly="readonly">{{ page.bibtex }}</textarea>
 			</div>
 		</main>
-		<div class="flex-grow-0 p-3 text-end">
-			<button type="button" data-close="true" class="btn btn-danger mr-2 noparentwin-none">Close</button>
-			<button type="button" data-copy="true" data-close="true" data-target="#bibtex-source" class="btn btn-success mr-2 noparentwin-none" data-dismiss="modal">Copy and close</button>
-			<button type="button" data-copy="true" data-close="false" data-target="#bibtex-source" class="btn btn-success parentwin-none">Copy</button>
+		<div class="flex-grow-0 p-3 text-center">
+			<button type="button" data-copy="true" data-close="true" class="btn btn-outline-danger rounded-pill me-2" data-dismiss="modal">Close window</button>
+			<button type="button" data-copy="true" data-close="true" data-target="#bibtex-source" class="btn btn-outline-dark rounded-pill" data-dismiss="modal">Copy BiBTeX and close window</button>
 		</div>
 		<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}?{{ cache }}"></script>
 		<script src="{{ '/assets/js/clipboard.min.js' | relative_url }}?{{ cache }}"></script>
