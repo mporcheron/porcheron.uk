@@ -6,7 +6,7 @@ position: 7
 
 menu:
   main:
-    label: Contact me
+    label: Contact
     title: Contact and social media details for Martin Porcheron
     weight: 4
 ---

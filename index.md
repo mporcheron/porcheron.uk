@@ -8,7 +8,7 @@ menu:
     weight: 0
 ---
 
-# About me
+# About
 
 {% include figure_image.html src="martinporcheron.jpg" alt="A photograph of Martin Porcheron" title="Martin Porcheron" autosize="false" %}
 
