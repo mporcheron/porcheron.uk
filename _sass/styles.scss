@@ -99,6 +99,7 @@ aside {
 			
 		& > div > div {
 			background: $nav-bg;
+			box-shadow: $nav-inner-shadow;
 			-webkit-backdrop-filter: $nav-bg-filter;
 			backdrop-filter: $nav-bg-filter;
 			border-radius: $nav-border-radius !important;
@@ -200,6 +201,7 @@ main {
 			
 			& > div > div {
 				background: transparent;
+				box-shadow: none;
 				-webkit-backdrop-filter: initial;
 				backdrop-filter: initial;
 				border-radius: 0 !important;
