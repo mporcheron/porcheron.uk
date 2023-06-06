@@ -1,7 +1,7 @@
 ---
-label: Contact
+label: Contact me
 description: >-
-  A number of ways to contact me, as well as a list containing some of my social media profiles.
+  A number of ways to contact Martin Porcheron, as well as a list containing of verified social media profiles.
 position: 7
 
 menu:
@@ -14,6 +14,7 @@ menu:
 # Contact me
 
 You can send an email to me: [website@porcheron.uk](mailto:website@porcheron.uk "Send an email to me"). I also maintain profiles on the following websites:
+* [hci.social](https://hci.social/@MPorcheron "@MPorcheron@hci.social on Mastodon")
 * [Twitter](https://twitter.com/MPorcheron "@MPorcheron on Twitter")
 * [GitHub](https://github.com/mporcheron "MPorcheron GitHub profile")
 * [LinkedIn](https://www.linkedin.com/in/mporcheron/ "Martin Porcheron on LinkedIn")
