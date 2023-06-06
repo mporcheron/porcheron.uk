@@ -1,14 +1,13 @@
 ---
+title: About me
 permalink: /
 
 menu:
   main:
-    label: About me
+    label: About
     title: A short biography of Martin Porcheron
     weight: 0
 ---
-
-# About
 
 {% include figure_image.html src="martinporcheron.jpg" alt="A photograph of Martin Porcheron" title="Martin Porcheron" autosize="false" %}
 
