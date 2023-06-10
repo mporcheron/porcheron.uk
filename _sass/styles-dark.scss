@@ -26,9 +26,9 @@ aside {
 			background: $nav-bg-dark;
 		
 			ul {
-				background: $nav-inner-bg-dark;
 				
 				.nav-link, .nav-link:active, .nav-link:hover {
+					background: $nav-inner-bg-dark;
 					color: #ffffff;
 				}
 				

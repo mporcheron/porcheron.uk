@@ -108,12 +108,30 @@ aside {
 			border-radius: $nav-border-radius !important;
 		
 			ul {
-				background: $nav-inner-bg;
-				border-radius: $nav-inner-border-radius !important;
+				.nav-item {
+					margin-bottom: .15rem;
+					
+					&:first-child .nav-link {
+						border-top-left-radius: $nav-inner-border-radius !important;
+						border-top-right-radius: $nav-inner-border-radius !important;
+					}
+				
+					&:last-child {
+						margin-bottom: 0;
+						
+						& .nav-link {
+							border-bottom-left-radius: $nav-inner-border-radius !important;
+							border-bottom-right-radius: $nav-inner-border-radius !important;
+						}
+					}					
+				}
 
 				.nav-link {
+					background: $nav-inner-bg;
 					display: inline-block;	
 					opacity: $nav-link-opacity;
+					@include auto-transition((opacity), $transition-duration);
+					width: 100%;
 				
 					svg {
 						margin-right: $nav-chevron-move;
@@ -125,7 +143,7 @@ aside {
 				.nav-link:hover, .nav-link.show {
 					opacity: $nav-link-hover-opacity;
 				}
-		
+				
 				.nav-link.active {
 					opacity: 1 !important;
 			
@@ -233,20 +251,22 @@ main {
 			
 			& > div > div {
 				background: transparent;
-				box-shadow: none;
 				-webkit-backdrop-filter: initial;
 				backdrop-filter: initial;
-				border-radius: 0 !important;
-		
+				box-shadow: none;
+					
 				ul {
 					background: transparent;
 					border-radius: 0 !important;
 
 					.nav-item {
-						border-bottom: 0 !important;
+						border-radius: 0 !important;
 					}
 
 					.nav-link, .nav-link:hover, .nav-link.active, .nav-link.show {
+						background: transparent;
+						box-shadow: none;
+						border-radius: 0 !important;
 						color: $nav-fg-md !important;
 						
 						svg {
