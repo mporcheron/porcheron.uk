@@ -25,6 +25,10 @@ p:last-child, ol:last-child, ul:last-child {
     }
 }
 
+a:active {
+    background-color: transparent;
+}
+
 .video-unactivated {
     cursor: pointer;
     -webkit-user-select: none;
@@ -94,6 +98,7 @@ aside {
 		
 		a, a:hover, a:visited {
 			color: $header-fg;
+			-webkit-touch-callout: none;
 		}
 		
 		a[aria-expanded="true"] {

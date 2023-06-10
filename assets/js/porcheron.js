@@ -26,4 +26,5 @@ window.addEventListener('load', () => {
             }
         });
     });
+    document.addEventListener('touchstart', () => {}, true);
 });
