@@ -11,8 +11,6 @@ p:last-child, ol:last-child, ul:last-child {
     margin-bottom: 0;
 }
 
-
-
 .pdficon {
     background-image: $pdficon-bg-image;
     display: block;
@@ -35,6 +33,11 @@ p:last-child, ol:last-child, ul:last-child {
     user-select: none;
 }
 
+blockquote {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
 textarea {
     &[readonly="readonly"] {
         outline: none !important;
@@ -44,7 +47,7 @@ textarea {
 
 
 
-// BACKGROUND
+
 html {
     background-color: $html-bg;
 }
@@ -58,6 +61,8 @@ body {
     padding: $body-p;
     @include auto-transition((background-image), $transition-duration);
 }
+
+
 
 aside {
     font-family: $aside-font-family;
@@ -170,7 +175,7 @@ aside {
 
 
 
-// MAIN
+
 main {
 	& > div { 
 		background: $main-bg;
@@ -201,7 +206,7 @@ main {
 				}
 			}
 		}
-	}	
+	}
 	
 	footer {
 		color: $footer-fg;

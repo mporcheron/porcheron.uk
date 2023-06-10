@@ -39,8 +39,8 @@ This website is hosted by [GitHub](https://github.com "The main GitHub website")
 > 
 To learn more about the information Google collects and how it is used and secured, see Google's [Privacy Policy](https://policies.google.com/privacy "Google's Privacy Policy").
 >
-> Content dated: 21st June 2021<br>
-> Last checked: 15th November 2022
+> *Content dated: 21st June 2021<br>
+> Last checked: 15th November 2022*
 
 <!-- 
 ## YouTube
