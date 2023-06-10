@@ -42,6 +42,7 @@ To learn more about the information Google collects and how it is used and secur
 > Content dated: 21st June 2021<br>
 > Last checked: 15th November 2022
 
+<!-- 
 ## YouTube
 
 This website occasionally includes videos that are hosted on the [YouTube](https://www.youtube.com/ "YouTube") service. YouTube is owned by [Google](https://www.google.com/ "Google").
@@ -56,3 +57,4 @@ By default, videos are not embedded on webpages, but instead a placeholder is di
 > Last checked: 15th November 2022
 
 Please note however, that there are privacy implications of loading embedded content—this is like loading a webpage normally in your browser and carries all the same risks. As such, interaction with any embedded video is subject to [Google's Privacy Policy](https://policies.google.com/privacy?hl=en-GB "YouTube's privacy guidelines"). Therefore, although your use of the embedded video may not influence your user experience on YouTube, Google may sitll collect personally identifiable information.
+ -->
