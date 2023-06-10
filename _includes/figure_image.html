@@ -37,7 +37,7 @@
 	{%- assign title = '' -%}
 {%- endif -%}
 
-<figure class="image {{ bssize }} ms-md-5 mt-0 mb-sm-3 mt-0 mb-4 p-0 float-end rounded-circle shadow {{ class }}">
+<figure class="image {{ bssize }} mx-md-0 mx-auto ms-md-5 mt-0 mb-sm-3 mb-4 p-0 float-md-end rounded-circle shadow {{ class }}">
 	<img src="{{ src | absolute_url }}" alt="{{ include.alt }}" title="{{ title }}" class="w-100 rounded-circle">
 	{%- if include contains 'caption' -%}
 	<figcaption class=" w-100 m-0 px-md-3 p-2 py-2">

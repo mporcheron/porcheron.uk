@@ -164,6 +164,10 @@ main {
 			.text-muted {
 				color: $text-muted-fg !important;
 			}
+			
+			.image.profile-photo {
+				max-width: 100%;
+			}
 		}
 	}	
 	
@@ -179,7 +183,21 @@ main {
 
 
 
-// DESKTOP
+@include media-breakpoint-up(sm) {
+	main {
+		& > div { 
+			article {
+				.image.profile-photo {
+					max-width: 50%;
+				}
+			}
+		}
+	}
+}
+
+
+
+
 @include media-breakpoint-up(md) {
 	body {
     	background: $body-bg-img, $body-bg-gradient;
@@ -235,12 +253,35 @@ main {
 	
 	main {
 		margin-top: $main-mt-md;
+			
+		& > div { 
+			article {
+				.image.profile-photo {
+					max-width: 50%;
+				}
+			}
+		}
 	}
 }
 
 
 
-// PUB-BIBTEX
+
+@include media-breakpoint-up(xl) {
+	main {
+		& > div { 
+			article {
+				.image.profile-photo {
+					max-width: 33%;
+				}
+			}
+		}
+	}
+}
+
+
+
+
 .pub-bibtex {
 	h1 {
 		color: $pub-bibtex-h1-fg;

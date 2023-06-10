@@ -9,7 +9,7 @@ menu:
     weight: 0
 ---
 
-{% include figure_image.html src="martinporcheron.jpg" alt="A photograph of Martin Porcheron" title="Martin Porcheron" autosize="false" %}
+{% include figure_image.html src="martinporcheron.jpg" alt="A photograph of Martin Porcheron" title="Martin Porcheron" bssize="profile-photo" %}
 
 I am a Senior User Experience Researcher at [Bold Insight UK](https://boldinsight.co.uk "Bold Insight UK"). Previously, I have been a Senior Lecturer in the [Swansea University Computational Foundry](https://www.swansea.ac.uk/science/computationalfoundry/ "The Swansea University Computational Foundry website") and a Postdoctoral Research Fellow in the [Mixed Reality Lab](https://www.nottingham.ac.uk/mrl "The Mixed Reality Laboratory at the University of Nottingham"] at the [University of Nottingham](https://www.nottingham.ac.uk/computerscience/index.aspx "Computer Science at the University of Nottingham").
 
