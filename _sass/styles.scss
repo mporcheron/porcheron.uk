@@ -11,6 +11,8 @@ p:last-child, ol:last-child, ul:last-child {
     margin-bottom: 0;
 }
 
+
+
 .pdficon {
     background-image: $pdficon-bg-image;
     display: block;
@@ -169,9 +171,18 @@ main {
 			.image.profile-photo {
 				max-width: $profile-photo-w;
 			}
+			
+			section {
+				& > p:last-child {
+					margin-bottom: 0 !important;
+					&::after {
+						clear: both;
+						content: "";
+						display: block;
+	    			}
+				}
+			}
 		}
-		
-		
 	}	
 	
 	footer {
