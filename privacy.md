@@ -4,7 +4,7 @@ permalink: /privacy/
 
 # Privacy and cookies information
 
-This information was last updated {% capture last_modified_str %}{{ page.last_modified_at | date_to_long_string: "ordinal" }}{% endcapture %}{{ page.last_modified_at }}.
+*This information was last updated on 10th June 2023.*
 
 This website does not collect any personally identifiable information, additionally, there is:
 
