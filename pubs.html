@@ -10,15 +10,25 @@ menu:
     weight: 3
 ---
 
-<p class="d-md-block d-none">Below is a list of my publications, including copies of each publication as a PDF where rights permit. </p>
+<p>
+Below is a list of my publications, including preprint copies of each publication as a PDF where rights permit.
+</p>
+
+<p>Jump to a category of publication:</p>
+
+<ul>
+{%- for category in site.data.pubs_categories -%}
+	<li><a href="#{{ category[1] | slugify }}">{{ category[1] }}</a></li>
+{%- endfor -%}
+</ul>
 
 {%- for category in site.data.pubs_categories -%}
     
-    {% unless foreach.last -%}{%- unless forloop.first -%}
+    {% unless foreach.last -%}
 	<hr>
-	{%- endunless -%}{%- endunless -%}
-
-    <h2 class="{% if forloop.index0 > 0 %}{% else %}pt-md-2{% endif %} mb-2 fw-bold">{{ category[1] }}</h2>
+	{%- endunless -%}
+	
+    <h2 id="{{ category[1] | slugify }}" class="mb-2 fw-bold">{{ category[1] }}</h2>
 	
     {%- assign pubs = site.data.pubs | where: "category", category[0] | sort: "year" | reverse -%}
     {%- for pub in pubs -%}
