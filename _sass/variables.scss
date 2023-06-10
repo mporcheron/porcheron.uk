@@ -38,6 +38,7 @@ $aside-font-size: 2.6rem;
 $aside-fg: #ffffffaa;
 $aside-p: 10rem 0 3rem 0;
 $aside-hr-h: .3rem;
+$aside-hr-m: 3rem 0 2.25rem 0;
 
 $header-font-size: 3rem;
 $header-font-size-md: 4rem;
@@ -64,6 +65,7 @@ $navbar-light-active-color: $nav-fg;
 
 $nav-link-opacity: .75;
 $nav-link-hover-opacity: .85;
+$nav-chevron-w: .5rem;
 $nav-chevron-move: .3rem;
 
 
@@ -78,6 +80,11 @@ $main-inner-bg: $nav-inner-bg;
 $main-line-spacing: 150%;
 $main-border-w: .22rem;
 $main-border-r: 1rem;
+
+$profile-photo-w: 100%;
+$profile-photo-w-sm: 50%;
+
+$hr-m: 2rem 0 2rem 0;
 
 $text-muted-fg: shade-color($main-fg, 40%);
 

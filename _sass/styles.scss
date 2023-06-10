@@ -71,6 +71,7 @@ aside {
 		background-color: $aside-fg;
         border-top: 0;
 		height: $aside-hr-h;
+		margin: $aside-hr-m !important;
         opacity: 1;
 	}
 
@@ -113,9 +114,9 @@ aside {
 					opacity: $nav-link-opacity;
 				
 					svg {
-						width: .5rem;
-						opacity: 0;
 						margin-right: $nav-chevron-move;
+						opacity: 0;
+						width: $nav-chevron-w;
 					}
 				}
 
@@ -166,7 +167,7 @@ main {
 			}
 			
 			.image.profile-photo {
-				max-width: 100%;
+				max-width: $profile-photo-w;
 			}
 		}
 		
@@ -190,7 +191,7 @@ main {
 		& > div { 
 			article {
 				.image.profile-photo {
-					max-width: 50%;
+					max-width: $profile-photo-w-sm;
 				}
 			}
 		}
@@ -259,12 +260,7 @@ main {
 		& > div { 
 			article {
 				hr {
-					margin-top: 2rem;
-					margin-bottom: 2rem;
-				}
-			
-				.image.profile-photo {
-					max-width: 50%;
+					margin: $hr-m;
 				}
 			}
 		}
