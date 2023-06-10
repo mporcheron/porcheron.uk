@@ -74,6 +74,10 @@ aside {
 		@include auto-transition((opacity, margin, transform), $transition-duration);
 	}
 	
+	a, a:active, a:visited, a:hover {
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+	
 	hr {
 		background-color: $aside-fg;
         border-top: 0;
