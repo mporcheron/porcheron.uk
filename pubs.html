@@ -13,8 +13,12 @@ menu:
 <p class="d-md-block d-none">Below is a list of my publications, including copies of each publication as a PDF where rights permit. </p>
 
 {%- for category in site.data.pubs_categories -%}
+    
+    {% unless foreach.last -%}{%- unless forloop.first -%}
+	<hr>
+	{%- endunless -%}{%- endunless -%}
 
-    <h2 class="{% if forloop.index0 > 0 %}pt-3{% else %}pt-md-2{% endif %} mb-2 fw-bold">{{ category[1] }}</h2>
+    <h2 class="{% if forloop.index0 > 0 %}{% else %}pt-md-2{% endif %} mb-2 fw-bold">{{ category[1] }}</h2>
 	
     {%- assign pubs = site.data.pubs | where: "category", category[0] | sort: "year" | reverse -%}
     {%- for pub in pubs -%}

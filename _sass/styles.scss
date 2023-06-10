@@ -157,7 +157,7 @@ main {
 		backdrop-filter: $main-bg-filter;
 		line-height: $main-line-spacing;
 	
-		article, & > textarea {
+		article {
 			background: $main-inner-bg;
 			color: $main-fg;
 
@@ -169,6 +169,8 @@ main {
 				max-width: 100%;
 			}
 		}
+		
+		
 	}	
 	
 	footer {
@@ -256,6 +258,11 @@ main {
 			
 		& > div { 
 			article {
+				hr {
+					margin-top: 2rem;
+					margin-bottom: 2rem;
+				}
+			
 				.image.profile-photo {
 					max-width: 50%;
 				}
