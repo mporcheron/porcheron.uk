@@ -21,10 +21,6 @@ a {
 
 // BACKGROUND
 aside {
-	hr {
-		background-color: $aside-fg-dark;
-	}
-
 	nav {
 		& > div > div {
 			background: $nav-bg-dark;
@@ -52,7 +48,7 @@ main {
 	& > div { 
 		background: $main-bg-dark;
 	
-		article {
+		article, & > textarea {
 			background: $main-inner-bg-dark;
 			color: $main-fg-dark;
 

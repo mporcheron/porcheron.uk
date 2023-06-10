@@ -157,7 +157,7 @@ main {
 		backdrop-filter: $main-bg-filter;
 		line-height: $main-line-spacing;
 	
-		article {
+		article, & > textarea {
 			background: $main-inner-bg;
 			color: $main-fg;
 
