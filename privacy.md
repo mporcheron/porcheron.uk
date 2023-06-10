@@ -6,13 +6,13 @@ permalink: /privacy/
 
 *This information was last updated on 10th June 2023.*
 
-This website does not collect any personally identifiable information, additionally, there is:
+This website does not collect any personally identifiable information and there is:
 
 * No advertising on this website
 * No analytics or tracking of users or their activities on this website
-* No cookies set by the website owner
+* No cookies set by the website owner (Martin Porcheron)
 
-This website uses three external service providers only, the details for which are below.
+This website uses two external service providers only, the details for which are below.
 
 If you have questions about anything above, please do not hesitate to [contact me](/contact "My contact details").
 
