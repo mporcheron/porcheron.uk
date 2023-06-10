@@ -917,7 +917,7 @@
         2022.
         **Ethics of Conversational User Interfaces**.
         In *CHI Conference on Human Factors in Computing Systems Extended Abstracts* (CHI '22 Extended Abstracts).
-        Association for Computing Machinery, New York, NY, USA, 7 Pages. [https://doi.org/10.1145/3491101.3503699](https://doi.org/10.1145/3491101.3503699 "DOI for the CHI '22 workshop 'Ethics of Conversational User Interfaces'")
+        Association for Computing Machinery, New York, NY, USA, 7 pages. [https://doi.org/10.1145/3491101.3503699](https://doi.org/10.1145/3491101.3503699 "DOI for the CHI '22 workshop 'Ethics of Conversational User Interfaces'")
   bibtex: >-
       @inproceedings{lee2022ethics,
         title        = {Ethics of Conversational User Interfaces},
@@ -1065,7 +1065,7 @@
         2023.
         **CUI@CHI: Inclusive Design of CUIs Across Modalities and Mobilities**.
         In *CHI Conference on Human Factors in Computing Systems Extended Abstracts* (CHI '23 Extended Abstracts).
-        Association for Computing Machinery, New York, NY, USA, 5 Pages. [https://doi.org/10.1145/3544549.3573820](https://doi.org/10.1145/3544549.3573820 "DOI for the CHI '23 workshop 'CUI@CHI: Inclusive Design of CUIs Across Modalities and Mobilities'")
+        Association for Computing Machinery, New York, NY, USA, 5 pages. [https://doi.org/10.1145/3544549.3573820](https://doi.org/10.1145/3544549.3573820 "DOI for the CHI '23 workshop 'CUI@CHI: Inclusive Design of CUIs Across Modalities and Mobilities'")
   bibtex: >-
       @inproceedings{sin2023inclusive,
         title        = {CUI@CHI: Inclusive Design of CUIs Across Modalities and Mobilities},
@@ -1089,7 +1089,7 @@
         2023.
         **Is CUI Design Ready Yet? A Workshop on Community Practices and Gaps in CUI Design & Resource Development**
         In *5th Conference on Conversational User Interfaces* (CUI '23).
-        Association for Computing Machinery, New York, NY, USA, 5 Pages.
+        Association for Computing Machinery, New York, NY, USA, 5 pages.
         [https://doi.org/110.1145/3571884.3597440](https://doi.org/10.1145/3571884.3597440 "DOI for the CUI '23 workshop 'Is CUI Design Ready Yet? A Workshop on Community Practices and Gaps in CUI Design & Resource Development'")
   bibtex: >-
       @inproceedings{murad2023is-cui,
@@ -1114,7 +1114,7 @@
         2023.
         **RoboClean: Contextual Language Grounding for Human-Robot Interactions in Specialised Low-Resource Environments**
         In *5th Conference on Conversational User Interfaces* (CUI '23).
-        Association for Computing Machinery, New York, NY, USA, 11 Pages.
+        Association for Computing Machinery, New York, NY, USA, 11 pages.
         [https://doi.org/10.1145/3571884.3597137](https://doi.org/10.1145/3571884.3597137 "DOI for the CUI '23 paper 'RoboClean: Contextual Language Grounding for Human-Robot Interactions in Specialised Low-Resource Environments'")
   bibtex: >-
       @inproceedings{fuentes2023roboclean,
