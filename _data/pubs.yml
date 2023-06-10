@@ -1081,5 +1081,55 @@
       }
   pdflink: /assets/pubs/2023/sin2023inclusive.pdf
   category: workshop
+
+- title: "Is CUI Design Ready Yet? A Workshop on Community Practices and Gaps in CUI Design & Resource Development"
+  year: 2023
+  acmref: >-
+        Christine Murad, Cosmin Munteanu, Benjamin R Cowan, Leigh Clark, <u>Martin Porcheron</u>, Joel E Fischer, Heloisa Candello and Raina Langevin.
+        2023.
+        **Is CUI Design Ready Yet? A Workshop on Community Practices and Gaps in CUI Design & Resource Development**
+        In *5th Conference on Conversational User Interfaces* (CUI '23).
+        Association for Computing Machinery, New York, NY, USA, 5 Pages.
+        [https://doi.org/110.1145/3571884.3597440](https://doi.org/10.1145/3571884.3597440 "DOI for the CUI '23 workshop 'Is CUI Design Ready Yet? A Workshop on Community Practices and Gaps in CUI Design & Resource Development'")
+  bibtex: >-
+      @inproceedings{murad2023is-cui,
+        title        = {Is CUI Design Ready Yet? A Workshop on Community Practices and Gaps in CUI Design & Resource Development},
+        author       = {Murad, Christine and Munteanu, Cosmin and Cowan, Benjamin R and Clark, Leigh and Porcheron, Martin and Fischer, Joel E and Candello, Heloisa and Langevin, Raina},
+        year         = 2023,
+        booktitle    = {5th Conference on Conversational User Interfaces},
+        location     = {Eindhoven, Netherlands},
+        publisher    = {Association for Computing Machinery},
+        address      = {New York, NY, USA},
+        series       = {CUI '23},
+        doi          = {10.1145/3571884.3597440},
+        numpages     = 5
+      }
+  pdflink: /assets/pubs/2023/murad2023is-cui.pdf
+  category: workshop
+
+- title: "RoboClean: Contextual Language Grounding for Human-Robot Interactions in Specialised Low-Resource Environments"
+  year: 2023
+  acmref: >-
+        Carolina Fuentes, <u>Martin Porcheron</u> and Joel E Fischer.
+        2023.
+        **RoboClean: Contextual Language Grounding for Human-Robot Interactions in Specialised Low-Resource Environments**
+        In *5th Conference on Conversational User Interfaces* (CUI '23).
+        Association for Computing Machinery, New York, NY, USA, 11 Pages.
+        [https://doi.org/10.1145/3571884.3597137](https://doi.org/10.1145/3571884.3597137 "DOI for the CUI '23 paper 'RoboClean: Contextual Language Grounding for Human-Robot Interactions in Specialised Low-Resource Environments'")
+  bibtex: >-
+      @inproceedings{fuentes2023roboclean,
+        title        = {RoboClean: Contextual Language Grounding for Human-Robot Interactions in Specialised Low-Resource Environments},
+        author       = {Fuentes, Carolina and Porcheron, Martin and Fischer, Joel E},
+        year         = 2023,
+        booktitle    = {5th Conference on Conversational User Interfaces},
+        location     = {Eindhoven, Netherlands},
+        publisher    = {Association for Computing Machinery},
+        address      = {New York, NY, USA},
+        series       = {CUI '23},
+        doi          = {10.1145/3571884.3597137},
+        numpages     = 11
+      }
+  pdflink: /assets/pubs/2023/fuentes2023roboclean.pdf
+  category: archival
   
   
