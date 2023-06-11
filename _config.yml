@@ -81,11 +81,12 @@ scholar:
 
 # Exclude from minificartion
 jekyll-minifier:
+  compress_javascript: false
   compress_css: true
   exclude: 'feed.xml'
   exclude: 'sitemap.xml'
-  uglifier_args:
-    harmony: true
+#   uglifier_args:
+#     harmony: true
 
 # Sitemap configutation
 defaults:
