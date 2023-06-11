@@ -1,5 +1,6 @@
 ---
 label: Research
+title: My research
 description: A summary of my research, which is the domains of HCI and CSCW, and list of projects I have been involved in.
 position: 2
 
@@ -9,8 +10,6 @@ menu:
     title: Research projects I've been involved in
     weight: 1
 ---
-
-# Research
 
 My research is in the areas of [human-computer interaction](https://www.interaction-design.org/literature/topics/human-computer-interaction "Read about HCI from the Interaction Design Foundation"), [user experience](https://www.interaction-design.org/literature/topics/ux-design  "Read about HCI from the Interaction Design Foundation"), and [computer-supported cooperative work](https://en.wikipedia.org/wiki/Computer-supported_cooperative_work "Read about CSCW on Wikipedia"). I broadly focus on:
 

@@ -1,5 +1,6 @@
 ---
-label: My teaching
+label: Teaching
+title: My teaching
 description: A summary of Martin Porcheron's teaching experience at Swansea University and the University of Nottingham.
 
 menu:
@@ -8,8 +9,6 @@ menu:
     title: Courses/modules Martin Porcheron has taught while working in academia
     weight: 2
 ---
-
-# Teaching
 
 At [Swansea University](https://www.swansea.ac.uk/compsci/ "Computer Science at Swansea University") I co-ordinated and lectured on the module *CSC371 Advanced Object-Oriented Programming* (C and C++ for third-year Computer Science students) in the 2020/21 and 2021/22 academic years. I also taught on the *CS-210 Concurrency* module in the 2021/22 academic year, along with [Dr Alma Rahat](https://www.swansea.ac.uk/staff/a.a.m.rahat/ "Alma Rahat on the Swansea University website").
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+label: Publications
 title: My publications
 description: A list of my publications, including archival (conference/journal) papers, demos, and magazine articles. I've also organised workshops co-located at international conferences. 
 
