@@ -30,7 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-datapage-generator
   - jekyll-last-modified-at
-#   - jekyll-minifier
+  - jekyll-minifier
   - jekyll-optional-front-matter
   - jekyll-redirect-from
   - jekyll-sitemap
@@ -80,12 +80,12 @@ scholar:
   order: descending, ascending
 
 # Exclude from minificartion
-# jekyll-minifier:
-#   compress_css: false
-#   exclude: 'feed.xml'
-#   exclude: 'sitemap.xml'
-#   uglifier_args:
-#     harmony: true
+jekyll-minifier:
+  compress_css: true
+  exclude: 'feed.xml'
+  exclude: 'sitemap.xml'
+  uglifier_args:
+    harmony: true
 
 # Sitemap configutation
 defaults:
