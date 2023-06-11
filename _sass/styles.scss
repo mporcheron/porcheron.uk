@@ -37,6 +37,15 @@ a:active {
     user-select: none;
 }
 
+.bibliography {
+	list-style: none;
+	padding-left: 0;
+	
+	& .details {
+		display: none;
+	}
+}
+
 blockquote {
 	margin-left: 2rem;
 	margin-right: 2rem;

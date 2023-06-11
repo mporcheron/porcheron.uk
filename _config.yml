@@ -53,20 +53,6 @@ titles_from_headings:
     strip_title: true
     collections: true
 
-# Page generation from data
-page_gen-dirs: true # uncomment, if you prefer to generate named folders
-page_gen:
-  - data: pubs
-    template: pub_redirect
-    name: title
-    dir: pubs
-    index_files: false
-  - data: pubs
-    template: pub_bibtex
-    name: title
-    dir: '/pubs/bibtex'
-    index_files: false
-
 # Pagination
 pagination:
   enabled: true
@@ -79,6 +65,19 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
   category: 'posts'
+
+# Publications
+scholar:
+  style: _bibliography/acm.csl
+  locale: en
+  source: ./_bibliography
+  bibliography: "*.bib"
+  bibliography_template: pub_reference
+  details_layout: pub_bibtex.html
+  details_permalink: /pubs/bibtex/:key:extension
+  generate_details_link: false
+  sort_by: year, title
+  order: descending, ascending
 
 # Exclude from minificartion
 # jekyll-minifier:

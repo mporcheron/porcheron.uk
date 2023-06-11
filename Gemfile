@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem 'jekyll-optional-front-matter'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-scholar'
   gem 'jekyll-sitemap'
   gem 'jekyll-target-blank'
   gem 'jekyll-titles-from-headings'

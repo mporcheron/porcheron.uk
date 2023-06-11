@@ -17,4 +17,4 @@ I am a founding member of the [ACM Conversational User Interfaces (CUI) Steering
 
 My research focuses on the user experience of interactive AI systems—from voice interfaces through to robot interfaces, drawing upon a mixture of qualitative and quantitative research methods. In my PhD, I studied public places like cafés and pubs to understand how we use devices like smartphones while we are socialising.
 
-On this website I maintain a fairly up-to-date list of [my publications](/pubs "My publications list").
+On this website I maintain an up-to-date list of [my publications](/pubs "My publications list").
