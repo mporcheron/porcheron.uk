@@ -17,25 +17,25 @@
 @import "bootstrap/root";
 @import "bootstrap/reboot";
 @import "bootstrap/type";
-@import "bootstrap/images";
+// @import "bootstrap/images";
 @import "bootstrap/containers";
-@import "bootstrap/grid";
+// @import "bootstrap/grid";
 // @import "bootstrap/tables";
-@import "bootstrap/forms";
+// @import "bootstrap/forms";
 @import "bootstrap/buttons";
 @import "bootstrap/transitions";
-@import "bootstrap/dropdown";
-@import "bootstrap/button-group";
+// @import "bootstrap/dropdown";
+// @import "bootstrap/button-group";
 @import "bootstrap/nav";
 @import "bootstrap/navbar";
-@import "bootstrap/card";
+// @import "bootstrap/card";
 // @import "bootstrap/accordion";
 // @import "bootstrap/breadcrumb";
 // @import "bootstrap/pagination";
-@import "bootstrap/badge";
+// @import "bootstrap/badge";
 // @import "bootstrap/alert";
 // @import "bootstrap/progress";
-@import "bootstrap/list-group";
+// @import "bootstrap/list-group";
 // @import "bootstrap/close";
 // @import "bootstrap/toasts";
 // @import "bootstrap/modal";
@@ -58,44 +58,3 @@
 @media (prefers-color-scheme: dark) {
 	@import "styles-dark"; // PORCHERON.UK
 }
-
-
-
-// 
-// @import "bootstrap/bootstrap/bootstrap-utilities";
-// // 
-// // $theme-colors: (
-// //   "primary":    $primary,
-// //   "secondary":  $secondary,
-// //   "success":    $success,
-// //   "info":       $info,
-// //   "warning":    $warning,
-// //   "danger":     $danger,
-// //   "light":      $light,
-// //   "dark":       $dark,
-// //   "gray":       $gray-600,
-// //   "blue":       $blue,
-// //   "indigo":     $indigo,
-// //   "purple":     $purple,
-// //   "red":        $red,
-// //   "orange":     $orange,
-// //   "yellow":     $yellow,
-// //   "green":      $green,
-// //   "teal":       $teal,
-// //   "cyan":       $cyan
-// // );
-// // // 
-// // // $container-max-widths: (
-// // //   sm: 540px,
-// // //   md: 720px,
-// // //   lg: 960px
-// // // );
-// 
-// @import "variables";
-// @import "bootstrap/bootstrap";
-// @import "styles";
-// 
-// @media (prefers-color-scheme: dark) {
-//   @import "variables-dark";
-//   @import "styles-dark";
-// }
