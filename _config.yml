@@ -30,7 +30,6 @@ plugins:
   - jekyll-feed
   - jekyll-datapage-generator
   - jekyll-last-modified-at
-  - jekyll-minifier
   - jekyll-optional-front-matter
   - jekyll-redirect-from
   - jekyll-sitemap
