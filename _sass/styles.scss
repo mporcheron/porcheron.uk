@@ -213,14 +213,12 @@ main {
 				max-width: $profile-photo-w;
 			}
 			
-			section {
-				& > p:last-child {
-					margin-bottom: 0 !important;
-					&::after {
-						clear: both;
-						content: "";
-						display: block;
-	    			}
+			& > p:last-child {
+				margin-bottom: 0 !important;
+				&::after {
+					clear: both;
+					content: "";
+					display: block;
 				}
 			}
 		}
