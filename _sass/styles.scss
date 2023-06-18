@@ -201,20 +201,12 @@ main {
 		backdrop-filter: $main-bg-filter;
 		line-height: $main-line-spacing;
 	
-		article > section {
+		article > section, article > .section {
 			background: $main-inner-bg;
 			color: $main-fg;
 			
 			h1:first-child, h2:first-child, h3:first-child, h4:first-child {
 				margin-bottom: $main-h-first-mb;
-			}
-
-			.text-muted {
-				color: $text-muted-fg !important;
-			}
-			
-			.image.profile-photo {
-				max-width: $profile-photo-w;
 			}
 			
 			& > p:last-child {
@@ -224,6 +216,16 @@ main {
 					content: "";
 					display: block;
 				}
+			}
+		}
+
+		article {
+			.text-muted {
+				color: $text-muted-fg !important;
+			}
+			
+			.image.profile-photo {
+				max-width: $profile-photo-w;
 			}
 		}
 	}
@@ -243,7 +245,7 @@ main {
 @include media-breakpoint-up(sm) {
 	main {
 		& > div { 
-			article > section {
+			article {
 				.image.profile-photo {
 					max-width: $profile-photo-w-sm;
 				}
