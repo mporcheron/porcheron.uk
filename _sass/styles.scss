@@ -228,6 +228,26 @@ main {
 				max-width: $profile-photo-w;
 			}
 		}
+		
+		.link-palette {
+			& .link a {
+				background-color: #ffffff;
+				color: #ffffff;
+				font-weight: bold;
+				@include auto-transition(opacity);
+				opacity: .9;
+				text-decoration: none;
+				
+				svg {
+					fill: #ffffff;
+				}
+				
+				&:hover {
+					opacity: 1;
+					background-color: initial;
+				}
+			}
+		}
 	}
 	
 	footer {

@@ -13,6 +13,9 @@ $link-color: $primary;
 $link-active-color: $primary;
 $link-hover-color: shade-color($link-color, 20%);
 
+$enable-grid-classes: false;
+$enable-cssgrid: true;
+
 $transition-duration: .3s;
 $transition-function: ease;
 

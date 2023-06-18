@@ -13,11 +13,13 @@ menu:
 
 # Contact me
 
-You can send an email to me: [website@porcheron.uk](mailto:website@porcheron.uk "Send an email to me"). I also maintain profiles on the following websites:
-* [hci.social](https://hci.social/@MPorcheron "@MPorcheron@hci.social on Mastodon")
-* [Twitter](https://twitter.com/MPorcheron "@MPorcheron on Twitter")
-* [GitHub](https://github.com/mporcheron "MPorcheron GitHub profile")
-* [LinkedIn](https://www.linkedin.com/in/mporcheron/ "Martin Porcheron on LinkedIn")
-* [Google Scholar](https://scholar.google.co.uk/citations?user=xqQs-LEAAAAJ "Martin Porcheron on Google Scholar")
-* [ACM Digital Library](https://dl.acm.org/profile/87958771157 "Martin Porcheron in the ACM Digital Library")
-* [ORCID](https://orcid.org/0000-0003-3814-7174 "Martin Porcheron on ORCID")
+<div class="link-palette grid mt-5 text-center rounded-4"  style="--bs-gap: 1rem;">
+{%- for contact in site.data.contacts -%}
+<div class="link g-col-xxl-3  g-col-xl-4 g-col-lg-6 g-col-12 rounded-4">
+	<a href="{{ contact.url }}" title="{{ contact.title }}" class="d-block py-5 rounded-4" style="background-color: {{ contact.colour }}; border-color: {{ contact.colour }};">
+		{{ contact.svg }}<br>
+		<span>{{ contact.name }}</span>
+	</a>
+</div>
+{%- endfor -%}
+</div>
