@@ -15,4 +15,6 @@ I am a Senior User Experience Researcher at [Bold Insight UK](https://boldinsigh
 
 I am a founding member of the [ACM Conversational User Interfaces (CUI) Steering Committee](https://cui.acm.org/sc/ "The Conversational User Interfaces community website") and am serving as conference General Chair for [CUI 2023](https://cui.acm.org/2023/ "The Fifth Conference on Conversational User Interfaces"). I have been an Associate Chair for the [ACM CSCW conference](https://cscw.acm.org/ "The ACM Conference on Computer-Supported Cooperative Work and Social Computing website") and [ACM CHI conference](https://chi.acm.org/ "The ACM Conference on Computer Human Interaction website") in the past, as well as General Chair of the [Halfway to the Future symposium](https://www.halfwaytothefuture.org "Halfway to the Future symposium website").
 
-My research focuses on the user experience of interactive AI systems—from voice interfaces through to medical devices, drawing upon a mixture of qualitative and quantitative research methods. In my PhD, I studied public places like cafés and pubs to understand how we use devices like smartphones while we are socialising.
+My research focuses on the user experience of interactive AI systems—from voice interfaces through to medical devices, drawing upon a mixture of qualitative and quantitative research methods.
+
+In my PhD, which I undertook at the University of Nottingham, I studied public places like cafés and pubs to understand how we use devices like smartphones while we are socialising.
