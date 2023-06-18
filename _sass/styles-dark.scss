@@ -45,7 +45,7 @@ main {
 	& > div { 
 		background: $main-bg-dark;
 	
-		article, & > textarea {
+		article > section, article > .section, & > textarea {
 			background: $main-inner-bg-dark;
 			color: $main-fg-dark;
 
