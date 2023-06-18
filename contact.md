@@ -1,5 +1,5 @@
 ---
-title: Contact me and my online profiles
+title: My online profiles
 description: >-
   A number of ways to contact Martin Porcheron, as well as a list containing of verified social media profiles.
 
