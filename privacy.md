@@ -16,6 +16,8 @@ This website uses two external service providers only, the details for which are
 
 If you have questions about anything above, please do not hesitate to [contact me](/contact "My contact details").
 
+<!-- section -->
+
 ## GitHub Pages
 
 This website is hosted by [GitHub](https://github.com "The main GitHub website"), on its [GitHub Pages](https://pages.github.com "Information about the GitHub Pages service") service. GitHub is owned by [Microsoft](https://www.microsoft.com/ "Microsoft homepage"). The [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement#additional-services "Read the Additional Services section of the GitHub Privacy Statement") says:
@@ -24,6 +26,8 @@ This website is hosted by [GitHub](https://github.com "The main GitHub website")
 >
 > *Content dated: 1st September 2022*<br>
 > *Last checked: 15th November 2022*
+
+<!-- section -->
 
 ## Google Fonts API
 
