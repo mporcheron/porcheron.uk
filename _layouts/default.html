@@ -6,14 +6,16 @@
     <head>
 		{%- include head.html -%}
 	</head>
-    <body class="d-flex flex-md-row flex-column align-items-stretch">
-		{%- include sidebar.html -%}
-		<main class="w-100">
-			{{- content -}}
-			<footer class="text-center my-md-0 my-3">
-				{%- include footer.html -%}
-			</footer>
-		</main>
+    <body>
+    	<div class="xxlcontainer d-flex flex-md-row flex-column align-items-stretch">
+			{%- include sidebar.html -%}
+			<main class="w-100">
+				{{- content -}}
+				<footer class="text-center my-md-0 my-3">
+					{%- include footer.html -%}
+				</footer>
+			</main>
+		</div>
 		<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}?{{ cache }}"></script>
 		<script src="{{ '/assets/js/porcheron.min.js' | relative_url }}?{{ cache }}"></script>
     </body>
