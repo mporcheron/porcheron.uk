@@ -318,6 +318,7 @@ main {
 						box-shadow: none;
 						border-radius: 0 !important;
 						color: $nav-fg-md !important;
+						opacity: $nav-link-opacity-md;
 						width: auto;
 						
 						svg {
