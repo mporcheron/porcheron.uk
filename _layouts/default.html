@@ -11,10 +11,7 @@
 		<main class="w-100">
 			{{- content -}}
 			<footer class="text-center my-md-0 my-3">
-				<p class="small m-0 py-md-3 p-0">
-					&copy; Martin Porcheron {{ site.time | date: "%Y" }}.<br>
-					<a href="/privacy" title="Privacy Policy and cookies information for this website">Privacy and cookies information</a>
-				</p>
+				{%- include footer.html -%}
 			</footer>
 		</main>
 		<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}?{{ cache }}"></script>

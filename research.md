@@ -1,13 +1,13 @@
 ---
-label: Research
 title: My research
-description: A summary of my research, which is the domains of HCI and CSCW, and list of projects I have been involved in.
-position: 2
+description: |
+  A summary of my research, which is the domains of HCI and CSCW, and list of
+  projects I have been involved in.
 
 menu:
   main:
     label: Research
-    title: Research projects I've been involved in
+    title: Details of various research projects I have participated in or led
     weight: 1
 ---
 
@@ -18,8 +18,7 @@ My research is in the areas of [human-computer interaction](https://www.interact
 * the design use of voice interfaces and 'interactive AI' systems,
 * explainable (semi)autonomous systems.
 
-
----
+<!-- section -->
 
 ## Projects
 
@@ -32,6 +31,8 @@ This [DfID Transform](https://www.gov.uk/international-development-funding/trans
 
 I am conducting the participatory design efforts of the project. This has involved traveling to Lagos, Nigeria to collaborate with both chemists and perinatal women, to identify crucial health and wellbeing topics and to inform the design of the final system. This work included prototype development and the design and running of workshops and field visits.
 
+---
+
 ### Human Robot Collaboration for Allergen-Aware Factory Cleaning (RoboClean)
 *November 2018–April 2020*
 
@@ -41,6 +42,8 @@ My work as a postdoc researcher involves conducting field visits and interviews 
 This ethnographic work is being done to inform the design of the semi-autonomous robot instruction system being developed by the project. 
 
 Read more on the [Horizon Digital Economy Research website](https://www.horizon.ac.uk/project/human-robot-collaboration-for-allergen-aware-factory-cleaning/ "More information about the RoboClean project").
+
+---
 
 ### Future Everyday Interaction with the Autonomous Internet of Things (A-IoT)
 *April 2019–October 2019*
@@ -52,6 +55,8 @@ I collaborated on the running of research studies with the system and played a s
 
 Read more on [Gateway to Research](https://gtr.ukri.org/projects?ref=EP%2FN014243%2F1 "Grant details on the UKRI Gateway to Research website").
 
+---
+
 ### Personalised Airport Systems for Seamless Mobility and Experience (PASSME)
 *November 2018–April 2019*
 
@@ -61,8 +66,7 @@ My work as a postdoc researcher involved working with researchers at [TU Delft](
 
 Read more on [CORDIS](https://cordis.europa.eu/project/id/636308 "Grant details on the EU CORDIS website").
 
-----
-
+<!-- section -->
 
 ### Understanding Conversation Around Technology Use in Casual-Social Settings
 *October 2013–September 2017*
@@ -71,4 +75,4 @@ My PhD was funded by [EPSRC](https://epsrc.ukri.org "The Engineering and Physica
 
 My thesis adopted a multidisciplinary ethnographic approach informed by ethnomethodology. I focused on the everyday use of devices such as smartphones and smart speakers within groups of friends and family while they are socialising, demonstrating the ways in which devices are used in everyday life.
 
-A copy of my thesis is on [available online](/pubs/understanding-conversation-around-technology-use-in-casual-social-settings "Download a copy of my thesis").
+A copy of my thesis is on [available from my publications list]({{ "/pubs/#phd-thesis" | relative_url }} "Download a copy of my thesis").

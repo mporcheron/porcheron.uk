@@ -4,6 +4,10 @@ $secondary: #ED5CB9;
 $tertiary: #45E5ED;
 
 $font-family-sans-serif: 'Helvetica Neue', 'Helvetica', 'Arial', "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-size-base:1rem;
+$h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base * 1.25;
+$h5-font-size: $font-size-base * 1.15;
 
 $link-color: $primary;
 $link-active-color: $primary;

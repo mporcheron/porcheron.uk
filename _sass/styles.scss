@@ -201,7 +201,7 @@ main {
 		backdrop-filter: $main-bg-filter;
 		line-height: $main-line-spacing;
 	
-		article {
+		article > section {
 			background: $main-inner-bg;
 			color: $main-fg;
 
@@ -239,7 +239,7 @@ main {
 @include media-breakpoint-up(sm) {
 	main {
 		& > div { 
-			article {
+			article > section {
 				.image.profile-photo {
 					max-width: $profile-photo-w-sm;
 				}
@@ -311,7 +311,7 @@ main {
 		margin-top: $main-mt-md;
 			
 		& > div { 
-			article {
+			article > section {
 				hr {
 					margin: $hr-m;
 				}
@@ -326,7 +326,7 @@ main {
 @include media-breakpoint-up(xl) {
 	main {
 		& > div { 
-			article {
+			article > section {
 				.image.profile-photo {
 					max-width: 33%;
 				}
