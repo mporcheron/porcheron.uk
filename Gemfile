@@ -14,13 +14,10 @@ gem "jekyll", "~> 4.3.2"
 # fix svg in jekyll-minifier
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag"
-  gem "jekyll-datapage-generator", "~> 1.4.0"
   gem "jekyll-last-modified-at"
   gem "jekyll-menus", :git => "https://github.com/forestryio/jekyll-menus.git"
   gem 'jekyll-optional-front-matter'
-  gem 'jekyll-paginate-v2'
   gem 'jekyll-redirect-from'
   gem 'jekyll-scholar'
   gem 'jekyll-sitemap'

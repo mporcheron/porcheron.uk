@@ -27,8 +27,6 @@ social:
 # Build settings
 plugins_dir: ./_plugins
 plugins:
-  - jekyll-feed
-  - jekyll-datapage-generator
   - jekyll-last-modified-at
   - jekyll-optional-front-matter
   - jekyll-redirect-from
@@ -51,19 +49,6 @@ titles_from_headings:
     enabled: true
     strip_title: true
     collections: true
-
-# Pagination
-pagination:
-  enabled: true
-  debug: false
-  collection: 'posts'
-  per_page: 5
-  permalink: '/page/:num/'
-  title: ':title (page :num/:max)'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  category: 'posts'
 
 # Publications
 scholar:

@@ -4,41 +4,11 @@ sitemap: false
 {%- assign cache = site.time | date: '%s%N' -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}" class="h-100">
-    <head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"> 
-
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>		
-		<link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
-
-		<link rel="stylesheet" href="{{ '/assets/css/design.css' | relative_url }}?{{ cache }}">
-
-		{%- feed_meta -%}
-
-		<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/icn/apple-touch-icon.png" | relative_url }}?{{ cache }}">
-		<link rel="apple-touch-icon" sizes="167x167" href="{{ "/assets/icn/apple-touch-icon-167x167.png" | relative_url }}?{{ cache }}">
-		<link rel="apple-touch-icon" sizes="152x152" href="{{ "/assets/icn/apple-touch-icon-152x152.png" | relative_url }}?{{ cache }}">
-		<link rel="apple-touch-icon" sizes="120x120" href="{{ "/assets/icn/apple-touch-icon-120x120.png" | relative_url }}?{{ cache }}">
-
-		<link rel="icon" type="image/png" sizes="512x512" href="{{ "/assets/icn/android-chrome-512x512.png" | relative_url }}?{{ cache }}">
-		<link rel="icon" type="image/png" sizes="228x228" href="{{ "/assets/icn/opera-228x228.png" | relative_url }}?{{ cache }}">
-		<link rel="icon" type="image/png" sizes="192x192" href="{{ "/assets/icn/android-chrome-192x192.png" | relative_url }}?{{ cache }}">
-		<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/icn/favicon-32x32.png" | relative_url }}?{{ cache }}">
-		<link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/icn/favicon-16x16.png" | relative_url }}?{{ cache }}">
-
-		<link rel="mask-icon" href="{{ "/assets/icn/safari-pinned-tab.svg" | relative_url }}?{{ cache }}" color="#7D7D7D">
-
-		<link rel="shortcut icon" href="{{ "/assets/icn/favicon-32x32.png" | relative_url }}?{{ cache }}">
-
-		<link rel="me" href="https://hci.social/@mporcheron">
-
-		<meta name="theme-color" content="#9A2D72">
-
+	<head>
+		{%- include head.html -%}
 		<title>BibTeX for '{{ page.entry.title }}'</title>
 	</head>
-    <body class="d-flex flex-column align-items-stretch h-100 pub-bibtex">
+	<body class="d-flex flex-column align-items-stretch h-100 pub-bibtex">
 		<h1 class="flex-grow-0 m-0 p-3 text-center">
 			BibTeX for <em>{{ page.entry.title }}</em>
 		</h1>
@@ -53,6 +23,6 @@ sitemap: false
 		</div>
 		<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}?{{ cache }}"></script>
 		<script src="{{ '/assets/js/clipboard.min.js' | relative_url }}?{{ cache }}"></script>
-		<script src="{{ '/assets/js/copyclose.js' | relative_url }}?{{ cache }}"></script>
+		<script src="{{ '/assets/js/copyclose.min.js' | relative_url }}?{{ cache }}"></script>
 	</body>
 </html>

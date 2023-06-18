@@ -1,14 +1,15 @@
-
 <figure class="video col-12 px-0 shadow">
 	<div class="w-100 video-unactivated" data-video="{{ include.video | replace: '"', '\"' }}">
-	    <div class="bg-dark text-white px-lg-5 px-3 py-5 cta-link">
-            <div class="h3 pt-md-5 pt-3">
-                Load YouTube video <span class="cta-move-right">→</span>
-            </div>
-            <div class="pt-md-3 pt-1 pb-md-5 pb-3">
-                Please note that loading this YouTube video has <a href="{{ "/privacy/#youtube" | relative_url }}" class="text-light text-decoration-underline" target="_blank" title="View information about the privacy implications of embedded this video">privacy implications</a>. You acknowledge and accept these implications by loading the video on this webpage.
-            </div>
-        </div>
+		<div class="bg-dark text-white px-lg-5 px-3 py-5 cta-link">
+			<div class="h3 pt-md-5 pt-3">
+				Load YouTube video <span class="cta-move-right">→</span>
+			</div>
+			<div class="pt-md-3 pt-1 pb-md-5 pb-3">
+				Please note that loading this YouTube video has <a href="{{ "/privacy/#youtube" | relative_url }}" class="text-light text-decoration-underline" target="_blank" title="View information about the privacy implications of embedded this video">privacy implications</a>. You acknowledge and accept these implications by loading the video on this webpage.
+			</div>
+		</div>
 	</div>
-	{% if include.caption %}<figcaption class="py-3 px-2 text-center w-100 text-center"><p>{{ include.caption }}</p></figcaption>{% endif %}
+	{%- if include.caption -%}
+	<figcaption class="py-3 px-2 text-center w-100 text-center"><p>{{ include.caption }}</p></figcaption>
+	{%- endif -%}
 </figure>
