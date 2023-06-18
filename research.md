@@ -68,6 +68,8 @@ Read more on [CORDIS](https://cordis.europa.eu/project/id/636308 "Grant details 
 
 <!-- section -->
 
+## PhD
+
 ### Understanding Conversation Around Technology Use in Casual-Social Settings
 *October 2013–September 2017*
 

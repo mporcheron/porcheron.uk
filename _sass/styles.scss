@@ -204,6 +204,10 @@ main {
 		article > section {
 			background: $main-inner-bg;
 			color: $main-fg;
+			
+			h1:first-child, h2:first-child, h3:first-child, h4:first-child {
+				margin-bottom: $main-h-first-mb;
+			}
 
 			.text-muted {
 				color: $text-muted-fg !important;
@@ -311,7 +315,7 @@ main {
 		margin-top: $main-mt-md;
 			
 		& > div { 
-			article > section {
+			article {
 				hr {
 					margin: $hr-m;
 				}
@@ -326,7 +330,7 @@ main {
 @include media-breakpoint-up(xl) {
 	main {
 		& > div { 
-			article > section {
+			article {
 				.image.profile-photo {
 					max-width: 33%;
 				}
