@@ -231,20 +231,18 @@ main {
 		
 		.link-palette {
 			& .link a {
-				background-color: #ffffff;
-				color: #ffffff;
+				color: $palette-fg;
 				font-weight: bold;
 				@include auto-transition(opacity);
-				opacity: .9;
+				opacity: $palette-o;
 				text-decoration: none;
 				
 				svg {
-					fill: #ffffff;
+					fill: $palette-fg;
 				}
 				
 				&:hover {
 					opacity: 1;
-					background-color: initial;
 				}
 			}
 		}
