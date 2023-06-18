@@ -233,7 +233,7 @@ main {
 			& .link a {
 				color: $palette-fg;
 				font-weight: bold;
-				@include auto-transition(opacity);
+				@include auto-transition((opacity, box-shadow));
 				opacity: $palette-o;
 				text-decoration: none;
 				
@@ -243,6 +243,7 @@ main {
 				
 				&:hover {
 					opacity: 1;
+					box-shadow: $palette-shadow-hover;
 				}
 			}
 		}
