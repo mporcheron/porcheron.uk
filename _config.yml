@@ -59,7 +59,7 @@ scholar:
   bibliography_template: pub_reference
   details_layout: pub_bibtex.html
   details_permalink: /pubs/bibtex/:key:extension
-  generate_details_link: false
+  details_link: false
   sort_by: year, title
   order: descending, ascending
 
