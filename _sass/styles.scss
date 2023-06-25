@@ -46,6 +46,13 @@ a:active {
 	}
 }
 
+.pub-bibtex {
+	h1 {
+		color: $pub-bibtex-h1-fg;
+		font-size: $pub-bibtex-h1-font-size;
+	}
+}
+
 blockquote {
 	margin-left: 2rem;
 	margin-right: 2rem;
@@ -57,7 +64,6 @@ textarea {
         resize: none;
     }
 }
-
 
 
 
@@ -192,8 +198,6 @@ aside {
 }
 
 
-
-
 main {
 	& > div { 
 		background: $main-bg;
@@ -264,7 +268,6 @@ main {
 
 
 
-
 @include media-breakpoint-up(sm) {
 	main {
 		& > div { 
@@ -276,7 +279,6 @@ main {
 		}
 	}
 }
-
 
 
 
@@ -352,7 +354,6 @@ main {
 
 
 
-
 @include media-breakpoint-up(xl) {
 	.xlcontainer {
 		max-width: 1200px;
@@ -370,10 +371,6 @@ main {
 
 
 
-
-
-
-
 @include media-breakpoint-up(xlx) {
 	.xxlcontainer {
 		margin-left: auto;
@@ -381,139 +378,3 @@ main {
 		max-width: 1400px;
 	}
 }
-
-.pub-bibtex {
-	h1 {
-		color: $pub-bibtex-h1-fg;
-		font-size: $pub-bibtex-h1-font-size;
-	}
-
-}
-
-// CONTENT FORMATTING
-// article {
-// 
-// 	h1, h2, h3 {
-// 		font-weight: bold;
-// 	}
-// 
-//     p, h2, ol {
-//         margin-bottom: $content-p-mb;
-//     }
-// 
-// 
-// blockquote {
-//     margin: $blockquote-m;
-// 
-//     p {
-//         padding: $blockquote-p;
-//     }
-// }
-// 
-// figure {
-//     @include auto-transition((margin, max-width, width), $transition-duration);
-//     margin-bottom: $content-p-mb;
-// 
-//     &.video {
-//         & figcaption p {
-//             margin: 0;
-//         }
-// 
-//         iframe {
-//             display: block;
-//             width: 100%;
-//         }
-// 
-//     }
-// 
-//     &:first-child {
-//         margin-bottom: $spacer !important;
-//         margin-top: 0 !important;
-//     }
-// 
-// }
-// 
-// @include media-breakpoint-up(sm) {
-//     figure.autosize {
-//         cursor: zoom-in;
-// 
-//         & figcaption p {
-//             display: -webkit-box;
-//             -webkit-box-orient: vertical;
-//             -webkit-line-clamp: $figcaption-p-max-lines;
-//             overflow: hidden;
-//         }
-// 
-//         figcaption svg.icon {
-//             padding: $figcaption-icon-expand-p;
-//             width: $figcaption-icon-expand-w;
-//         }
-// 
-//         &:hover {
-//             flex: 0 0 $figure-sm-hover-w;
-//             width: $figure-sm-hover-w;
-//         }
-// 
-//     }
-// 
-// }
-// 
-// @include media-breakpoint-up(lg) {
-//     figure.autosize {
-//         &:hover {
-//             width: $figure-lg-hover-w;
-//         }
-// 
-//     }
-// 
-// }
-// 
-// .footnotes ol {
-//     margin: 0;
-// }
-// 
-// a.reversefootnote {
-//     text-decoration: none !important;
-// }
-// 
-// article {
-// 
-// 	hr {
-// 		border-top: 0;
-// 		border-radius: $hr-border-radius;
-// 		height: $hr-h !important;
-// 		margin: $hr-my auto !important;
-// 		opacity: 1;
-// 		width: $hr-w;
-// 	}
-// 
-// }
-// 
-// @include media-breakpoint-up(lg) {
-// article {
-//     hr {
-//         margin: $hr-lg-my 0;
-// 		width: $hr-w-lg;
-//     }
-//     }
-// 
-// }
-// 
-// /* Font fixes */
-// 
-// article {
-// hr + h2, h2 + .h2, hr + h3, h2 + .h3 {
-//     padding-top: 0 !important;
-// }
-// hr + h2 {
-// 	margin-top: -.35rem;
-// }
-// }
-// 
-// 
-
-// 
-// }
-
-
-// FOOTER
