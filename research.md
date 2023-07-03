@@ -51,7 +51,7 @@ Read more on the [Horizon Digital Economy Research website](https://www.horizon.
 This [EPSRC](https://epsrc.ukri.org/ "The Engineering and Physical Sciences Research Council website")-funded project investigated the design of interaction mechanisms and user interfaces for future Autonomous Internet of Things systems (A-IoT). These are considered system of interconnected everyday devices that introduce elements of automation in response to or to support everyday life.
 
 My work as a postdoc researcher involved supporting the deployment of a system developed within the project to understand the use of systems for predicting the consumption of projects in the home.
-I collaborated on the running of research studies with the system and played a substantial role in the analysis of both quantitative and qualitative data, and the subsequent publication of our findings. This work was published in the paper [Tracking the Consumption of Home Essentials](/pubs/tracking-the-consumption-of-home-essentials "Read the paper 'Tracking the Consumption of Home Essentials'").
+I collaborated on the running of research studies with the system and played a substantial role in the analysis of both quantitative and qualitative data, and the subsequent publication of our findings. This work was published in the paper [Tracking the Consumption of Home Essentials]({{ "/assets/pubs/2019/fuentes2019tracking.pdf" | relative_url }} "Read the paper 'Tracking the Consumption of Home Essentials'").
 
 Read more on [Gateway to Research](https://gtr.ukri.org/projects?ref=EP%2FN014243%2F1 "Grant details on the UKRI Gateway to Research website").
 
