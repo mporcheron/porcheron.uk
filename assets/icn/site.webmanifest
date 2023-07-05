@@ -3,17 +3,12 @@
     "short_name": "MPorcheron",
     "icons": [
         {
-            "src": "android-chrome-192x192.png",
+            "src": "/assets/icn/android-chrome-192x192.png",
             "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "android-chrome-512x512.png",
-            "sizes": "512x512",
             "type": "image/png"
         }
     ],
-    "theme_color": "#3A3C45",
-    "background_color": "#3A3C45",
-    "start_url": "https://www.porcheron.uk/"
+    "theme_color": "#9a2d72",
+    "background_color": "#9a2d72",
+    "display": "standalone"
 }
