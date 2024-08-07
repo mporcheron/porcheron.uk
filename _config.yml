@@ -4,7 +4,7 @@ title: Martin Porcheron
 email: website@porcheron.uk
 lang: en-GB
 description: >-
-  Martin Porcheron is a Senior User Experience Researcher at Bold Insight UK, focusing on both qualitative studies of consumer technology and human factors studies of medical devices.
+  Martin Porcheron is a Senior User Experience Researcher at Bold Insight, focusing on both qualitative studies of consumer technology and human factors studies of medical devices.
 
 baseurl: ""
 url: "http://localhost:4000"
@@ -27,10 +27,12 @@ social:
 # Build settings
 plugins_dir: ./_plugins
 plugins:
-  - jekyll-last-modified-at
+  - jekyll-menus
   - jekyll-optional-front-matter
   - jekyll-redirect-from
+  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-scholar
   - jekyll-target-blank
   - jekyll-titles-from-headings
 
@@ -67,8 +69,9 @@ scholar:
 jekyll-minifier:
   compress_javascript: false
   compress_css: true
-  exclude: 'feed.xml'
-  exclude: 'sitemap.xml'
+  exclude: 
+    - 'feed.xml'
+    - 'sitemap.xml'
 #   uglifier_args:
 #     harmony: true
 
