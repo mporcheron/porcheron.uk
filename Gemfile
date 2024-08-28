@@ -14,14 +14,14 @@ gem "jekyll", "~> 4.3.3"
 gem "webrick"
 gem 'execjs'
 gem 'nokogiri'
-gem 'posix-spawn'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-seo-tag"
+  # gem "jekyll-last-commit", :git => "https://github.com/mporcheron/jekyll-last-commit.git"
   gem "jekyll-menus", :git => "https://github.com/forestryio/jekyll-menus.git"
   gem 'jekyll-optional-front-matter'
   gem 'jekyll-redirect-from'
+  gem "jekyll-seo-tag"
   gem 'jekyll-scholar'
   gem 'jekyll-sitemap'
   gem 'jekyll-target-blank'

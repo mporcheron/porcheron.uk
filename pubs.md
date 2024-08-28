@@ -5,6 +5,11 @@ description: |
   demos, and magazine articles. I've also organised workshops co-located at
   international conferences. 
 
+lastmod:
+  type: data
+  files:
+    - pubs_categories.yml
+
 menu:
   main:
     label: Publications

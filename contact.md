@@ -3,6 +3,11 @@ title: My online profiles
 description: >-
   A number of ways to contact Martin Porcheron, as well as a list containing of verified social media profiles.
 
+lastmod:
+  type: data
+  files:
+    - contacts.yml
+
 menu:
   main:
     label: Contact

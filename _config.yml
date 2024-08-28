@@ -1,7 +1,7 @@
 name: Martin Porcheron
 author: Martin Porcheron
 title: Martin Porcheron
-email: website@porcheron.uk
+email: website@martin.porcheron.uk
 lang: en-GB
 description: >-
   Martin Porcheron is a Senior User Experience Researcher at Bold Insight, focusing on both qualitative studies of consumer technology and human factors studies of medical devices.
@@ -24,6 +24,10 @@ social:
     scholar:
         user_id: xqQs-LEAAAAJ
 
+github:
+  repo: https://github.com/mporcheron/porcheron.uk/
+  link_title: "View edit on GitHub"
+
 # Build settings
 plugins_dir: ./_plugins
 plugins:
@@ -36,23 +40,25 @@ plugins:
   - jekyll-target-blank
   - jekyll-titles-from-headings
 
-# Liquid config
+# Generation
 liquid:
   error_mode: strict
   strict_variables: false
   strict_filters: true
 
-# SASS generation
 sass:
     style: compressed
 
-# Title generation from headings
+jekyll-last-commit:
+  date_format: '%d-%b-%Y %R'       # default: `%B %d, %Y`
+  should_fall_back_to_mtime: false # default: `true`
+  data_files_key: 'meta'           # default: meta
+
 titles_from_headings:
     enabled: true
     strip_title: true
     collections: true
 
-# Publications
 scholar:
   style: _bibliography/acm.csl
   locale: en
@@ -65,17 +71,13 @@ scholar:
   sort_by: year, title
   order: descending, ascending
 
-# Exclude from minificartion
 jekyll-minifier:
   compress_javascript: false
   compress_css: true
   exclude: 
     - 'feed.xml'
     - 'sitemap.xml'
-#   uglifier_args:
-#     harmony: true
 
-# Sitemap configutation
 defaults:
   - scope:
       path:            ""
@@ -91,10 +93,8 @@ defaults:
     values:
       sitemap:         false
 
-# Excerpt separator
 excerpt_separator: <!--more-->
 
-# Exclude from processing
 exclude:
   - .sass-cache/
   - .jekyll-cache/

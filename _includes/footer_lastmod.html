@@ -1,28 +1,22 @@
-{%- assign last_modified_intro = false -%}
-{%- assign last_modified = false -%}
-{%- if paginator contains 'posts' -%}
-	{%- if paginator.posts.size > 0 -%}
-		{%- assign last_modified_intro = 'The newest post on this page was added on ' -%}
-		{%- assign last_modified = paginator.posts[0].date | date_to_long_string: "ordinal" -%}
-	{%- endif -%}
-{%- elsif page.path == 'pubs.html' -%}
-	{%- capture date %}{% pubs_last_modified_at %e %}{% endcapture -%}
-	{%- if date == "1" or date == "21" or date == "31" -%}
-		{%- assign suffix = "st" -%}
-	{%- elsif date == "2" or date == "22" -%}
-		{%- assign suffix = "nd" -%}
-	{%- elsif date == "3" or date == "23" -%}
-		{%- assign suffix = "rd" -%}
-	{%- else -%}
-		{%- assign suffix = "th" -%}
-	{%- endif -%}
-	{%- assign last_modified_intro = 'This list was last modified on ' -%}
-	{%- capture last_modified %}{% pubs_last_modified_at %d %}{{ suffix }} {% pubs_last_modified_at %B %Y %}{% endcapture -%}
-{%- else -%}
-	{%- capture last_modified_intro %}This {% if page.collection == 'posts' %}post{% else %}page{% endif %} was last modified on {% endcapture -%}
-	{%- capture last_modified %}{{ page.last_modified_at | date_to_long_string: "ordinal" }}{% endcapture -%}
+{%- assign newest_source = page -%}
+{%- if page.lastmod.type == "data" and page.lastmod.file -%}
+  {%- if page.last_commit.time_epoch < site.data.meta[page.lastmod.file].last_commit.time_epoch -%}
+    {%- assign newest_source = site.data.meta[page.lastmod.file] -%}
+  {%- endif -%}
+{%- elsif page.lastmod.type == "data" and page.lastmod.files -%}
+  {%- assign newest_data_file = site.data.meta[page.lastmod.files.first] -%}
+  {%- for file in page.lastmod.files -%}
+    {%- assign candidate = site.data.meta[file] -%}
+    {%- if candidate.last_commit.time_epoch > newest.last_commit.time_epoch -%}
+      {%- assign newest_data_file = candidate -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if page.last_commit.time_epoch < newest.last_commit.time_epoch -%}
+    {%- assign newest_source = newest -%}
+  {%- endif -%}
 {%- endif -%}
 
-<p class="my-0 py-3">
-	{{ last_modified_intro }}{{ last_modified }}.
-</p>
+
+Last modified: <a href="{{- site.github.repo -}}commit/{{- newest_source.last_commit.sha -}}" title="{{- site.github.link_title -}}" class="text-muted" target="_blank">
+	{{- newest_source.last_modified_at_formatted -}}
+</a>
