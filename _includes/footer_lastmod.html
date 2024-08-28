@@ -14,6 +14,23 @@
   {%- if page.last_commit.time_epoch < newest.last_commit.time_epoch -%}
     {%- assign newest_source = newest -%}
   {%- endif -%}
+{%- elsif page.lastmod.type == "static" and page.lastmod.file -%}
+  {%- if page.last_commit.time_epoch < site.data.meta[page.lastmod.file].last_commit.time_epoch -%}
+    {%- assign newest_source = site.data.meta[page.lastmod.file] -%}
+  {%- endif -%}
+{%- elsif page.lastmod.type == "static" and page.lastmod.files -%}
+  {%- assign newest_static_file = 0 -%}
+  {%- for static_file in site.static_files -%}
+  {%- if page.lastmod.files contains static_file.path -%}
+      {%- assign candidate = site.static_files[forloop.index0] -%}
+      {%- if candidate.last_commit.time_epoch > newest.last_commit.time_epoch -%}
+        {%- assign newest_data_file = candidate -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if page.last_commit.time_epoch < newest.last_commit.time_epoch -%}
+    {%- assign newest_source = newest -%}
+  {%- endif -%}
 {%- endif -%}
 
 

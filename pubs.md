@@ -6,9 +6,17 @@ description: |
   international conferences. 
 
 lastmod:
-  type: data
+  type: static
   files:
-    - pubs_categories.yml
+    - /bibliography/acm.csl
+    - /bibliography/archival.bib
+    - /bibliography/chapter.bib
+    - /bibliography/demo.bib
+    - /bibliography/magazine.bib
+    - /bibliography/position.bib
+    - /bibliography/report.bib
+    - /bibliography/thesis.bib
+    - /bibliography/workshop.bib
 
 menu:
   main:

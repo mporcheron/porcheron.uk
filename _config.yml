@@ -60,9 +60,9 @@ titles_from_headings:
     collections: true
 
 scholar:
-  style: _bibliography/acm.csl
+  style: bibliography/acm.csl
   locale: en
-  source: ./_bibliography
+  source: ./bibliography
   bibliography: "*.bib"
   bibliography_template: pub_reference
   details_layout: pub_bibtex.html

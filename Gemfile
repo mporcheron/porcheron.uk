@@ -14,6 +14,7 @@ gem "jekyll", "~> 4.3.3"
 gem "webrick"
 gem 'execjs'
 gem 'nokogiri'
+gem 'rugged'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
