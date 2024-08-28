@@ -11,10 +11,6 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.3"
 
-gem "webrick"
-gem 'execjs'
-gem 'nokogiri'
-
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-last-commit", :git => "https://github.com/mporcheron/jekyll-last-commit.git"
