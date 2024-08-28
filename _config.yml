@@ -1,9 +1,10 @@
+# Site information
 name: Martin Porcheron
 author: Martin Porcheron
 title: Martin Porcheron
 email: website@martin.porcheron.uk
 lang: en-GB
-description: >-
+description: >
   Martin Porcheron is a Senior User Experience Researcher at Bold Insight, focusing on both qualitative studies of consumer technology and human factors studies of medical devices.
 timezone: Europe/London
 
@@ -12,22 +13,18 @@ url: "http://localhost:4000"
 permalink: /blog/:year/:month/:day/:title/
 repository: mporcheron/porcheron.uk.git
 
-# Social settings
-social:
-    browser:
-        theme_colour: 3A3C45
-    twitter:
-        username: MPorcheron
-        card: /assets/img/twittercard.png
-        card_alt: A photo of Martin Porcheron
-    github:
-        username: MPorcheron
-    scholar:
-        user_id: xqQs-LEAAAAJ
 
-github:
-  repo: https://github.com/mporcheron/porcheron.uk/
-  link_title: "View edit on GitHub"
+# Social links
+social:
+  browser:
+    theme_colour: 3A3C45
+  github:
+    username: MPorcheron
+    repo: https://github.com/mporcheron/porcheron.uk/
+    link_title: "View edit on GitHub"
+  scholar:
+    user_id: xqQs-LEAAAAJ
+
 
 # Build settings
 plugins_dir: ./_plugins
@@ -41,19 +38,22 @@ plugins:
   - jekyll-target-blank
   - jekyll-titles-from-headings
 
-# Generation
-liquid:
-  error_mode: strict
-  strict_variables: false
-  strict_filters: true
 
-sass:
-    style: compressed
+# Site building
+defaults:
+  - scope:
+      path:            ""
+    values:
+      layout:          "page"
+  - scope:
+      path:            "assets/**/*.pdf"
+    values:
+      sitemap:         false
 
 jekyll-last-commit:
-  date_format: '%d-%b-%Y %R'       # default: `%B %d, %Y`
-  should_fall_back_to_mtime: false # default: `true`
-  data_files_key: 'meta'           # default: meta
+  date_format: '%d-%b-%Y %R'
+  should_fall_back_to_mtime: false
+  data_files_key: 'meta'
 
 titles_from_headings:
     enabled: true
@@ -72,6 +72,14 @@ scholar:
   sort_by: year, title
   order: descending, ascending
 
+liquid:
+  error_mode: strict
+  strict_variables: false
+  strict_filters: true
+
+sass:
+  style: compressed
+
 jekyll-minifier:
   compress_javascript: false
   compress_css: true
@@ -79,22 +87,8 @@ jekyll-minifier:
     - 'feed.xml'
     - 'sitemap.xml'
 
-defaults:
-  - scope:
-      path:            ""
-    values:
-      layout:          "page"
-  - scope:
-      path:            ""
-      type:            "posts" 
-    values:
-      layout:          "post"
-  - scope:
-      path:            "assets/**/*.pdf"
-    values:
-      sitemap:         false
-
-excerpt_separator: <!--more-->
+excerpt_separator: >
+  <!--more-->
 
 exclude:
   - .sass-cache/
