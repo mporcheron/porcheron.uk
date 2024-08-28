@@ -4,24 +4,24 @@ sitemap: false
 {%- assign cache = site.time | date: '%s%N' -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}" class="h-100">
-	<head>
-		{%- include head.html -%}
-	</head>
-	<body class="d-flex flex-column align-items-stretch h-100 pub-bibtex">
-		<h1 class="flex-grow-0 m-0 p-3 text-center">
-			BibTeX for <em>{{ page.entry.title }}</em>
-		</h1>
-		<main aria-label="Content" class="flex-grow-1 d-flex m-0 px-3 align-items-stretc">
-			<div class="w-100 ms-3 p-3 rounded-5">
-				<textarea class="w-100 h-100 m-0 p-md-5 p-3 border-0 rounded-4 small font-monospace" id="bibtex-source" readonly="readonly">{{ page.entry.bibtex }}</textarea>
-			</div>
-		</main>
-		<div class="flex-grow-0 p-3 text-center">
-			<button type="button" data-copy="true" data-close="true" class="btn btn-outline-danger rounded-pill me-2" data-dismiss="modal">Close window</button>
-			<button type="button" data-copy="true" data-close="true" data-target="#bibtex-source" class="btn btn-outline-dark rounded-pill" data-dismiss="modal">Copy BibTeX and close window</button>
-		</div>
-		<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}?{{ cache }}"></script>
-		<script src="{{ '/assets/js/clipboard.min.js' | relative_url }}?{{ cache }}"></script>
-		<script src="{{ '/assets/js/copyclose.min.js' | relative_url }}?{{ cache }}"></script>
-	</body>
+  <head>
+    {%- include head.html -%}
+  </head>
+  <body class="d-flex flex-column align-items-stretch h-100 pub-bibtex">
+    <h1 class="flex-grow-0 m-0 p-3 text-center">
+      BibTeX for <em>{{ page.entry.title }}</em>
+    </h1>
+    <main aria-label="Content" class="flex-grow-1 d-flex m-0 px-3 align-items-stretc">
+      <div class="w-100 ms-3 p-3 rounded-5">
+        <textarea class="w-100 h-100 m-0 p-md-5 p-3 border-0 rounded-4 small font-monospace" id="bibtex-source" readonly="readonly">{{ page.entry.bibtex }}</textarea>
+      </div>
+    </main>
+    <div class="flex-grow-0 p-3 text-center">
+      <button type="button" data-copy="true" data-close="true" class="btn btn-outline-danger rounded-pill me-2" data-dismiss="modal">Close window</button>
+      <button type="button" data-copy="true" data-close="true" data-target="#bibtex-source" class="btn btn-outline-dark rounded-pill" data-dismiss="modal">Copy BibTeX and close window</button>
+    </div>
+    <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}?{{ cache }}"></script>
+    <script src="{{ '/assets/js/clipboard.min.js' | relative_url }}?{{ cache }}"></script>
+    <script src="{{ '/assets/js/copyclose.min.js' | relative_url }}?{{ cache }}"></script>
+  </body>
 </html>
