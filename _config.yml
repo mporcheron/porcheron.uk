@@ -30,6 +30,7 @@ social:
 plugins_dir: ./_plugins
 plugins:
   - jekyll-menus
+  # - jekyll-last-commit
   - jekyll-optional-front-matter
   - jekyll-redirect-from
   - jekyll-seo-tag

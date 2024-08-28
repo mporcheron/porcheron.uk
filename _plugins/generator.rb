@@ -2,6 +2,7 @@ require 'jekyll'
 
 module JekyllLastCommit
   class Generator < Jekyll::Generator
+    priority :highest
 
     def generate(site)
       @site = site
@@ -19,10 +20,11 @@ module JekyllLastCommit
             break
           end
         end
-      end     
+      end
 
       @repo_man.discover_commits(site.documents.map {|d| d.relative_path })
       @repo_man.discover_commits(site.pages.map {|p| p.relative_path })
+      @repo_man.discover_commits(site.static_files.map {|sf| '.' + sf.relative_path })
       @repo_man.discover_commits(data_files.map {|df| './_data/' + df })
 
       @date_format = site.config.dig('jekyll-last-commit', 'date_format')
@@ -36,22 +38,23 @@ module JekyllLastCommit
 
       populate_jekyll(site.documents)
       populate_jekyll(site.pages)
-      populate_jekyll(site.static_files)
+      populate_jekyll(site.static_files, '.')
 
       site.data[data_files_key] = {}
       populate_data(data_files, site.data[data_files_key], './_data/')
     end
 
-    def populate_jekyll(files)
+    def populate_jekyll(files, prepend_path = '')
       files.each do |file|
-        commit = @repo_man.find_commit(file.relative_path)
+        commit = @repo_man.find_commit(prepend_path + file.relative_path)
 
         if commit.nil?
           if @should_fall_back_to_mtime
-            path_file = Jekyll.sanitized_path(@site.source, file.relative_path)
+            path_file = Jekyll.sanitized_path(@site.source, prepend_path + file.relative_path)
 
             if File.file?(path_file)
               raw_time = Time.at(File.mtime(path_file).to_i)
+              file.data['commit'] = prepend_path + file.relative_path
               file.data['last_modified_at'] = raw_time
               file.data['last_modified_at_formatted'] = raw_time.strftime(@date_format)
             end
