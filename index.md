@@ -9,9 +9,6 @@ menu:
     weight: 0
 ---
 
-{{ site.static_files | inspect }}
-
-----
 
 {% include figure_image.html src="martinporcheron.jpg" alt="A photograph of Martin Porcheron" title="Martin Porcheron" bssize="profile-photo" %}
 
