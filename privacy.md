@@ -4,8 +4,6 @@ permalink: /privacy/
 
 # Privacy and cookies information
 
-*This information was last updated on 10th June 2023.*
-
 This website does not collect any personally identifiable information and there is:
 
 * No advertising on this website
