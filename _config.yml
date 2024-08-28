@@ -55,6 +55,8 @@ jekyll-last-commit:
   date_format: '%d-%b-%Y %R'
   should_fall_back_to_mtime: false
   data_files_key: 'meta'
+  index_data_files: true
+  index_static_files: true
 
 titles_from_headings:
     enabled: true
