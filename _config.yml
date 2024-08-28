@@ -5,6 +5,7 @@ email: website@martin.porcheron.uk
 lang: en-GB
 description: >-
   Martin Porcheron is a Senior User Experience Researcher at Bold Insight, focusing on both qualitative studies of consumer technology and human factors studies of medical devices.
+timezone: Europe/London
 
 baseurl: ""
 url: "http://localhost:4000"
