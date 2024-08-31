@@ -340,9 +340,7 @@ main {
 		}
 	}
 	
-	main {
-		margin-top: $main-mt-md;
-			
+	main {	
 		& > div { 
 			article {
 				hr {
@@ -355,11 +353,22 @@ main {
 
 
 
+@include media-breakpoint-up(lg) {
+	aside {
+		position: fixed;
+	}
+	main {
+		margin-left: $main-ms-lg;
+	}
+}
+
+
 @include media-breakpoint-up(xl) {
 	.xlcontainer {
 		max-width: 1200px;
 	}
 	main {
+		margin-left: $main-ms-xl;
 		& > div { 
 			article {
 				.image.profile-photo {
