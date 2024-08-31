@@ -1,5 +1,5 @@
 ---
-title: My research
+title: Research
 description: |
   A summary of my research, which is the domains of HCI and CSCW, and list of
   projects I have been involved in.

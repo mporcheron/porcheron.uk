@@ -1,6 +1,6 @@
 ---
 label: Teaching
-title: My teaching
+title: My Teaching
 description: A summary of Martin Porcheron's teaching experience at Swansea University and the University of Nottingham.
 
 menu:
