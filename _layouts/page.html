@@ -3,15 +3,15 @@ layout: default
 ---
 <div class="me-lg-5 ms-md-0 mx-3 mb-2 p-3 rounded-5">
   <article class="h-100">
-    <div class="section p-md-5 p-4 rounded-4 shadow-lg">
+    <section class="p-md-5 p-4 rounded-4 shadow-lg">
       <h1 class="text-md-start text-center">
         {{ page.title | escape }}
       </h1>
       {%- capture content_html -%}{{- content -}}{%- endcapture -%}
-      {{- content | replace_first: "<!-- section -->", '</div><section class="mt-3 p-md-5 p-4 rounded-4 shadow-lg">' | replace: "<!-- section -->", '</section><section class="mt-3 p-md-5 p-4 rounded-4 shadow-lg">' -}}
-      {%- if content_html contains '<!-- section -->' %}
+      {{- content | replace_first: "<!-- section -->", '</section><section class="mt-3 p-md-5 p-4 rounded-4 shadow-lg">' | replace: "<!-- section -->", '</section><section class="mt-3 p-md-5 p-4 rounded-4 shadow-lg">' -}}
+      <!-- {%- if content_html contains '<!-- section -->' %}
         </section>
-      {%- endif -%}
-    </div>
+      {%- endif -%} -->
+    </section>
   </article>
 </div>
