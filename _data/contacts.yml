@@ -1,6 +1,6 @@
 - name: Email
-  url: "mailto:website@porcheron.uk"
-  title: "website@porcheron.uk"
+  url: "mailto:website@martin.porcheron.uk"
+  title: "website@martin.porcheron.uk"
   background: "#76C5D0"
   colour: "#000000"
   svg: |
