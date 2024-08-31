@@ -14,9 +14,9 @@ menu:
 My research is in the areas of [human-computer interaction](https://www.interaction-design.org/literature/topics/human-computer-interaction "Read about HCI from the Interaction Design Foundation"), [user experience](https://www.interaction-design.org/literature/topics/ux-design  "Read about HCI from the Interaction Design Foundation"), and [computer-supported cooperative work](https://en.wikipedia.org/wiki/Computer-supported_cooperative_work "Read about CSCW on Wikipedia"). I broadly focus on:
 
 * the use of and collaboration with technology in everyday life,
+* the design and use of conversational interfaces and 'interactive AI' systems,
 * the Internet of Things (IoT) in the home and workplace,
-* the design use of conversational interfaces and 'interactive AI' systems,
-* explainable (semi)autonomous systems.
+* explainable and understandable (semi)autonomous systems.
 
 <!-- section -->
 
