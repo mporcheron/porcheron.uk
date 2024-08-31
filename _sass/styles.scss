@@ -203,6 +203,7 @@ main {
 		background: $main-bg;
 		-webkit-backdrop-filter: $main-bg-filter;
 		backdrop-filter: $main-bg-filter;
+		border: 1px solid rgba($white, 0.3);
 		line-height: $main-line-spacing;
 	
 		article > section, article > .section {

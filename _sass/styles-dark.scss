@@ -44,6 +44,7 @@ aside {
 main {
 	& > div { 
 		background: $main-bg-dark;
+		border: 1px solid rgba($black, 0.7);
 	
 		article > section, article > .section, & > textarea {
 			background: $main-inner-bg-dark;
