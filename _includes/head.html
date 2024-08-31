@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Squada+One&amp;display=swap">
     <link rel="stylesheet" href="{{ '/assets/css/design.css' | relative_url }}?{{ cache }}">
 
-    {%- seo -%}
+    {%- capture seo_tag_output -%}
+        {%- seo -%}
+    {%- endcapture -%}
+    {{- seo_tag_output | replace: " />", ">" | replace: "/>", ">" -}}
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/icn/apple-touch-icon.png" | relative_url }}?{{ cache }}">
     <link rel="apple-touch-icon" sizes="167x167" href="{{ "/assets/icn/apple-touch-icon-167x167.png" | relative_url }}?{{ cache }}">
