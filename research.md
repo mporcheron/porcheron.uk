@@ -15,7 +15,7 @@ My research is in the areas of [human-computer interaction](https://www.interact
 
 * the use of and collaboration with technology in everyday life,
 * the Internet of Things (IoT) in the home and workplace,
-* the design use of voice interfaces and 'interactive AI' systems,
+* the design use of conversational interfaces and 'interactive AI' systems,
 * explainable (semi)autonomous systems.
 
 <!-- section -->
