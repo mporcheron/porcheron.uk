@@ -8,55 +8,37 @@ This website does not collect any personally identifiable information and there 
 
 * No advertising on this website
 * No analytics or tracking of users or their activities on this website
-* No cookies set by the website owner (Martin Porcheron)
+* No cookies set by the website owner
 
-This website uses two external service providers only, the details for which are below.
-
-If you have questions about anything above, please do not hesitate to [contact me](/contact "My contact details").
+If you have questions about anything this privacy policy, please do not hesitate to [contact me](/contact "My contact details").
 
 <!-- section -->
 
-## GitHub Pages
+## External services
 
-This website is hosted by [GitHub](https://github.com "The main GitHub website"), on its [GitHub Pages](https://pages.github.com "Information about the GitHub Pages service") service. GitHub is owned by [Microsoft](https://www.microsoft.com/ "Microsoft homepage"). The [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement#additional-services "Read the Additional Services section of the GitHub Privacy Statement") says:
+This website uses two external service providers as part of delivering the website and the design of the website. Only necessary information is collected by both services.
 
-> ...[GitHub] only use strictly necessary cookies to provide, secure, and improve our Website or Service or develop new features and functionality of our Website or Service
+
+### GitHub Pages
+
+This website is hosted by [GitHub](https://github.com "The main GitHub website"), on its [GitHub Pages](https://pages.github.com "Information about the GitHub Pages service") service. GitHub is owned by [Microsoft](https://www.microsoft.com/ "Microsoft homepage"). GitHub does not set cookies on pages served through GitHub Pages, but [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection "Read about GitHub Pages") says:
+
+> When a GitHub Pages site is visited, the visitor's IP address is logged and stored for security purposes, regardless of whether the visitor has signed into GitHub or not. For more information about GitHub's security practices, see [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement "GitHub General Privacy Statement").
 >
-> *Content dated: 1st September 2022*<br>
-> *Last checked: 15th November 2022*
+> *Content dated: 30th August 2024*<br>
+> *Last checked: 31st August 2024*
 
-<!-- section -->
+----
 
-## Google Fonts API
+### Google Fonts API
 
-**Google Fonts API** is used to provide custom font support. Privacy information about Google Fonts API is available from [this Google FAQ](https://developers.google.com/fonts/faq2#what_does_using_the_google_fonts_api_mean_for_the_privacy_of_my_users "Privacy information about Google Fonts"):
+**Google Fonts API** is used to provide custom font support. Privacy information about Google Fonts API is available from [this Google FAQ](https://developers.google.com/fonts/faq/privacy "Privacy information about Google Fonts"):
 
-> The Google Fonts API is designed to limit the collection, storage, and use of end-user data to only what is needed to serve fonts efficiently. The use of the Google Fonts API is unauthenticated and the Google Fonts API does not set or log cookies. Requests to the Google Fonts API are made to resource-specific domains, such as fonts.googleapis.com or fonts.gstatic.com. Font requests are separate from and don't contain any credentials sent to google.com while using other Google services that are authenticated, such as Gmail.
+> The Google Fonts API is designed to limit the collection, storage, and use of end-user data. The use of the Google Fonts Web API is unauthenticated and the Google Fonts API does not set or log cookies. Requests to the Google Fonts Web API are made to resource-specific domains, such as fonts.googleapis.com or fonts.gstatic.com. Font requests are separate from and don't contain any credentials sent to google.com while using other Google services that are authenticated, such as Gmail.
 >
-> The Google Fonts API logs the details of the HTTP request, which includes the timestamp, requested URL, and all HTTP headers (including referrer and user agent string) provided in connection with the use of our CSS API.
-> 
-> IP addresses are not logged.
+> When end users visit a website that embeds Google Fonts, their browsers send HTTP requests to the Google Fonts Web API. The Google Fonts Web API serves the Google Fonts Cascading Style Sheets (CSS) and subsequently the font files specified in the CSS to the users. Such HTTP requests include (1) the IP address used by the respective user to access the Internet, (2) the requested URL on the Google server, and (3) HTTP headers including the user agent describing the website visitors’ Internet browser and operating system versions as well as the referer (i.e. the webpage on which the Google font is to be displayed).
 >
-> Access to logged data is kept secure. Aggregate usage stats are used to measure the popularity of font families and are published on the Google Fonts [analytics page](https://fonts.google.com/analytics "Statistics about Google Fonts").
-> 
-To learn more about the information Google collects and how it is used and secured, see Google's [Privacy Policy](https://policies.google.com/privacy "Google's Privacy Policy").
+> For clarity, Google does not use any information collected by Google Fonts to create profiles of end users or for targeted advertising.
 >
-> *Content dated: 21st June 2021<br>
-> Last checked: 15th November 2022*
-
-<!-- 
-## YouTube
-
-This website occasionally includes videos that are hosted on the [YouTube](https://www.youtube.com/ "YouTube") service. YouTube is owned by [Google](https://www.google.com/ "Google").
-
-By default, videos are not embedded on webpages, but instead a placeholder is displayed. Clicking on this placeholder (which says '_Load YouTube video_') will embed the video in the webpage using a 'privacy-enhanced mode'. YouTube states this embedded video will not [influence your user experience](https://support.google.com/youtube/answer/171780?hl=en-GB#zippy=%2Cturn-on-privacy-enhanced-mode "Google FAQ on Privacy-Enhanced Mode"):
-
-> The privacy-enhanced mode of the YouTube embedded player prevents the use of views of embedded YouTube content from influencing the viewer's browsing experience on YouTube. This means that the view of a video shown in the privacy-enhanced mode of the embedded player will not be used to personalise the YouTube browsing experience, either within your privacy-enhanced mode embedded player or in the viewer's subsequent YouTube viewing experience. 
->
-> If ads are served on a video shown in the privacy-enhanced mode of the embedded player, those ads will likewise be non-personalised. In addition, the view of a video shown in the privacy-enhanced mode of the embedded player will not be used to personalise advertising shown to the viewer outside of your site or app.
->
-> Content dated: _undated_<br>
-> Last checked: 15th November 2022
-
-Please note however, that there are privacy implications of loading embedded content—this is like loading a webpage normally in your browser and carries all the same risks. As such, interaction with any embedded video is subject to [Google's Privacy Policy](https://policies.google.com/privacy?hl=en-GB "YouTube's privacy guidelines"). Therefore, although your use of the embedded video may not influence your user experience on YouTube, Google may sitll collect personally identifiable information.
- -->
+> *Content dated: 23rd July 2024<br>
+> Last checked: 31st August 2024*
