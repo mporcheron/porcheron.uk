@@ -35,6 +35,7 @@ Below is a list of projects I have contributed to while at [Swansea University](
 
 I was Co-Principal Investigator (totalling £700k) for [NHS AAC](https://www.england.nhs.uk/aac/ "Accelerated Access Collaborative") awards. One award required evaluating the design and deployment of an AI-enhanced technology being deployed within the UK health service for triaging requests for GP appointments, while the second award covered the peer review of an evaluation of technology to support patients with Chronic obstructive pulmonary disease (COPD). These projects involved reviewing documentation, testing software, and conducting on-site time-and-motion and ethnographic studies to determine the veracity and effectiveness of the tools.
 
+---
 
 ### Interactive Agents with Literacy, Trust, and Comprehension-aware Artificial Intelligence (Inter-ALTCAI)
 *January 2019–June 2021*
