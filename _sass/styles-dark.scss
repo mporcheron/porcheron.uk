@@ -54,6 +54,11 @@ main {
 				color: $text-muted-fg-dark !important;
 			}
 		}
+		.link-palette {
+			& .link a {
+				color: $palette-fg-dark;
+			}
+		}
 	}
 	
 	footer {
