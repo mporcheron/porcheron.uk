@@ -7,6 +7,14 @@ a[href^="https://doi.org"], a[href^="https://cronfa.swan.ac.uk"] {
     word-break: break-all;
 }
 
+body {
+	font-weight: $body-font-weight;
+}
+
+h1 {
+	font-weight: 400;
+}
+
 p:last-child, ol:last-child, ul:last-child {
     margin-bottom: 0;
 }
