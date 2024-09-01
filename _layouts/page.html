@@ -4,7 +4,7 @@ layout: default
 <div class="me-lg-5 ms-md-0 mx-3 mb-2 p-3 rounded-5">
   <article class="h-100">
     <div class="section p-md-5 p-4 rounded-4">
-      <h1>
+      <h1 {% if page.url == "/" or page.url == "/contact/" -%}class="text-md-start text-center"{%- endif %}>
         {{ page.title | escape }}
       </h1>
       {%- capture content_html -%}{{- content -}}{%- endcapture -%}
