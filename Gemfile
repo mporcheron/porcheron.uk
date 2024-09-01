@@ -13,6 +13,7 @@ gem "jekyll", "~> 4.3.3"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem 'jekyll-email-protect'
   gem "jekyll-last-commit", :git => "https://github.com/mporcheron/jekyll-last-commit.git"
   gem "jekyll-menus", :git => "https://github.com/forestryio/jekyll-menus.git"
   gem 'jekyll-optional-front-matter'

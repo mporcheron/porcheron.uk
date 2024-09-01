@@ -29,8 +29,9 @@ social:
 # Build settings
 plugins_dir: ./_plugins
 plugins:
+  - jekyll-email-protect
+  - jekyll-last-commit
   - jekyll-menus
-  # - jekyll-last-commit
   - jekyll-optional-front-matter
   - jekyll-redirect-from
   - jekyll-seo-tag
