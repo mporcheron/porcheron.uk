@@ -246,8 +246,12 @@ main {
 				@include auto-transition((box-shadow, background-position));
 				text-decoration: none;
 				
+				.icon {
+					width: 150px
+				}
+
 				svg {
-					fill: $palette-fg;
+					fill: $white;
 				}
 				
 				&:hover {
@@ -350,6 +354,29 @@ main {
 					margin: $hr-m;
 				}
 			}
+		
+			.link-palette {
+				& .link a {
+					.icon {
+						width: 150px
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@include media-breakpoint-up(lg) {
+	main {	
+		& > div { 
+			.link-palette {
+				& .link a {
+					.icon {
+						width: 100px
+					}
+				}
+			}
 		}
 	}
 }
@@ -366,6 +393,13 @@ main {
 				.image.profile-photo {
 					max-width: 33%;
 				}
+				.link-palette {
+					& .link a {
+						.icon {
+							width: 75px
+						}
+					}
+				}
 			}
 		}
 	}
@@ -373,7 +407,7 @@ main {
 
 
 
-@include media-breakpoint-up(xlx) {
+@include media-breakpoint-up(xxl) {
 	.xxlcontainer {
 		margin-left: auto;
 		margin-right: auto;
