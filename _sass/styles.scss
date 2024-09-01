@@ -290,7 +290,8 @@ main {
     }
     
 	aside {
-		max-width: 25rem;
+		position: fixed;
+		max-width: $aisde-w;
 	
 		header {
 			font-size: $header-font-size-md;
@@ -341,6 +342,8 @@ main {
 	}
 	
 	main {	
+		margin-left: $aisde-w;
+
 		& > div { 
 			article {
 				hr {
@@ -348,17 +351,6 @@ main {
 				}
 			}
 		}
-	}
-}
-
-
-
-@include media-breakpoint-up(lg) {
-	aside {
-		position: fixed;
-	}
-	main {
-		margin-left: $main-ms-lg;
 	}
 }
 
