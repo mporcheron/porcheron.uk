@@ -349,6 +349,10 @@ main {
 		margin-left: $aisde-w;
 
 		& > div { 
+			.profile-photo {
+				margin-top: -5rem !important;
+			}
+			
 			article {
 				hr {
 					margin: $hr-m;
