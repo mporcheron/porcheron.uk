@@ -53,9 +53,9 @@ I presented work on the use of voice technologies in the home, presented at the 
 
 ### How people REALLY use Amazon Alexa
 
-I was interviews on the [VUX World](https://vux.world/) by Kane Simms on family use of voice assistants in the home.
+I was interviewed on the [VUX World](https://vux.world/) by Kane Simms, discuss the use of voice assistants in multi-person family homes.
 
-{% include figure_video.html video='https://www.youtube-nocookie.com/embed/IN4ODTwdYvk?si=0Fw9dmFuL4ywHzlV' caption='VHow people REALLY use Amazon Alexa, interview for <a href="https://vux.world/">VUX World podcast</a>' %}
+{% include figure_video.html video='https://www.youtube-nocookie.com/embed/IN4ODTwdYvk?si=0Fw9dmFuL4ywHzlV' caption='How people REALLY use Amazon Alexa, interview for <a href="https://vux.world/">VUX World podcast</a>' %}
 
 
 <!-- section -->
