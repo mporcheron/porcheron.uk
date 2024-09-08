@@ -7,7 +7,7 @@ a[href^="https://doi.org"], a[href^="https://cronfa.swan.ac.uk"] {
     word-break: break-all;
 }
 
-p:last-child, ol:last-child, ul:last-child {
+p:last-child, ol:last-child, ul:last-child, figure:last-child {
     margin-bottom: 0;
 }
 
@@ -234,6 +234,13 @@ main {
 			}
 		}
 		
+		figure {
+			iframe {
+				width: 100%;
+				max-width: 100%
+			}
+		}
+
 		.link-palette {
 			& .link a {
 				background-repeat: no-repeat;
