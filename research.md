@@ -20,13 +20,13 @@ My research is in the areas of [human-computer interaction](https://www.interact
 
 <!-- section -->
 
-## UX consultancy
+## UX Consultancy
 
 At [Bold Insight](https://www.boldinsight.com/), I lead and support user experience (UX) projects, from exploratory and usability testing for multinational companies through to research in healthtech. Findings from my research have been used to understand user mental models, shape product focus, and divert design efforts of existing and upcoming products being brought to market. My work involves supporting research proposal development, including selecting or developing the most appropriate method(s) to align with client objectives and to maximise the impact of research findings. 
 
 <!-- section -->
 
-## Academic projects
+## Academic Projects
 
 Below is a list of projects I have contributed to while at [Swansea University](https://www.swansea.ac.uk/compsci/ "Computer Science at Swansea University") and the [University of Nottingham](https://www.nottingham.ac.uk/computerscience/ "Computer Science at the University of Nottingham"). I have a separate [list of my publications here](/pubs "My publications list").
 

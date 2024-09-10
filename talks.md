@@ -61,7 +61,7 @@ I was interviewed on the [VUX World](https://vux.world/) podcast by Kane Simms, 
 
 <!-- section -->
 
-## Past talks
+## Past Talks
 
 * **Conversational AI: Respecifying Participation as Regulation**<br>
   Leibniz Institute for the German Language, Germany<br>
