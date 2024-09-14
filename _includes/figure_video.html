@@ -10,6 +10,6 @@
     </div>
   </div>
   {%- if include.caption -%}
-    <figcaption class="py-3 px-2 text-center w-100 text-center"><p>{{ include.caption }}</p></figcaption>
+    <figcaption class="py-3 px-2 text-center w-100 text-center">{{ include.caption | markdownify }}</figcaption>
   {%- endif -%}
 </figure>
