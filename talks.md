@@ -51,7 +51,7 @@ I am open to giving guest lectures in academia, focusing on the design and use o
 
 * **{{ talk.title }}**<br>
   {{ talk.location }}<br>
-  <small class="d-inline-block {% unless forloop.last %}mb-2{% endunless %} text-muted">[{%- include date.html date=talk.date -%}; ~{{ talk.attendance }}]</small>
+  <small class="d-inline-block {% unless forloop.last %}mb-2{% endunless %} text-muted">[{%- include date.html date=talk.date -%}; ~{{ talk.attendance }} people]</small>
 
 {%- endfor %}
 
