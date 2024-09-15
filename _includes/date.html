@@ -8,4 +8,4 @@
 {%- else -%}
     {%- assign suffix = "th" -%}
 {%- endif -%}
-{{ include.date | date: "%-d" }}{{ suffix }}{% unless include.date_only %} {{ include.date | date: "%B %Y" }}{% endunless %}
+{{ include.date | date: "%-d" }}{{ suffix }}{% unless include.date_only %} {{ include.date | date: "%b %Y" }}{% endunless %}

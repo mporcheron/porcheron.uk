@@ -49,14 +49,25 @@ I am open to giving guest lectures and workshops focusing on the design and use 
 
 <ul class="list-unstyled d-flex flex-wrap">
   {%- for talk in site.data.talks %}
-    <li class="w-lg-50 p-1 d-flex flex-fill">
-      <div class="d-flex flex-grow-1 align-items-center border rounded-2 p-2">
+    <li class="d-flex flex-fill w-xl-50 w-100 p-lg-1 py-2 ">
+      <div class="d-flex flex-grow-1 align-items-center talk rounded-2 p-3">
         <div>
           <b class="d-block">{{ talk.title }}</b>
           <span class="d-block mt-1">{{ talk.location }}</span>
-          <small class="d-block text-muted mt-1">
-            [{%- include date.html date=talk.date -%}; {{ talk.type }}; ~{{ talk.attendance }} people]
-          </small>
+          <div class="d-flex flex-sm-row flex-column flex-wrap mt-1">
+            <div class="d-flex flex-row align-items-center me-3">
+              <span class="icon-cal me-1"></span>
+              <small class="text-muted">{%- include date.html date=talk.date -%}</small>
+            </div>
+            <div class="d-flex flex-row align-items-center me-3">
+              <span class="icon-type me-1"></span>
+              <small class="text-muted">{{ talk.type | capitalize }}</small>
+            </div>
+            <div class="d-flex flex-row align-items-center">
+              <span class="icon-people me-1"></span>
+              <small class="text-muted">~{{ talk.attendance }} people</small>
+            </div>
+          </div>
         </div>
       </div>
     </li>

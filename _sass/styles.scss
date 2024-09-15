@@ -11,6 +11,24 @@ p:last-child, ol:last-child, ul:last-child, figure:last-child {
     margin-bottom: 0;
 }
 
+.icon-cal, .icon-people, .icon-type {
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+}
+
+.icon-cal {
+	background-image: $icon-cal;
+}
+
+.icon-people {
+	background-image: $icon-people;
+}
+
+.icon-type {
+	background-image: $icon-type;
+}
+
 .pdficon {
     background-image: $pdficon-bg-image;
     display: block;
@@ -241,6 +259,10 @@ main {
 			}
 		}
 
+		.talk {
+			background: $talk-bg;
+		}
+
 		.link-palette {
 			& .link a {
 				background-repeat: no-repeat;
@@ -379,10 +401,6 @@ main {
 
 
 @include media-breakpoint-up(lg) {
-	.w-lg-50 {
-		width: 50%;
-	}
-	
 	main {	
 		& > div { 
 			.link-palette {
@@ -398,6 +416,9 @@ main {
 
 
 @include media-breakpoint-up(xl) {
+	.w-xl-50 {
+		width: 50% !important;
+	}
 	.xlcontainer {
 		max-width: 1200px;
 	}
