@@ -12,6 +12,9 @@ lastmod:
     - videos.yml
     - talks.yml
 
+sections:
+  collapsible: false
+
 menu:
   main:
     label: Videos & Talks

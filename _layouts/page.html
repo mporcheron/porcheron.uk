@@ -7,9 +7,36 @@ layout: default
       <h1 {% if page.url == "/" or page.url == "/contact/" -%}class="text-md-start text-center"{%- endif %}>
         {{ page.title | escape }}
       </h1>
-      {%- capture content_html -%}{{- content -}}{%- endcapture -%}
-      {{- content | replace_first: "<!-- section -->", '</div><section class="mt-3 p-md-5 p-4 rounded-4">' | replace: "<!-- section -->", '</section><section class="mt-3 p-md-5 p-4 rounded-4 shadow-lg">' -}}
+      {%- capture content_html -%}
+        {{- content -}}
+      {%- endcapture -%}
+
+      {%- if page.sections.collapsible -%}
+        {%- capture sectioned_content -%}
+          {{- content_html | replace_first: "<!-- section -->", '</div><section class="mt-3 p-md-5 p-4 rounded-4">' | replace: "<!-- section -->", '</div></section><section class="mt-3 p-md-5 p-4 rounded-4 shadow-lg">'-}}
+        {%- endcapture -%}
+
+        {%- for i in (1..100) -%}
+          {%- unless sectioned_content contains '<h2 id="' %}
+            {%- break -%}
+          {%- endunless -%}
+          {%- assign h2_attrs = '<h2 data-bs-toggle="collapse" href="#section' | append: i | append: '" class="m-0" role="button" aria-expanded="false" aria-controls="section' | append: i | append: '" id="' -%}
+          {%- assign collapse_div = '</h2 ><div class="collapse pt-3" id="section' | append: i | append: '">' -%}
+          {%- assign sectioned_content = sectioned_content | replace_first: '<h2 id="', h2_attrs -%}
+          {%- assign sectioned_content = sectioned_content | replace_first: '</h2>', collapse_div -%}
+        {%- endfor -%}
+      {%- else -%}
+        {%- capture sectioned_content -%}
+          {{- content_html | replace_first: "<!-- section -->", '</div><section class="mt-3 p-md-5 p-4 rounded-4">' | replace: "<!-- section -->", '</section><section class="mt-3 p-md-5 p-4 rounded-4 shadow-lg">'-}}
+        {%- endcapture -%}
+      {%- endif -%}
+
+      {{- sectioned_content -}}
+
       {%- if content_html contains '<!-- section -->' %}
+        {%- if page.sections.collapsible -%}
+          </div>
+        {%- endif -%}
         </section>
       {%- else -%}
         </div>
