@@ -21,7 +21,7 @@ menu:
 
 Below is a selection of videos and recorded talks I have given, including my teaching while I worked in academia. While I have given many more talks than below, unfortunately many have not been made public (e.g., due to rights) or were not even recorded in the first place.
 
-I am open to giving guest lectures in academia, focusing on the design and use of conversational technologies, and the application of user experience and human computer interaction in industry, from a practitioner's perspective. Please [contact me](/contact/) me for more information.
+I am open to giving guest lectures and workshops focusing on the design and use of conversational technologies, and the application of user experience and human computer interaction in industry, from a practitioner's perspective. Please [contact me](/contact/) for more information.
 
 <!-- section -->
 
