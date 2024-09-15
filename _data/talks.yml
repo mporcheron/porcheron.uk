@@ -70,7 +70,7 @@
 
 - title: "What’s in a name and does CUI matter?"
   venue: CUI '21 conference
-  location: virtual
+  location: Virtual
   date: 2021-07-29
   type: presentation
   attendance: 100
@@ -84,14 +84,14 @@
 
 - title: Pulling Back the Curtain on the Wizards of Oz
   venue: CSCW '20 conference
-  location: virtual
+  location: Virtual
   date: 2020-10-20
   type: presentation
   attendance: 30
 
 - title: What Can I Say? Effects of Discoverability in VUIs on Task Performance and User Experience"
   venue: CUI '20 conference
-  location: virtual 
+  location: Virtual 
   date: 2020-07-24
   type: presentation
   attendance: 200
@@ -216,8 +216,8 @@
   attendance: 50
 
 - title: Using Mobile Phones in the Pub
-  venue: Alcohol and HCI workshop
-  location: Northumbria University, UK
+  venue: Alcohol and HCI workshop, Northumbria University
+  location: Durham, UK
   date: 2016-06-27
   type: workshop
   attendance: 30
