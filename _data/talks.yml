@@ -236,9 +236,24 @@
   type: presentation
   attendance: 15
 
+- title: "Reflecting on the Study of Mobile Collocated Interactions: The Changing Face of Wearable Devices"
+  venue: "Mobile Collocated Interactions With Wearables workshop at MobileHCI '15"
+  location: Copenhagen Denmark
+  date: 2015-08-24
+  type: workshop
+  attendance: 30
+
 - title: When we talk and use our phone
   venue: University of Southern Denmark
   location: Kolding, Denmark
   date: 2015-07-21
   type: presentation
   attendance: 25
+
+- title: Mobile Behaviours around Social Collocated Interactions
+  venue: "Mobile Collocated Interactions From Smartphones to Wearables workshop at CHI '15"
+  location: Seoul, Korea
+  date: 2015-04-19
+  type: presentation
+  attendance: 40
+
