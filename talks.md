@@ -55,7 +55,7 @@ I am open to giving guest lectures in academia, focusing on the design and use o
           <b class="d-block">{{ talk.title }}</b>
           <span class="d-block mt-1">{{ talk.location }}</span>
           <small class="d-block text-muted mt-1">
-            [{%- include date.html date=talk.date -%}; ~{{ talk.attendance }} people]
+            [{%- include date.html date=talk.date -%}; {{ talk.type }}; ~{{ talk.attendance }} people]
           </small>
         </div>
       </div>

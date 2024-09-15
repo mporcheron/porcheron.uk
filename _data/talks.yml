@@ -1,124 +1,148 @@
 - title: "Beyond the Script: Decoding Trust & Conversation Dynamics to Build Better Chatbots"
   location: Chatbot Summit, London, UK
   date: 2023-10-11
+  type: workshop
   attendance: 30
 
 - title: Cyclists’ Use of Technology While on Their Bike
   location: CHI '23 conference, Hamburg, Germany
   date: 2023-04-26
+  type: presentation
   attendance: 100
 
 - title: "Conversational AI: Respecifying Participation as Regulation"
   location: Leibniz Institute for the German Language, Germany
   date: 2021-11-17
+  type: presentation
   attendance: 30
 
 - title: Studying Voice Interfaces in the Home
   location: Bristol Interactive AI Summer School, UK
   date: 2021-09-02
+  type: presentation
   attendance: 80
 
 - title: "What’s in a name and does CUI matter?"
   location: CUI '21 conference, virtual
   date: 2021-07-29
+  type: presentation
   attendance: 100
 
 - title: Chatbots and Voice for Everyday Life
   location: Swansea University, UK
   date: 2021-03-18
+  type: presentation
   attendance: 20
 
 - title: Pulling Back the Curtain on the Wizards of Oz
-  location: CSCW '20 conference; virtual
+  location: CSCW '20 conference, virtual
   date: 2020-10-20
+  type: presentation
   attendance: 30
 
 - title: Requirements gathering for interactive "AI"
   location: UCL Interaction Centre, UK
   date: 2020-01-15
+  type: presentation
   attendance: 30
 
 - title: "Talking to voice agents: Initiating and repairing interactions"
   location: Swiss Federal Institute of Technology Lausanne, Switzerland
   date: 2019-10-22
+  type: workshop
   attendance: 15
 
 - title: Reflections on voice interfaces in everyday life
-  location: Conversational User Interfaces 2019, Dublin
+  location: CUI '19 conference, Dublin, Ireland
   date: 2019-08-22
   attendance: 70
 
 - title: "The 'Conversational Interface': Voice UIs in vivo"
   location: Department of Informatics, University of Leicester, UK
+  type: presentation
   date: 2018-11-02
   attendance: 40
 
 - title: Talking with machines? Voice UIs and the 'conversational' interface
   location: HCID Open Day, UK
+  type: presentation
   date: 2018-05-04
   attendance: 50
 
 - title: Voice interfaces in everyday life
   location: Aalto University, Finland
   date: 2018-04-10
+  type: presentation
   attendance: 10
 
 - title: Talking with machines? Voice UIs and the conversation design
   location: "UX in the City: Manchester 2018, UK"
   date: 2018-03-16
+  type: presentation
   attendance: 50
 
 - title: Studying Amazon Echo Use in the Home
   location: Computer Science, University of Nottingham, UK
   date: 2017-12-05
+  type: presentation
   attendance: 50
 
 - title: Talking with machines? Voice UI and Conversation Design
   location: City, University of London, UK
   date: 2017-11-24
+  type: presentation
   attendance: 30
 
 - title: Talking with machines? Voice UI and Conversation Design
   location: Bunnyfoot, UK
   date: 2017-11-21
+  type: presentation
   attendance: 10
 
 - title: Talking to Machines in the Home
   location: "STEM Outreach: The Science of Blade Runner, Broadway Cinema, UK"
   date: 2017-10-18
+  type: presentation
   attendance: 30
 
 - title: Collocated Technology Use in Casual-Social Settings
   location: EMCA Doctoral Network, UK
   date: 2017-09-07
+  type: presentation
   attendance: 30 
 
 - title: "Talking with devices: Developing guidelines for conversational design"
   location: BBC Studio Day, UK
   date: 2017-08-18
+  type: presentation
   attendance: 20 
 
 - title: Understanding Conversational Interfaces
   location: BBC User Experience & Design Group, UK
   date: 2017-05-22
+  type: workshop
   attendance: 10
 
 - title: Conversational Interfaces and Conversation Analysis
   location: Microsoft Research Cambridge, UK
   date: 2017-03-03
+  type: presentation
   attendance: 10
 
 - title: Using Mobile Phones in the Pub
   location: Alcohol and HCI workshop, Northumbria University, UK
   date: 2016-06-27
+  type: workshop
   attendance: 30
 
 - title: Using Mobile Phones in Pub Talk
   location: C3RI, Sheffield Hallam University, UK
   date: 2016-04-14
+  type: presentation
   attendance: 15
 
 - title: When we talk and use our phone
   location: Design, University of Southern Denmark, Denmark
   date: 2015-07-21
+  type: presentation
   attendance: 25
