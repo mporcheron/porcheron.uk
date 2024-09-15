@@ -1,209 +1,244 @@
 - title: "Driving impact from your PhD"
-  location: University of Nottingham, UK
+  venue: University of Nottingham
+  location: Nottingham, UK
   date: 2024-04-17
   type: workshop
   attendance: 40
 
 - title: "User Experience in Practice: Life of a Consultant"
-  location: Swansea University, UK
+  venue: CS-200, Swansea University
+  location: Swansea, UK
   date: 2024-04-15
-  type: guest lecture
+  type: Guest lecture
   attendance: 120
 
 - title: "How to deliver a better healthtech experience: UX considerations"
-  location: Digital Health London, virtual
+  venue: Digital Health London
+  location: Virtual
   date: 2023-11-27
   type: presentation
   attendance: 20
 
 - title: "Going from studying to designing conversation"
-  location: UX Live/Product Design Week, London, UK
+  venue: UX Live/Product Design Week
+  location: London, UK
   date: 2023-11-15
-  type: presentation
+  type: Presentation
   attendance: 150
 
 - title: "Beyond the Script: Decoding Trust & Conversation Dynamics to Build Better Chatbots"
-  location: Chatbot Summit, London, UK
+  venue: Chatbot Summit
+  location: London, UK
   date: 2023-10-11
-  type: workshop
+  type: Workshop
   attendance: 30
 
 - title: "Humans, Humanness and Conversational User Interfaces"
-  location: ReSight Global webinar
+  venue: ReSight Global webinar
+  location: Virtual
   date: 2023-05-24
-  type: presentation
+  type: Presentation
   attendance: 60
 
 - title: "More Than One Voice - Exploring Inclusivity and Multi-Party Interactions with Smart Speakers"
-  location: King's College London, London, UK
+  venue: King's College London
+  location: London, UK
   date: 2023-05-19
-  type: presentation
+  type: Presentation
   attendance: 30
 
 - title: Cyclists’ Use of Technology While on Their Bike
-  location: CHI '23 conference, Hamburg, Germany
+  venue: CHI '23 conference
+  location: Hamburg, Germany
   date: 2023-04-26
-  type: presentation
+  type: Presentation
   attendance: 100
 
 - title: "Conversational AI: Respecifying Participation as Regulation"
-  location: Leibniz Institute for the German Language, Germany
+  venue: Leibniz Institute for the German Language
+  location: Germany
   date: 2021-11-17
-  type: presentation
+  type: Presentation
   attendance: 30
 
 - title: Studying Voice Interfaces in the Home
-  location: Bristol Interactive AI Summer School, UK
+  venue: Bristol Interactive AI Summer School
+  location: Bristol, UK
   date: 2021-09-02
   type: presentation
   attendance: 80
 
 - title: "What’s in a name and does CUI matter?"
-  location: CUI '21 conference, virtual
+  venue: CUI '21 conference
+  location: virtual
   date: 2021-07-29
   type: presentation
   attendance: 100
 
 - title: Chatbots and Voice for Everyday Life
-  location: Swansea University, UK
+  venue: Swansea University
+  location: Swansea, UK
   date: 2021-03-18
   type: presentation
   attendance: 20
 
 - title: Pulling Back the Curtain on the Wizards of Oz
-  location: CSCW '20 conference, virtual
+  venue: CSCW '20 conference
+  location: virtual
   date: 2020-10-20
   type: presentation
   attendance: 30
 
 - title: What Can I Say? Effects of Discoverability in VUIs on Task Performance and User Experience"
-  location: CUI '20 conference, virtual 
+  venue: CUI '20 conference
+  location: virtual 
   date: 2020-07-24
   type: presentation
   attendance: 200
 
 - title: Requirements gathering for interactive "AI"
-  location: UCL Interaction Centre, UK
+  venue: UCL Interaction Centre
+  location: London, UK
   date: 2020-01-15
   type: presentation
   attendance: 30
 
 - title: "Talking to voice agents: Initiating and repairing interactions"
-  location: Swiss Federal Institute of Technology Lausanne, Switzerland
+  venue: Swiss Federal Institute of Technology
+  location: Lausanne, Switzerland
   date: 2019-10-22
   type: workshop
   attendance: 15
 
 - title: Reflections on voice interfaces in everyday life
-  location: CUI '19 conference, Dublin, Ireland
+  venue: CUI '19 conference
+  location: Dublin, Ireland
   date: 2019-08-22
   type: presentation
   attendance: 70
 
 - title: "The 'Conversational Interface': Voice UIs in vivo"
-  location: Department of Informatics, University of Leicester, UK
-  type: presentation
+  venue: Department of Informatics, University of Leicester
+  location: Leicester, UK
+  type: guest lecture
   date: 2018-11-02
   attendance: 40
 
 - title: Talking with machines? Voice UIs and the 'conversational' interface
-  location: HCID Open Day, UK
+  location: HCID Open Day
+  location: London, UK
   type: presentation
   date: 2018-05-04
   attendance: 50
 
 - title: Voice interfaces in everyday life
-  location: CHI'18 conference, Montreal, Canada
+  venue: CHI'18 conference
+  location: Montreal, Canada
   date: 2018-05-25
   type: presentation
   attendance: 200
 
 - title: Voice interfaces in everyday life
-  location: Aalto University, Finland
+  venue: Aalto University
+  location: Helsinki, Finland
   date: 2018-04-10
   type: presentation
   attendance: 10
 
 - title: Talking with machines? Voice UIs and the conversation design
-  location: "UX in the City: Manchester 2018, UK"
+  venue: "UX in the City: Manchester"
+  location: Manchester, UK
   date: 2018-03-16
   type: presentation
   attendance: 50
 
 - title: Studying Amazon Echo Use in the Home
-  location: Computer Science, University of Nottingham, UK
+  venue: University of Nottingham
+  location: Nottingham, UK
   date: 2017-12-05
-  type: presentation
+  type: guest lecture
   attendance: 50
 
 - title: Talking with machines? Voice UI and Conversation Design
-  location: City, University of London, UK
+  venue: City, University of London
+  location: London, UK
   date: 2017-11-24
   type: presentation
   attendance: 30
 
 - title: Talking with machines? Voice UI and Conversation Design
-  location: Bunnyfoot, UK
+  venue: Bunnyfoot
+  location: London, UK
   date: 2017-11-21
   type: presentation
   attendance: 10
 
 - title: Talking to Machines in the Home
-  location: "STEM Outreach: The Science of Blade Runner, Broadway Cinema, UK"
+  venue: "STEM Outreach: The Science of Blade Runner"
+  location: Nottingham, UK
   date: 2017-10-18
   type: presentation
   attendance: 30
 
 - title: Collocated Technology Use in Casual-Social Settings
-  location: EMCA Doctoral Network, UK
+  venue: EMCA Doctoral Network
+  location: Manchester, UK
   date: 2017-09-07
   type: presentation
   attendance: 30 
 
 - title: "Talking with devices: Developing guidelines for conversational design"
-  location: BBC Studio Day, UK
+  venue: BBC Studio Day
+  location: Manchester, UK
   date: 2017-08-18
   type: presentation
   attendance: 20 
 
 - title: Understanding Conversational Interfaces
-  location: BBC User Experience & Design Group, UK
+  venue: BBC User Experience & Design Group
+  location: Manchester, UK
   date: 2017-05-22
   type: workshop
   attendance: 10
 
 - title: Conversational Interfaces and Conversation Analysis
-  location: Microsoft Research Cambridge, UK
+  venue: Microsoft Research
+  location: Cambridge, UK
   date: 2017-03-03
   type: presentation
   attendance: 10
 
 - title: '"Do Animals Have Accents?”: Talking with Agents in Multi-Party Conversation'
-  location: CSCW '17, Portland, USA
+  venue: CSCW '17 conference
+  location: Portland, USA
   date: 2017-02-17
   type: presentation
   attendance: 50
 
 - title: Using Mobile Phones in the Pub
-  location: Alcohol and HCI workshop, Northumbria University, UK
+  venue: Alcohol and HCI workshop
+  location: Northumbria University, UK
   date: 2016-06-27
   type: workshop
   attendance: 30
 
 - title: Using Mobile Phones in Pub Talk
-  location: CHI '16, San Jose, USA
+  venue: CHI '16 conference
+  location: San Jose, USA
   date: 2016-05-11
   type: presentation
   attendance: 50
 
 - title: Using Mobile Phones in Pub Talk
-  location: C3RI, Sheffield Hallam University, UK
+  venue: C3RI, Sheffield Hallam University
+  location: Sheffield, UK
   date: 2016-04-14
   type: presentation
   attendance: 15
 
 - title: When we talk and use our phone
-  location: Design, University of Southern Denmark, Denmark
+  venue: University of Southern Denmark
+  location: Kolding, Denmark
   date: 2015-07-21
   type: presentation
   attendance: 25
