@@ -379,6 +379,10 @@ main {
 
 
 @include media-breakpoint-up(lg) {
+	.w-lg-50 {
+		width: 50%;
+	}
+	
 	main {	
 		& > div { 
 			.link-palette {

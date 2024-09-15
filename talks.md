@@ -47,13 +47,21 @@ I am open to giving guest lectures in academia, focusing on the design and use o
 
 ## Past Talks
 
-{%- for talk in site.data.talks %}
-
-* **{{ talk.title }}**<br>
-  {{ talk.location }}<br>
-  <small class="d-inline-block {% unless forloop.last %}mb-2{% endunless %} text-muted">[{%- include date.html date=talk.date -%}; ~{{ talk.attendance }} people]</small>
-
-{%- endfor %}
+<ul class="list-unstyled d-flex flex-wrap">
+  {%- for talk in site.data.talks %}
+    <li class="w-lg-50 p-1 d-flex flex-fill">
+      <div class="d-flex flex-grow-1 align-items-center border rounded-2 p-2">
+        <div>
+          <b class="d-block">{{ talk.title }}</b>
+          <span class="d-block mt-1">{{ talk.location }}</span>
+          <small class="d-block text-muted mt-1">
+            [{%- include date.html date=talk.date -%}; ~{{ talk.attendance }} people]
+          </small>
+        </div>
+      </div>
+    </li>
+  {%- endfor %}
+</ul>
 
 <!-- section -->
 
