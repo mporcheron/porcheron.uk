@@ -15,8 +15,6 @@
       {%- assign newest_data_file = candidate -%}
     {%- endif -%}
   {%- endfor -%}
-
-
   
   {%- if newest_data_file.last_commit.time_epoch > newest_source.last_commit.time_epoch -%}
     {%- assign newest_source = newest_data_file -%}
