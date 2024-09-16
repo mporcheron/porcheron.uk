@@ -3,6 +3,14 @@
     opacity: $pdficon-o-dark;
 }
 
+.bg-dark {
+	background: #000 !important;
+}
+
+.border {
+	border: var(--bs-border-width) var(--bs-border-style) #333 !important;
+}
+
 a {
 	color: $link-color-dark;
 	
@@ -52,6 +60,12 @@ main {
 
 			.text-muted {
 				color: $text-muted-fg-dark !important;
+			}
+		}
+
+		h2 {
+			.chevron svg {
+				fill: white;
 			}
 		}
 

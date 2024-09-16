@@ -58,22 +58,22 @@ I am open to giving guest lectures and workshops focusing on the design and use 
           <b>{{ talk.title }}</b>
           <div class="mt-1">{{ talk.venue }}</div>
           <div class="">
-            <div class="d-inline-flex flex-sm-row flex-column flex-wrap mt-1">
+            <div class="d-inline-flex flex-column flex-wrap mt-2">
               <div class="d-flex flex-row align-items-center me-3">
                 <span class="icon-cal me-2"></span>
                 <small class="text-muted">{%- include date.html date=talk.date -%}</small>
               </div>
-              <div class="d-flex flex-row align-items-center me-3">
+              <div class="d-flex flex-row align-items-center mt-2 me-3">
                 <span class="icon-map me-2"></span>
                 <small class="text-muted">{{ talk.location }}</small>
               </div>
             </div>
-            <div class="d-inline-flex flex-sm-row flex-column flex-wrap">
+            <div class="d-inline-flex flex-column flex-wrap mt-2">
               <div class="d-flex flex-row align-items-center me-3">
                 <span class="icon-type me-2"></span>
                 <small class="text-muted">{{ talk.type | capitalize }}</small>
               </div>
-              <div class="d-flex flex-row align-items-center">
+              <div class="d-flex flex-row align-items-center mt-2">
                 <span class="icon-people me-2"></span>
                 <small class="text-muted">~{{ talk.attendance }} people</small>
               </div>
