@@ -48,7 +48,7 @@ I am open to giving guest lectures and workshops focusing on the design and use 
 
 <!-- section -->
 
-## Past Talks
+## Past Talks and Workshops
 
 <ul class="list-unstyled d-flex flex-wrap">
   {%- for talk in site.data.talks %}
