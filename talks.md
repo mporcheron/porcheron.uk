@@ -61,7 +61,13 @@ I am open to giving guest lectures and workshops focusing on the design and use 
             <div class="d-inline-flex flex-column flex-wrap mt-2">
               <div class="d-flex flex-row align-items-center me-3">
                 <span class="icon-cal me-2"></span>
-                <small class="text-muted">{%- include date.html date=talk.date -%}</small>
+                <small class="text-muted">
+                  {%- if talk.dates -%}
+                    {%- include daterange.html startdate=talk.dates.from enddate=talk.dates.to -%}
+                  {%- else -%}
+                    {%- include date.html date=talk.date -%}
+                  {%- endif -%}
+                </small>
               </div>
               <div class="d-flex flex-row align-items-center mt-2 me-3">
                 <span class="icon-map me-2"></span>
