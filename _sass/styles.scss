@@ -245,14 +245,6 @@ main {
 					display: block;
 				}
 			}
-
-			&.collapsible {
-				opacity: 0.5;
-
-				&:hover {
-					opacity: 1;
-				}
-			}
 		}
 
 		article {
@@ -411,6 +403,14 @@ main {
 			article {
 				hr {
 					margin: $hr-m;
+				}
+			}
+
+			& .collapsible {
+				opacity: 0.5;
+
+				&:hover {
+					opacity: 1;
 				}
 			}
 		
