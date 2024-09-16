@@ -47,13 +47,13 @@
   type: Workshop
   attendance: 30
 
-- title: "ACM Conversational User Interfaces '23"
+- title: "ACM Conference on Conversational User Interfaces '23"
   location: Eindhoven, Netherlands
   dates:
     from: 2023-07-19
     to: 2023-07-21
   type: Conference
-  attendance: 110
+  attendance: 150
 
 - title: "Humans, Humanness and Conversational User Interfaces"
   venue: ReSight Global webinar
