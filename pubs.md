@@ -18,6 +18,9 @@ lastmod:
     - /bibliography/thesis.bib
     - /bibliography/workshop.bib
 
+sections:
+  collapsible: true
+
 menu:
   main:
     label: Publications
@@ -25,13 +28,7 @@ menu:
     weight: 3
 ---
 
-Below is a list of my publications, including preprint copies of each publication as a PDF, where publishing rights permit.
-
-Jump to a category of publication:
-
-{%- for category in site.data.pubs_categories %}
-* [{{ category[1] }}](#{{ category[1] | slugify }})
-{% endfor -%}
+Below is a list of my publications, including preprint copies of each publication as a PDF, where publishing rights permit. A Bibtex reference can be accessed for each publication using the `[bib]` link.
 
 {%- for category in site.data.pubs_categories -%}
 

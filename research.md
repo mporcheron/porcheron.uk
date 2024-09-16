@@ -4,6 +4,9 @@ description: |
   A summary of my research, which is the domains of HCI and CSCW, and list of
   projects I have been involved in.
 
+sections:
+  collapsible: true
+
 menu:
   main:
     label: Research
