@@ -1,3 +1,10 @@
+- title: "CUI@CHI: Inclusive Design of CUIs Across Modalities and Mobilities"
+  venue: CHI '24 conference
+  location: Honolulu, USA
+  date: 2024-05-11
+  type: workshop
+  attendance: 20
+
 - title: "Driving impact from your PhD"
   venue: University of Nottingham
   location: Nottingham, UK
@@ -33,6 +40,21 @@
   type: Workshop
   attendance: 30
 
+- title: "Is CUI Design Ready Yet? A Workshop on Community Practices and Gaps in CUI Design & Resource Development"
+  venue: CUI '23 conference
+  location: Eindhoven, Netherlands
+  date: 2023-07-19
+  type: Workshop
+  attendance: 30
+
+- title: "ACM Conversational User Interfaces '23"
+  location: Eindhoven, Netherlands
+  dates:
+    from: 2023-07-19
+    to: 2023-07-21
+  type: Conference
+  attendance: 110
+
 - title: "Humans, Humanness and Conversational User Interfaces"
   venue: ReSight Global webinar
   location: Virtual
@@ -54,12 +76,26 @@
   type: Presentation
   attendance: 100
 
+- title: 'CUI@CHI: Ethics of Conversational User Interfaces'
+  venue: CHI '22 conference
+  location: Virtual
+  date: 2022-04-21
+  type: Presentation
+  attendance: 35
+
 - title: "Conversational AI: Respecifying Participation as Regulation"
   venue: Leibniz Institute for the German Language
   location: Germany
   date: 2021-11-17
   type: Presentation
   attendance: 30
+
+- title: 'CUI@CSCW: Inclusive and Collaborative Child-Facing Voice Technologies'
+  venue: CSCW '21 conference
+  location: Virtual
+  date: 2021-10-23
+  type: workshop
+  attendance: 40
 
 - title: Studying Voice Interfaces in the Home
   venue: Bristol Interactive AI Summer School
@@ -75,6 +111,20 @@
   type: presentation
   attendance: 100
 
+- title: 'Let’s Talk About CUIs: Putting Conversational User Interface Design Into Practic'
+  venue: CHI '21 conference
+  location: Virtual
+  date: 2021-05-08
+  type: workshop
+  attendance: 35
+
+- title: 'CUI@IUI: Theoretical and Methodological Challenges in Intelligent Conversational User Interface Interactions'
+  venue: IUI '21 conference
+  location: Virtual
+  date: 2021-04-13
+  type: workshop
+  attendance: 25
+
 - title: Chatbots and Voice for Everyday Life
   venue: Swansea University
   location: Swansea, UK
@@ -89,12 +139,33 @@
   type: presentation
   attendance: 30
 
+- title: 'CUI@CSCW: Collaborating through Conversational User Interfaces'
+  venue: CSCW '20 conference
+  location: Virtual
+  date: 2020-10-17
+  type: workshop
+  attendance: 40
+
 - title: What Can I Say? Effects of Discoverability in VUIs on Task Performance and User Experience"
   venue: CUI '20 conference
   location: Virtual 
   date: 2020-07-24
   type: presentation
   attendance: 200
+
+- title: 'CUI@CHI: Mapping Grand Challenges for the Conversational User Interface Community'
+  venue: CHI '20 conference
+  location: Virtual
+  date: 2020-05-29
+  type: workshop
+  attendance: 50
+
+- title: "CUI: Conversational User Interfaces: A Workshop on New Theoretical and Methodological Perspectives for Researching Speech-based Conversational Interactions"
+  venue: CHI '19 conference
+  location: Virtual
+  date: 2020-03-17
+  type: workshop
+  attendance: 20
 
 - title: Requirements gathering for interactive "AI"
   venue: UCL Interaction Centre
@@ -103,12 +174,27 @@
   type: presentation
   attendance: 30
 
+- title: "Halfway to the Future '19"
+  location: Nottingham, UK
+  dates:
+    from: 2023-11-19
+    to: 2023-11-20
+  type: Conference
+  attendance: 180
+
 - title: "Talking to voice agents: Initiating and repairing interactions"
   venue: Swiss Federal Institute of Technology
   location: Lausanne, Switzerland
   date: 2019-10-22
   type: workshop
   attendance: 15
+
+- title: "New Directions for the IoT: Automate, Share, Build, and Care"
+  venue: CHI '19 conference
+  location: Glasgow, UK
+  date: 2019-05-05
+  type: workshop
+  attendance: 30
 
 - title: Reflections on voice interfaces in everyday life
   venue: CUI '19 conference
@@ -125,7 +211,7 @@
   attendance: 40
 
 - title: Talking with machines? Voice UIs and the 'conversational' interface
-  location: HCID Open Day
+  venue: HCID Open Day
   location: London, UK
   type: presentation
   date: 2018-05-04
@@ -134,9 +220,16 @@
 - title: Voice interfaces in everyday life
   venue: CHI'18 conference
   location: Montreal, Canada
-  date: 2018-05-25
+  date: 2018-04-25
   type: presentation
   attendance: 200
+
+- title: Voice-based Conversational UX Studies and Design
+  venue: CHI'18 conference
+  location: Montreal, Canada
+  date: 2018-04-28
+  type: presentation
+  attendance: 30
 
 - title: Voice interfaces in everyday life
   venue: Aalto University
@@ -215,6 +308,20 @@
   type: presentation
   attendance: 50
 
+- title: "Talking with Conversational Agents in Collaborative Action"
+  venue: CSCW '17 conference
+  location: Portland, USA
+  date: 2016-02-25
+  type: workshop
+  attendance: 30
+
+- title: Interaction Techniques for Mobile Collocation
+  venue: MobileHCI '16 conference
+  location: Florence, Italy
+  date: 2016-09-06
+  type: workshop
+  attendance: 20
+
 - title: Using Mobile Phones in the Pub
   venue: Alcohol and HCI workshop, Northumbria University
   location: Durham, UK
@@ -229,12 +336,26 @@
   type: presentation
   attendance: 50
 
+- title: Proxemic Mobile Collocated Interactions
+  venue: CHI '16 conference
+  location: San Jose, USA
+  date: 2016-05-07
+  type: workshop
+  attendance: 30
+
 - title: Using Mobile Phones in Pub Talk
   venue: C3RI, Sheffield Hallam University
   location: Sheffield, UK
   date: 2016-04-14
   type: presentation
   attendance: 15
+
+- title: "Collocated Interaction: New Challenges in ‘Same Time, Same Place’ Research"
+  venue: CSCW '16 conference
+  location: San Francisco, USA
+  date: 2016-02-27
+  type: workshop
+  attendance: 25
 
 - title: "Reflecting on the Study of Mobile Collocated Interactions: The Changing Face of Wearable Devices"
   venue: "Mobile Collocated Interactions With Wearables workshop at MobileHCI '15"
