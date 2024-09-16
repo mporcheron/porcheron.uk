@@ -13,7 +13,7 @@ lastmod:
     - talks.yml
 
 sections:
-  collapsible: false
+  collapsible: true
 
 menu:
   main:

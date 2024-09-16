@@ -231,6 +231,7 @@ main {
 		article > section, article > .section {
 			background: $main-inner-bg;
 			color: $main-fg;
+			@include auto-transition((opacity));
 			
 			h1:first-child, h2:first-child, h3:first-child, h4:first-child {
 				margin-bottom: $main-h-first-mb;
@@ -244,6 +245,14 @@ main {
 					display: block;
 				}
 			}
+
+			&.collapsible {
+				opacity: 0.5;
+
+				&:hover {
+					opacity: 1;
+				}
+			}
 		}
 
 		article {
@@ -253,6 +262,19 @@ main {
 			
 			.image.profile-photo {
 				max-width: $profile-photo-w;
+			}
+		}
+
+		h2 {
+			.chevron svg {
+				opacity: 1;
+				margin-top: -.25rem;
+				width: $nav-chevron-w*1.6;
+				@include auto-transition((transform));
+			}
+		
+			&[aria-expanded="true"] .chevron svg {
+				transform: rotate(0.25turn);
 			}
 		}
 		
