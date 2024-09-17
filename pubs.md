@@ -28,7 +28,7 @@ menu:
     weight: 3
 ---
 
-Below is a list of my publications, including preprint copies of each publication as a PDF, where publishing rights permit. A Bibtex reference can be accessed for each publication using the `[bib]` link.
+Below is a list of my publications, including preprint copies of each publication as a PDF, where publishing rights permit. A BibTeX reference can be accessed for each publication using the `[bib]` link.
 
 {%- for category in site.data.pubs_categories -%}
 
