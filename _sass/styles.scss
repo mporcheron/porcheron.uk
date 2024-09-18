@@ -33,6 +33,10 @@ p:last-child, ol:last-child, ul:last-child, figure:last-child {
 	background-image: $icon-map;
 }
 
+h1, h2, h3, h4 {
+	font-weight: 650 !important;
+}
+
 .pdficon {
     background-image: $pdficon-bg-image;
     display: block;
