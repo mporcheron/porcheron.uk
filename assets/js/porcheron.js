@@ -50,7 +50,6 @@ window.addEventListener('load', () => {
         link.classList.remove('video-unactivated');
         link.closest('.video-outer-container').classList.add('flex-column');
         link.closest('.video-container').classList.remove('w-25');
-        link.closest('.video-container').classList.add('mt-3');
         link.innerHTML = '<iframe class="d-block rounded-3" width="560" height="315" src="' + link.dataset.video + '&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
       }
     });

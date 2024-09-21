@@ -35,7 +35,7 @@ I am open to giving guest lectures and workshops focusing on the design and use 
 
 {%- for video in site.data.videos %}
 <div class="video-outer-container d-flex {% unless forloop.last %}border-bottom{% endunless %} {% unless forloop.first %}mt-3{% endunless %}">
-  <div class="flex-grow-1 me-3">
+  <div class="flex-grow-1 me-3 {% unless forloop.last %}mb-3{% endunless %}">
     <h3 class="mb-1">
       {{- video.title -}}
     </h3>
