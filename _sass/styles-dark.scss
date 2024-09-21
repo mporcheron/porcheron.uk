@@ -11,6 +11,32 @@
 	border: var(--bs-border-width) var(--bs-border-style) #333 !important;
 }
 
+.modal-content {
+	background-color: rgba(10,10,10,.6666666667);
+	border: var(--bs-modal-header-border-width) solid #333; 
+	color: $white !important;
+
+	.modal-header {
+		border-bottom: var(--bs-modal-header-border-width) solid #333;
+	}
+
+	.modal-footer {
+		border-top: var(--bs-modal-header-border-width) solid #333;
+	}
+
+	a {
+		color: $white !important;
+	}
+
+	.btn.cancel {
+		color: $white;
+	}
+}
+
+.btn-close {
+	filter: invert(1) grayscale(100%) brightness(200%);
+}
+
 a {
 	color: $link-color-dark;
 	

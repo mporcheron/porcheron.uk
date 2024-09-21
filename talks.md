@@ -15,6 +15,8 @@ lastmod:
 sections:
   collapsible: true
 
+containsVideo: true
+
 menu:
   main:
     label: Videos & Talks
@@ -30,20 +32,28 @@ I am open to giving guest lectures and workshops focusing on the design and use 
 
 ## Videos
 
+
 {%- for video in site.data.videos %}
-
-### {{ video.title }}
-
-{{ video.introduction }}
-
-{% include figure_video.html video=video.url caption=video.caption %}
-
-{% unless forloop.last %}
-
----
-
-{% endunless %}
-
+<div class="video-outer-container d-flex {% unless forloop.last %}border-bottom{% endunless %} {% unless forloop.first %}mt-3{% endunless %}">
+  <div class="flex-grow-1 me-3">
+    <h3 class="mb-1">
+      {{- video.title -}}
+    </h3>
+    {{- video.introduction | markdownify -}}
+  </div>
+  <div class="flex-shrink-0 video-container w-25 {% unless forloop.last %}mb-3{% endunless %}">
+    <figure class="video px-0 border rounded-3">
+      <div class="w-100 video-unactivated" data-video="{{ video.url }}" id="video{{ forloop.index }}">
+        <div class="bg-dark text-white p-lg-4 p-md-3 py-2 rounded-3 cta-link text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"></path>
+          </svg>  
+        </div>
+      </div>
+    </figure>
+  </div>
+</div>
 {%- endfor %}
 
 <!-- section -->

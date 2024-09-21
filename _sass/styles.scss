@@ -63,6 +63,14 @@ a:active {
     user-select: none;
 }
 
+.modal-content {
+	background-color: rgba(255,255,255,.6666666667);
+
+	a {
+		color: $primary !important;
+	}
+}
+
 .bibliography {
 	list-style: none;
 	padding-left: 0;

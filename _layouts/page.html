@@ -45,16 +45,22 @@ layout: default
   </article>
 </div>
 
-{%- if page.sections.collapsible -%}
-<script>
-document.querySelectorAll('h2[data-bs-toggle="collapse"]').forEach(elem => {
-  const parent = elem.closest('section');
-  parent.addEventListener('show.bs.collapse', event => {
-    parent.classList.remove('collapsible')
-  })
-  parent.addEventListener('hide.bs.collapse', event => {
-    parent.classList.add('collapsible')
-  })
-})
-</script>
+{%- if page.containsVideo -%}
+<div class="modal fade" id="youtubeModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Load YouTube video?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Please note that loading this YouTube video has <a href="{{ "/privacy/#youtube" | relative_url }}" class="text-light text-decoration-underline" target="_blank" title="View information about the privacy implications of embedded this video">privacy implications</a>.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn cancel" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="acceptYoutubeImplications">I understand</button>
+      </div>
+    </div>
+  </div>
+</div>
 {%- endif -%}
