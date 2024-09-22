@@ -1,5 +1,5 @@
 - title: "CUI@CHI: Inclusive Design of CUIs Across Modalities and Mobilities"
-  venue: CHI '24 conference
+  venue: ACM CHI '24 conference
   location: Honolulu, USA
   date: 2024-05-11
   type: workshop
@@ -41,13 +41,13 @@
   attendance: 30
 
 - title: "Is CUI Design Ready Yet? A Workshop on Community Practices and Gaps in CUI Design & Resource Development"
-  venue: CUI '23 conference
+  venue: ACM CUI '23 conference
   location: Eindhoven, Netherlands
   date: 2023-07-19
   type: Workshop
   attendance: 30
 
-- title: "ACM Conference on Conversational User Interfaces '23"
+- title: "ACM International Conference on Conversational User Interfaces 2023 (CUI '23)"
   location: Eindhoven, Netherlands
   dates:
     from: 2023-07-19
@@ -70,14 +70,14 @@
   attendance: 30
 
 - title: Cyclists’ Use of Technology While on Their Bike
-  venue: CHI '23 conference
+  venue: ACM CHI '23 conference
   location: Hamburg, Germany
   date: 2023-04-26
   type: Presentation
   attendance: 100
 
 - title: 'CUI@CHI: Ethics of Conversational User Interfaces'
-  venue: CHI '22 conference
+  venue: ACM CHI '22 conference
   location: Virtual
   date: 2022-04-21
   type: Presentation
@@ -91,7 +91,7 @@
   attendance: 30
 
 - title: 'CUI@CSCW: Inclusive and Collaborative Child-Facing Voice Technologies'
-  venue: CSCW '21 conference
+  venue: ACM CSCW '21 conference
   location: Virtual
   date: 2021-10-23
   type: workshop
@@ -112,14 +112,14 @@
   attendance: 100
 
 - title: 'Let’s Talk About CUIs: Putting Conversational User Interface Design Into Practic'
-  venue: CHI '21 conference
+  venue: ACM CHI '21 conference
   location: Virtual
   date: 2021-05-08
   type: workshop
   attendance: 35
 
 - title: 'CUI@IUI: Theoretical and Methodological Challenges in Intelligent Conversational User Interface Interactions'
-  venue: IUI '21 conference
+  venue: ACM IUI '21 conference
   location: Virtual
   date: 2021-04-13
   type: workshop
@@ -133,14 +133,14 @@
   attendance: 20
 
 - title: Pulling Back the Curtain on the Wizards of Oz
-  venue: CSCW '20 conference
+  venue: ACM CSCW '20 conference
   location: Virtual
   date: 2020-10-20
   type: presentation
   attendance: 30
 
 - title: 'CUI@CSCW: Collaborating through Conversational User Interfaces'
-  venue: CSCW '20 conference
+  venue: ACM CSCW '20 conference
   location: Virtual
   date: 2020-10-17
   type: workshop
@@ -154,14 +154,14 @@
   attendance: 200
 
 - title: 'CUI@CHI: Mapping Grand Challenges for the Conversational User Interface Community'
-  venue: CHI '20 conference
+  venue: ACM CHI '20 conference
   location: Virtual
   date: 2020-05-29
   type: workshop
   attendance: 50
 
-- title: "CUI: Conversational User Interfaces: A Workshop on New Theoretical and Methodological Perspectives for Researching Speech-based Conversational Interactions"
-  venue: CHI '19 conference
+- title: "Conversational User Interfaces: A Workshop on New Theoretical and Methodological Perspectives for Researching Speech-based Conversational Interactions"
+  venue: ACM CHI '19 conference
   location: Virtual
   date: 2020-03-17
   type: workshop
@@ -174,7 +174,7 @@
   type: presentation
   attendance: 30
 
-- title: "Halfway to the Future '19"
+- title: "Halfway to the Future 2019 (HttF '19)"
   location: Nottingham, UK
   dates:
     from: 2023-11-19
@@ -190,7 +190,7 @@
   attendance: 15
 
 - title: "New Directions for the IoT: Automate, Share, Build, and Care"
-  venue: CHI '19 conference
+  venue: ACM CHI '19 conference
   location: Glasgow, UK
   date: 2019-05-05
   type: workshop
@@ -218,14 +218,14 @@
   attendance: 50
 
 - title: Voice interfaces in everyday life
-  venue: CHI '18 conference
+  venue: ACM CHI '18 conference
   location: Montreal, Canada
   date: 2018-04-25
   type: presentation
   attendance: 200
 
 - title: Voice-based Conversational UX Studies and Design
-  venue: CHI '18 conference
+  venue: ACM CHI '18 conference
   location: Montreal, Canada
   date: 2018-04-28
   type: presentation
@@ -302,21 +302,21 @@
   attendance: 10
 
 - title: '"Do Animals Have Accents?”: Talking with Agents in Multi-Party Conversation'
-  venue: CSCW '17 conference
+  venue: ACM CSCW '17 conference
   location: Portland, USA
   date: 2017-02-17
   type: presentation
   attendance: 50
 
 - title: "Talking with Conversational Agents in Collaborative Action"
-  venue: CSCW '17 conference
+  venue: ACM CSCW '17 conference
   location: Portland, USA
   date: 2016-02-25
   type: workshop
   attendance: 30
 
 - title: Interaction Techniques for Mobile Collocation
-  venue: MobileHCI '16 conference
+  venue: ACM MobileHCI '16 conference
   location: Florence, Italy
   date: 2016-09-06
   type: workshop
@@ -330,14 +330,14 @@
   attendance: 30
 
 - title: Using Mobile Phones in Pub Talk
-  venue: CHI '16 conference
+  venue: ACM CHI '16 conference
   location: San Jose, USA
   date: 2016-05-11
   type: presentation
   attendance: 50
 
 - title: Proxemic Mobile Collocated Interactions
-  venue: CHI '16 conference
+  venue: ACM CHI '16 conference
   location: San Jose, USA
   date: 2016-05-07
   type: workshop
@@ -351,7 +351,7 @@
   attendance: 15
 
 - title: "Collocated Interaction: New Challenges in ‘Same Time, Same Place’ Research"
-  venue: CSCW '16 conference
+  venue: ACM CSCW '16 conference
   location: San Francisco, USA
   date: 2016-02-27
   type: workshop
@@ -372,7 +372,7 @@
   attendance: 25
 
 - title: Mobile Behaviours around Social Collocated Interactions
-  venue: "Mobile Collocated Interactions From Smartphones to Wearables workshop at CHI '15"
+  venue: "Mobile Collocated Interactions From Smartphones to Wearables workshop at ACM CHI '15"
   location: Seoul, Korea
   date: 2015-04-19
   type: presentation
