@@ -63,11 +63,13 @@ I am open to giving guest lectures and workshops focusing on the design and use 
   {%- for talk in site.data.talks %}
     <li class="d-flex flex-fill w-xl-50 w-100 p-lg-1 py-2 ">
       <div class="d-flex flex-grow-1 talk rounded-2 p-3">
-        <div class="d-flex flex-column justify-content-stretch">
-          <b>{{ talk.title }}</b>
-          <div class="mt-1">{{ talk.venue }}</div>
-          <div class="">
-            <div class="d-inline-flex flex-column flex-wrap mt-2">
+        <div class="d-flex flex-row flex-wrap justify-content-start align-items-start">
+          <div class="w-100 flex-grow-1">
+            <h6 class="d-block mb-1 fw-semibold">{{ talk.title }}</h6>
+            {{ talk.venue }}
+          </div>
+          <div class="w-100 d-flex align-self-end p-0">
+            <div class="d-inline-flex flex-column flex-wrap w-50 mt-2">
               <div class="d-flex flex-row align-items-center me-3">
                 <span class="icon-cal me-2"></span>
                 <small class="text-muted">
@@ -83,7 +85,7 @@ I am open to giving guest lectures and workshops focusing on the design and use 
                 <small class="text-muted">{{ talk.location }}</small>
               </div>
             </div>
-            <div class="d-inline-flex flex-column flex-wrap mt-2">
+            <div class="d-inline-flex flex-column flex-wrap flex-grow-1 mt-2">
               <div class="d-flex flex-row align-items-center me-3">
                 <span class="icon-type me-2"></span>
                 <small class="text-muted">{{ talk.type | capitalize }}</small>
