@@ -71,7 +71,7 @@ I am open to giving guest lectures and workshops focusing on the design and use 
           <div class="w-100 d-flex align-self-end p-0">
             <div class="d-inline-flex flex-column flex-wrap w-50 mt-2">
               <div class="d-flex flex-row align-items-center me-3">
-                <span class="icon-cal me-2"></span>
+                <span class="icon-cal flex-shrink-0 me-2"></span>
                 <small class="text-muted">
                   {%- if talk.dates -%}
                     {%- include daterange.html startdate=talk.dates.from enddate=talk.dates.to -%}
@@ -81,17 +81,17 @@ I am open to giving guest lectures and workshops focusing on the design and use 
                 </small>
               </div>
               <div class="d-flex flex-row align-items-center mt-2 me-3">
-                <span class="icon-map me-2"></span>
+                <span class="icon-map flex-shrink-0 me-2"></span>
                 <small class="text-muted">{{ talk.location }}</small>
               </div>
             </div>
             <div class="d-inline-flex flex-column flex-wrap flex-grow-1 mt-2">
               <div class="d-flex flex-row align-items-center me-3">
-                <span class="icon-type me-2"></span>
+                <span class="icon-type flex-shrink-0 me-2"></span>
                 <small class="text-muted">{{ talk.type | capitalize }}</small>
               </div>
               <div class="d-flex flex-row align-items-center mt-2">
-                <span class="icon-people me-2"></span>
+                <span class="icon-people flex-shrink-0 me-2"></span>
                 <small class="text-muted">~{{ talk.attendance }} people</small>
               </div>
             </div>
