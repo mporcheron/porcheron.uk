@@ -32,16 +32,15 @@ I am open to giving guest lectures and workshops focusing on the design and use 
 
 ## Videos
 
-
 {%- for video in site.data.videos %}
 <div class="video-outer-container d-flex {% unless forloop.last %}border-bottom{% endunless %} {% unless forloop.first %}mt-3{% endunless %}">
-  <div class="flex-grow-1 me-3 {% unless forloop.last %}mb-3{% endunless %}">
+  <div class="flex-grow-1 {% unless forloop.last %}mb-3{% endunless %}">
     <h3 class="mb-1">
       {{- video.title -}}
     </h3>
     {{- video.introduction | markdownify -}}
   </div>
-  <div class="flex-shrink-0 video-container w-25 {% unless forloop.last %}mb-3{% endunless %}">
+  <div class="flex-shrink-0 video-container w-25 ms-3 {% unless forloop.last %}mb-3{% endunless %}">
     <figure class="video px-0 border rounded-3">
       <div class="w-100 video-unactivated" data-video="{{ video.url }}" id="video{{ forloop.index }}">
         <div class="bg-dark text-white p-lg-4 p-md-3 py-2 rounded-3 cta-link text-center">
