@@ -14,6 +14,7 @@ gem "jekyll", "~> 4.3.4"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-email-protect'
+  gem 'jekyll-import'
   gem "jekyll-last-commit", :git => "https://github.com/mporcheron/jekyll-last-commit.git"
   gem "jekyll-menus", :git => "https://github.com/forestryio/jekyll-menus.git"
   gem 'jekyll-optional-front-matter'
@@ -23,6 +24,8 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-target-blank'
   gem 'jekyll-titles-from-headings'
+  gem 'rss'
+  gem 'safe_yaml'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
