@@ -5,9 +5,9 @@
 // Configuration
 @import "bootstrap/functions";
 @import "variables";  // PORCHERON.UK
+// @import "variables-dark";  // PORCHERON.UK
 @import "bootstrap/variables";
 @import "bootstrap/variables-dark";
-@import "variables-dark";  // PORCHERON.UK
 @import "bootstrap/maps";
 @import "bootstrap/mixins";
 @import "mixins";  // PORCHERON.UK
@@ -19,7 +19,7 @@
 @import "bootstrap/type";
 // @import "bootstrap/images";
 @import "bootstrap/containers";
-@import "bootstrap/grid";
+// @import "bootstrap/grid";
 // @import "bootstrap/tables";
 // @import "bootstrap/forms";
 @import "bootstrap/buttons";
@@ -27,8 +27,8 @@
 // @import "bootstrap/dropdown";
 // @import "bootstrap/button-group";
 @import "bootstrap/nav";
-@import "bootstrap/navbar";
- @import "bootstrap/card";
+// @import "bootstrap/navbar";
+@import "bootstrap/card";
 // @import "bootstrap/accordion";
 // @import "bootstrap/breadcrumb";
 // @import "bootstrap/pagination";
@@ -38,12 +38,12 @@
 // @import "bootstrap/list-group";
 @import "bootstrap/close";
 // @import "bootstrap/toasts";
- @import "bootstrap/modal";
+@import "bootstrap/modal";
 // @import "bootstrap/tooltip";
 // @import "bootstrap/popover";
 // @import "bootstrap/carousel";
 // @import "bootstrap/spinners";
-// @import "bootstrap/offcanvas";
+@import "bootstrap/offcanvas";
 // @import "bootstrap/placeholders";
 
 // Helpers
@@ -55,6 +55,6 @@
 
 @import "styles"; // PORCHERON.UK
 
-@media (prefers-color-scheme: dark) {
-	@import "styles-dark"; // PORCHERON.UK
-}
+// @media (prefers-color-scheme: dark) {
+//	@import "styles-dark"; // PORCHERON.UK
+// }

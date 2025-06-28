@@ -1,8 +1,6 @@
 # Site information
-name: Martin Porcheron
+name: Dr Martin Porcheron
 author: Martin Porcheron
-title: Martin Porcheron
-email: website@martin.porcheron.uk
 lang: en-GB
 description: >
   Martin Porcheron is a Senior User Experience Researcher at Bold Insight, focusing on both qualitative studies of consumer technology and human factors studies of medical devices.
@@ -12,6 +10,12 @@ baseurl: ""
 url: "http://localhost:4000"
 permalink: /blog/:year/:month/:day/:title/
 repository: mporcheron/porcheron.uk.git
+
+
+# Contact links
+contact:
+  email: website@martin.porcheron.uk
+  linkedin: https://www.linkedin.com/in/mporcheron/
 
 
 # Social links
@@ -38,7 +42,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-scholar
   - jekyll-target-blank
-  - jekyll-titles-from-headings
 
 
 # Site building

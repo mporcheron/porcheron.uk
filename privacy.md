@@ -1,5 +1,8 @@
 ---
 permalink: /privacy/
+
+sections:
+  collapsible: true
 ---
 
 # Privacy and cookies information
@@ -10,16 +13,16 @@ This website does not collect any personally identifiable information and there 
 * No analytics or tracking of users or their activities on this website
 * No cookies set by the website owner
 
-If you have questions about anything this privacy policy, please do not hesitate to [contact me](/contact "My contact details").
+If you have questions about anything this privacy policy, please do not hesitate to [contact me](mailto:{{ site.contact.email }}) .
 
 <!-- section -->
 
-## External services
+### Use of third-party services
 
 This website uses three external service providers—only necessary information is collected by these services.
 
 
-### GitHub Pages
+#### GitHub Pages
 
 This website is hosted by [GitHub](https://github.com "The main GitHub website"), on its [GitHub Pages](https://pages.github.com "Information about the GitHub Pages service") service. GitHub is owned by [Microsoft](https://www.microsoft.com/ "Microsoft homepage"). GitHub does not set cookies on pages served through GitHub Pages, but [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection "Read about GitHub Pages") says:
 
@@ -30,7 +33,7 @@ This website is hosted by [GitHub](https://github.com "The main GitHub website")
 
 ----
 
-### Google Fonts API
+#### Google Fonts API
 
 **Google Fonts API** is used to provide custom font support. Privacy information about Google Fonts API is available from [this Google FAQ](https://developers.google.com/fonts/faq/privacy "Privacy information about Google Fonts"):
 
@@ -45,7 +48,7 @@ This website is hosted by [GitHub](https://github.com "The main GitHub website")
 
 ---
 
-## YouTube
+#### YouTube
 
 This website occasionally includes videos that are hosted on the [YouTube](https://www.youtube.com/ "YouTube") service. YouTube is owned by [Google](https://www.google.com/ "Google").
 
