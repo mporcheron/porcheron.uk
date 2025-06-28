@@ -38,7 +38,7 @@ window.addEventListener('load', () => {
       const mobilenav = bootstrap.Offcanvas.getInstance('#mobilenav');
       mobilenav.hide();
       const href = event.currentTarget.href;
-      setTimeout(() => {window.location=href;}, 250);
+      setTimeout(() => {window.location=href;}, 350);
     });	
   });
 
