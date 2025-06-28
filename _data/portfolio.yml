@@ -1,0 +1,70 @@
+2024:
+  - slug: tset-triage
+    name: NHS Accelerated Access Collaborative Technology-Specific Evaluation Team (TSET)
+    title: Evaluation of an AI for */triaging primary care patients/* in the NHS
+    star: true
+    industries:
+      - AI
+      - Healthcare
+      - Public Sector
+    client: NHS England
+    dates: Jan 2022–Feb 2024
+    description: >
+      I led the UX research programme for an NHS-funded project evaluating AI-driven health technologies at scale, with a focus on the design and real-world deployment of an AI triage tool used across the UK's health service to manage GP appointment requests. I **designed and directed a mixed-methods research approach**, combining documentation review, software testing, and in-context fieldwork—including time-and-motion studies and ethnographic observation—to assess usability, workflow integration, and clinical effectiveness.
+
+  - slug: tset-copd
+    name: NHS Accelerated Access Collaborative Technology-Specific Evaluation Team (TSET)
+    title: Peer review of a tool for */managing patients with COPD/*
+    client: NHS England
+    dates: January 2022–February 2024
+    description: >
+      As a project lead, I led the UX-focused peer review of a digital support tool designed to assist with the management of patients with Chronic Obstructive Pulmonary Disease (COPD). Funded by the NHS, this work assessed the quality and effectiveness of an existing evaluation study through a **combination of documentation analysis and software testing**. The review focused on how the tool aligned with real-world patient needs and clinical workflows, highlighting gaps in usability, adoption barriers, and opportunities to improve engagement and impact in chronic care management.
+
+2021:
+  - slug: altcai
+    name: Interactive Agents with Literacy, Trust, and Comprehension-aware Artificial Intelligence (Inter-ALTCAI)
+    star: true
+    industries:
+      - AI
+      - Wellbeing
+      - Global South
+    title: User-centred design for an */AI kiosk for maternal wellbeing in Nigeria/*
+    client: UK Government
+    dates: Jan 2019–Jun 2021
+    description: >
+      This project, funded by the UK Department for International Development, explored how interactive AI can support trust, accessibility, and effectiveness in low-resource contexts. Focused on informal healthcare and wellbeing advice for expectant and nursing mothers in Nigeria, the project extended an open-source conversational platform through participatory design and field evaluation. I led the  user-centred design work, **conducting workshops and field visits in Lagos** with local chemists and perinatal women to **co-design a prototype AI system**. This research directly informed the system’s content, interaction design, and cultural relevance and sensitivity.
+
+2020:
+  - slug: roboclean
+    name: Human Robot Collaboration for Allergen-Aware Factory Cleaning (RoboClean)
+    title: Design of tools for automated */industrial floor cleaning control/*
+    industries:
+      - AI
+      - Industry
+    client: Smart Products Beacon
+    dates: Nov 2018–Apr 2020
+    description: >
+      This industry-partnered project explored human-robot collaboration for factory cleaning and allergen detection, integrating IoT sensors to support workplace safety and efficiency. Funded by the [Smart Products Beacon](https://www.nottingham.ac.uk/research/beacons-of-excellence/smart-products/index.aspx), the work resulted in a connected system enabling real-time human-robot interaction on the factory floor. In this project I conducted ethnographic visits, **ethnographic studies**, and **semi-structured interviews** with stakeholders across the food manufacturing sector&mdash;including small producers and multinational companies—to understand workflows, user needs, and opportunities for meaningful automation.
+
+2019:
+  - slug: aiot
+    name: Future Everyday Interaction with the Autonomous Internet of Things (A-IoT)
+    title: Design and implementation of an AI for */predicting food consumption and replenishment/*
+    industries:
+      - AI
+      - Food
+    client: EPSRC
+    dates: Apr 2019–Oct 2019
+    description: >
+      As part of an EPSRC-funded project on [Autonomous Internet of Things (A-IoT) systems](https://gtr.ukri.org/projects?ref=EP%2FN014243%2F1 "Read more about the project on Gateway to Research"), I contributed to the design and evaluation of user interfaces for predictive, automated technologies in the home. I supported the **deployment of a prototype system** designed to forecast household product consumption and collaborated on in-home research studies to evaluate its usability and effectiveness. My role included **leading the analysis of both quantitative and qualitative data**, to develop insights in how to accurately assess and project future food consumption routines.
+
+  - slug: passme
+    name: Personalised Airport Systems for Seamless Mobility and Experience (PASSME)
+    title: Assessing methods for */efficient aircraft boarding/*
+    industries:
+      - Human Factors
+      - Aviation
+    client: European Union
+    dates: Nov 2018–Apr 2019
+    description: >
+      As part of a [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/en) project, I contributed to EU-wide efforts to improve the passenger air travel experience by reducing door-to-door journey time and stress. Working with researchers at [TU Delft](https://www.tudelft.nl/en/), I supported the **data collection** activities, which consisted of testing groups of passengers boarding an airfact, to evaluate how aircraft seating configurations impact boarding efficiency and comfort. I led **data analysis** efforts, translating the user-centred insights into recommendations for operational and design improvements within aviation.
