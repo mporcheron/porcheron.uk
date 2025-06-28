@@ -1,5 +1,5 @@
 ---
-title: My Publications
+title: My publications
 description: |
   A list of my publications, including archival (conference/journal) papers,
   demos, and magazine articles. I've also organised workshops co-located at
@@ -24,11 +24,11 @@ sections:
 menu:
   main:
     label: Publications
-    title: A list and links to download publications (co)authored by Martin Porcheron
+    title: A list and links to download publications authored by Dr Martin Porcheron
     weight: 3
 ---
 
-Below is a list of my publications, including preprint copies of each publication as a PDF, where publishing rights permit. A BibTeX reference can be accessed for each publication using the `[bib]` link.
+Below is a list of my publications, including preprint PDFs where publishing rights permit. I have published in a range of venues, from ACM CHI&mdash;the largest conference in human-computer interaction&mdash;to industry magazines.
 
 {%- for category in site.data.pubs_categories -%}
 
@@ -36,7 +36,7 @@ Below is a list of my publications, including preprint copies of each publicatio
 <!-- section -->
 {% endunless %}
 
-<h2 id="{{ category[1] | slugify }}">{{ category[1] }}</h2>
+<h3 id="{{ category[1] | slugify }}">{{ category[1] }}</h3>
 
 {% capture bib_category %}{{ category[0] }}{% endcapture %}
 {% capture bib %}{% bibliography --file {{ bib_category }} %}{% endcapture %}
