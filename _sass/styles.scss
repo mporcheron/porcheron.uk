@@ -48,7 +48,7 @@ header {
 a.contact-link {
   svg {
     color: $contact-link-color;
-  @include auto-transition((color));
+    @include auto-transition((color));
 
     &:hover, &:active {
       color: $contact-link-color-hoveractive;
@@ -112,7 +112,7 @@ a.contact-link {
     box-shadow: $box-shadow-inset;
     padding: .9rem 1rem;
 
-    .offcanvas-title {
+    .modal-title {
       font-family: $sitetitle-font-family;
     }
   }
