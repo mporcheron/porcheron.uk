@@ -18,7 +18,7 @@ This website uses three external service providers—only necessary information 
 
 #### GitHub Pages
 
-This website is hosted by [GitHub](https://github.com "The main GitHub website"), on its [GitHub Pages](https://pages.github.com "Information about the GitHub Pages service") service. GitHub is owned by [Microsoft](https://www.microsoft.com/ "Microsoft homepage"). GitHub does not set cookies on pages served through GitHub Pages, but [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection "Read about GitHub Pages") says:
+This website is hosted by [GitHub](https://github.com "The main GitHub website"), on its [GitHub Pages](https://pages.github.com "Information about the GitHub Pages service") service. GitHub is owned by [Microsoft](https://www.microsoft.com/ "Microsoft homepage"). GitHub does not set cookies on pages served through GitHub Pages, but the[GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection "Read about GitHub Pages") says:
 
 > When a GitHub Pages site is visited, the visitor's IP address is logged and stored for security purposes, regardless of whether the visitor has signed into GitHub or not. For more information about GitHub's security practices, see [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement "GitHub General Privacy Statement").
 >
@@ -46,7 +46,7 @@ This website is hosted by [GitHub](https://github.com "The main GitHub website")
 
 This website occasionally includes videos that are hosted on the [YouTube](https://www.youtube.com/ "YouTube") service. YouTube is owned by [Google](https://www.google.com/ "Google").
 
-By default, videos are not embedded on webpages, but instead a placeholder is displayed. Clicking on this placeholder (which says '_Load YouTube video_') will embed the video in the webpage using a 'privacy-enhanced mode'. YouTube states this embedded video will not [influence your user experience](https://support.google.com/youtube/answer/171780?hl=en#zippy=%2Cturn-on-privacy-enhanced-mode "Google FAQ on Privacy-Enhanced Mode"):
+By default, videos are not embedded on webpages, but instead a play button is displayed. Clicking on this button will embed the video in the webpage using a 'privacy-enhanced mode'. YouTube states this embedded video will not [influence your user experience](https://support.google.com/youtube/answer/171780?hl=en#zippy=%2Cturn-on-privacy-enhanced-mode "Google FAQ on Privacy-Enhanced Mode"):
 
 > The Privacy Enhanced Mode of the YouTube embedded player prevents the use of views of embedded YouTube content from influencing the viewer’s browsing experience on YouTube. This means that the view of a video shown in the Privacy Enhanced Mode of the embedded player will not be used to personalize the YouTube browsing experience, either within your Privacy Enhanced Mode embedded player or in the viewer’s subsequent YouTube viewing experience.
 > 
