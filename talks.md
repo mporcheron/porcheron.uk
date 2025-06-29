@@ -28,7 +28,7 @@ Below is a selection of videos and recorded talks I have given, including exampl
 
 I am open to giving guest lectures and workshops on the design and use of conversational technologies, as well as the application of user experience and human-computer interaction in industry from a practitioner’s perspective. Please [contact me](mailto:{{ site.contact.email }}) for more information.
 
-<!-- section -->
+<!-- begin section -->
 
 ### Videos
 
@@ -55,7 +55,8 @@ I am open to giving guest lectures and workshops on the design and use of conver
 </div>
 {%- endfor %}
 
-<!-- section -->
+<!-- end section -->
+<!-- begin section -->
 
 ### Talks, workshops, and conferences
 
@@ -119,10 +120,13 @@ I am open to giving guest lectures and workshops on the design and use of conver
   {%- endfor %}
 </ul>
 
-<!-- section -->
+<!-- end section -->
+<!-- begin section -->
 
 ### Teaching in academia
 
 While I was a Senior Lecturer at [Swansea University](https://www.swansea.ac.uk/compsci/ "Computer Science at Swansea University"), I co-ordinated and lectured on the module *CSC371 Advanced Object-Oriented Programming* (C and C++ for third-year Computer Science students) in the 2020/21 and 2021/22 academic years. I also taught on the *CS-210 Concurrency* module in the 2021/22 academic year, along with [Dr Alma Rahat](https://www.swansea.ac.uk/staff/a.a.m.rahat/ "Alma Rahat on the Swansea University website").
 
 While I was a Research Fellow at the [University of Nottingham](https://www.nottingham.ac.uk/computerscience/index.aspx "Computer Science at the University of Nottingham"), I assisted with the teaching of a number of modules including ethnography and design, binary arithmetic and logic, *Java* (advanced), *C/C++* (advanced), *Python* (introductory), and *Android* (advanced).
+
+<!-- end section -->

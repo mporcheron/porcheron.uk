@@ -12,7 +12,7 @@ layout: default
 
     {%- if page.sections.collapsible -%}
       {%- capture sectioned_content -%}
-        {{- content_html | replace_first: "<!-- section -->", '</div><section class="my-3 rounded-4 collapsible">' | replace: "<!-- section -->", '</div></div></section><section class="my-3 rounded-4 collapsible">'-}}
+        {{- content_html | replace_first: "<!-- begin section -->", '</div><section class="my-3 rounded-4 collapsible">' | replace: "<!-- end section -->", '</div></div></section>' | replace: "<!-- begin section -->", '<section class="my-3 rounded-4 collapsible">' -}}
       {%- endcapture -%}
 
       {%- for i in (1..100) -%}
@@ -26,7 +26,7 @@ layout: default
       {%- endfor -%}
     {%- else -%}
       {%- capture sectioned_content -%}
-        {{- content_html | replace_first: "<!-- section -->", '</div><section class="my-3 p-3 rounded-4">' | replace: "<!-- section -->", '</section><section class="my-3 p-3 rounded-4 shadow-lg">'-}}
+        {{- content_html | replace_first: "<!-- begin section -->", '</div><section class="my-3 p-3 rounded-4">' | replace: "<!-- end section -->", '</section>' | replace: "<!-- begin section -->", '<section class="my-3 p-3 rounded-4 shadow-lg">' -}}
       {%- endcapture -%}
     {%- endif -%}
 

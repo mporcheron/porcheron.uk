@@ -33,7 +33,7 @@ Below is a list of my publications, including preprint PDFs where publishing rig
 {%- for category in site.data.pubs_categories -%}
 
 {% unless foreach.last %}
-<!-- section -->
+<!-- begin section -->
 {% endunless %}
 
 <h3 id="{{ category[1] | slugify }}">{{ category[1] }}</h3>
@@ -41,5 +41,9 @@ Below is a list of my publications, including preprint PDFs where publishing rig
 {% capture bib_category %}{{ category[0] }}{% endcapture %}
 {% capture bib %}{% bibliography --file {{ bib_category }} %}{% endcapture %}
 {{ bib | replace: "&amp;", "&" | replace: "&lt;", "<" | replace: "&gt;", ">" | replace: "Martin Porcheron", "<u>Martin Porcheron</u>" | markdownify }}
+
+{% unless foreach.last %}
+<!-- end section -->
+{% endunless %}
 
 {%- endfor -%}

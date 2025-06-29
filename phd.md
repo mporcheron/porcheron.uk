@@ -17,7 +17,7 @@ My thesis (finalised in August 2019) adopted a multidisciplinary ethnographic ap
 
 My PhD was funded by the [EPSRC](https://epsrc.ukri.org "The Engineering and Physical Sciences Research Council website") through the [Horizon Centre for Doctoral Training](https://cdt.horizon.ac.uk "Horizon CDT website") and [Horizon Digital Economy Research Institute](https://www.horizon.ac.uk "Horizon DER Institute website"). I was based in the [Mixed Reality Lab](https://www.nottingham.ac.uk/research/groups/mixedrealitylab/ "The Mixed Reality Laboratory website") at [the School of Computer Science](https://www.nottingham.ac.uk/computerscience/ "University of Nottingham School of Computer Science website") at the [University of Nottingham](https://www.nottingham.ac.uk/ "University of Nottingham website"), supervised by Dr Joel E Fischer (Computer Science) and Prof. Sarah Sharples (Faculty of Engineering).
 
-<!-- section -->
+<!-- begin section -->
 
 ### Abstract
 
@@ -35,8 +35,11 @@ and the device synthesises speech as its response.
 >
 > The thesis makes a number of contributions, such as identifying for what purposes and how people use devices in and through socialising together in a casual-social setting, including the collaborative nature of these interactions. Dealing with technical troubles with devices such as smartspeakers was identified as being a potentially collaborative activity amongst the groups, and synthesised responses from the Voice User Interfaces (VUIs) were ostensibly ‘resources’ for dealing with these troubles and progressing interaction with the device. Through its presentation of thick description and analysis, this thesis establishes the case for further research to examine and design for gatherings in such settings.
 
-<!-- section -->
+<!-- end section -->
+<!-- begin section -->
 
 ### Download and cite
 
 {% bibliography -f thesis %}
+
+<!-- end section -->

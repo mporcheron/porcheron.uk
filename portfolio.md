@@ -22,12 +22,10 @@ From foundational exploratory studies to usability testing and applied UX resear
 
 {%- for year in site.data.portfolio -%}
 
-
-
 {%- for project in year[1] -%}
 
 {% unless foreach.last %}
-<!-- section -->
+<!-- begin section -->
 {% endunless %}
 
 <h3 id="{{ project.slug }}">
@@ -81,6 +79,10 @@ From foundational exploratory studies to usability testing and applied UX resear
 </div>
 
 {{ project.description }}
+
+{% unless foreach.last %}
+<!-- end section -->
+{% endunless %}
 
 {%- endfor -%}
 
