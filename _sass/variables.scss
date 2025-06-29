@@ -12,8 +12,10 @@ $line-height-base: 1.67;
 $transition-duration: .3s;
 $transition-function: ease;
 
-$backdrop-filter: saturate(180%) blur(40px);
+$backdrop-bg: rgba(232,232,237,.6);
+$backdrop-filter: saturate(180%) blur(5px);
 
+$modal-fade-transform: scale(.8);
 
 
 // OVERALL LAYOUT /////////////////////////////////////////////////////////////

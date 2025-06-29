@@ -1,3 +1,11 @@
+const mobileNavReposition = () => {
+  const mn = document.getElementById('mobilenavModal');
+  const mnToggler = document.getElementById('mobilenavToggler');
+  mn.style.marginTop = mnToggler.offsetTop + "px";
+  mn.style.marginLeft = mnToggler.offsetLeft + "px";
+  mn.style.marginRight = mnToggler.offsetLeft + "px";
+};
+
 window.addEventListener('load', () => {
   if (window.location.hash) {
     const elem = document.querySelector(window.location.hash);
@@ -25,6 +33,8 @@ window.addEventListener('load', () => {
     });
   });
 
+  mobileNavReposition();
+
 	// document.getElementById('siteTitle').addEventListener('click', event => {
 	// 	if (window.innerWidth >= 768) {
 	// 		event.stopPropagation();
@@ -35,7 +45,7 @@ window.addEventListener('load', () => {
   document.querySelectorAll('.mobilenav .nav-link').forEach((link) => {
     link.addEventListener('click', event => {
       event.preventDefault();
-      const mobilenav = bootstrap.Offcanvas.getInstance('#mobilenav');
+      const mobilenav = bootstrap.Modal.getInstance('#mobilenav');
       mobilenav.hide();
       const href = event.currentTarget.href;
       setTimeout(() => {window.location=href;}, 350);
@@ -52,7 +62,6 @@ window.addEventListener('load', () => {
   //     parent.classList.add('collapsible')
   //   })
   // })
-
 
   var youtubeVideosEnabled = false;
   document.querySelectorAll('.video-unactivated').forEach((link) => {
@@ -79,3 +88,5 @@ window.addEventListener('load', () => {
     });
   });
 });
+
+window.addEventListener('resize', mobileNavReposition);
