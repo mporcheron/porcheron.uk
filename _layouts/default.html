@@ -39,12 +39,12 @@
     <header class="py-3">
       <div class="container">
         <div class="d-flex flex-row align-items-center">
-          <span class="toggler rounded-circle d-md-none d-flex align-items-center justify-content-center ms-4 me-4 p-2 flex-grow-0" data-bs-toggle="offcanvas" data-bs-target="#mobilenav" aria-controls="mobilenav" id="mobilenavToggler">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <span class="toggler rounded-circle d-md-none d-flex align-items-center justify-content-center ms-4 me-sm-4 me-0 p-2 flex-grow-0" data-bs-toggle="offcanvas" data-bs-target="#mobilenav" aria-controls="mobilenav" id="mobilenavToggler">
+            <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
             </svg>
           </span>
-          <h1 class="flex-grow-1 py-2">
+          <h1 class="flex-grow-1 flex-fill text-md-left text-center py-2">
             {{ site.name | escape }}
           </h1>
           <a href="mailto:{{ site.contact.email }}" class="contact-link d-md-block d-none" title="Contact {{ site.author }} by email">

@@ -36,7 +36,7 @@ header {
   border: $toggler-border;
   box-shadow: $box-shadow-sm;
   cursor: pointer;
-  width: 44px;
+  width: 58px;
   @include auto-transition((background, box-shadow));
 
   &:hover {
