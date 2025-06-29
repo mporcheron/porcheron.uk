@@ -13,14 +13,11 @@ This website does not collect any personally identifiable information and there 
 * No analytics or tracking of users or their activities on this website
 * No cookies set by the website owner
 
-If you have questions about anything this privacy policy, please do not hesitate to [contact me](mailto:{{ site.contact.email }}) .
-
-<!-- section -->
+<!-- begin section -->
 
 ### Use of third-party services
 
 This website uses three external service providers—only necessary information is collected by these services.
-
 
 #### GitHub Pages
 
@@ -62,3 +59,12 @@ By default, videos are not embedded on webpages, but instead a placeholder is di
 > Last checked: 8th September 2024*
 
 Please note however, that there are privacy implications of loading embedded content—this is like loading a webpage normally in your browser and carries all the same risks. As such, interaction with any embedded video is subject to [Google's Privacy Policy](https://policies.google.com/privacy?hl=en-GB "YouTube's privacy guidelines"). Therefore, although your use of the embedded video may not influence your user experience on YouTube, Google may sitll collect personally identifiable information.
+
+<!-- end section -->
+<!-- begin section -->
+
+### What if I have a question about the above information?
+
+If you have questions about anything this privacy policy, please do not hesitate to [contact me](mailto:{{ site.contact.email }}).
+
+<!-- end section -->
