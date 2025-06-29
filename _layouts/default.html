@@ -49,7 +49,9 @@
             </svg>
           </span>
           <h1 class="flex-grow-1 flex-fill text-md-left text-center py-md-2 py-3">
-            {{ site.name | escape }}
+            <a href="{{ site.url }}" title="Go to the homepage" class="text-decoration-none">
+              {{ site.name | escape }}
+            </a>
           </h1>
           <a href="mailto:{{ site.contact.email }}" class="contact-link d-md-block d-none" title="Contact {{ site.author }} by email">
             <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">

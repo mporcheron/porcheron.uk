@@ -26,6 +26,10 @@ header {
     svg {
       margin-top: -3px;
     }
+
+    a, a:hover {
+      color: $body-color;
+    }
   }
 
 }
