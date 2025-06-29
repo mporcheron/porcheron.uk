@@ -6,7 +6,7 @@ permalink: /privacy/
 
 This website does not collect any personally identifiable information and there is:
 
-* No advertising on this website
+* No advertising on this website,
 * No analytics or tracking of users or their activities on this website
 * No cookies set by the website owner
 
