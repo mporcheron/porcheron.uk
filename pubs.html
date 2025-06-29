@@ -28,22 +28,25 @@ menu:
     weight: 3
 ---
 
-Below is a list of my publications, including preprint PDFs where publishing rights permit. I have published in a range of venues, from ACM CHI&mdash;the largest conference in human-computer interaction&mdash;to industry magazines.
+<p>
+  Below is a list of my publications, including preprint PDFs where publishing rights permit. I have published in a range of venues, from ACM CHI&mdash;the largest conference in human-computer interaction&mdash;to industry magazines.
+</p>
 
 {%- for category in site.data.pubs_categories -%}
 
-{% unless foreach.last %}
-<!-- begin section -->
-{% endunless %}
+  {% unless foreach.last %}
+    <!-- begin collapsible section -->
+  {% endunless %}
 
-<h3 id="{{ category[1] | slugify }}">{{ category[1] }}</h3>
+  <h3 id="{{ category[1] | slugify }}">{{ category[1] }}</h3>
 
-{% capture bib_category %}{{ category[0] }}{% endcapture %}
-{% capture bib %}{% bibliography --file {{ bib_category }} %}{% endcapture %}
-{{ bib | replace: "&amp;", "&" | replace: "&lt;", "<" | replace: "&gt;", ">" | replace: "Martin Porcheron", "<u>Martin Porcheron</u>" | markdownify }}
+  {% capture bib_category %}{{ category[0] }}{% endcapture %}
+  {% capture bib %}{% bibliography --file {{ bib_category }} %}{% endcapture %}
+  
+  {{ bib | replace: "&amp;", "&" | replace: "&lt;", "<" | replace: "&gt;", ">" | replace: "Martin Porcheron", "<u>Martin Porcheron</u>" | markdownify }}
 
-{% unless foreach.last %}
-<!-- end section -->
-{% endunless %}
+  {% unless foreach.last %}
+    <!-- end collapsible section -->
+  {% endunless %}
 
 {%- endfor -%}

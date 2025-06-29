@@ -42,12 +42,11 @@ window.addEventListener('load', () => {
 
   mobileNavReposition();
 
-	// document.getElementById('siteTitle').addEventListener('click', event => {
-	// 	if (window.innerWidth >= 768) {
-	// 		event.stopPropagation();
-  //     window.location=document.getElementById('siteTitle').dataset.homepage;
-	// 	}
-	// });
+	document.querySelectorAll('section.static h3').forEach((elem, i) => {
+    delete elem.dataset.bsToggle;
+    delete elem.removeAttribute('role');
+    elem.setAttribute('aria-expanded', true);
+  });
 
   document.querySelectorAll('.mobilenav .nav-link').forEach((link) => {
     link.addEventListener('click', event => {

@@ -152,11 +152,11 @@ section {
     @include auto-transition((color));
   }
 
-  &:hover {
+  &:hover:not(.static)  {
     border: $section-border-hover;
   }
 
-  &.child-shown {
+  &.child-shown:not(.static) {
     box-shadow: $box-shadow;
 
     h3 {
@@ -166,6 +166,20 @@ section {
       color: $primary;
         transform: rotate(0.25turn);
       }
+    }
+  }
+
+  &.static {
+    .chevron {
+      display: none;
+    }
+
+    .collapse {
+      display: block !important;
+    }
+
+    h3 {
+      cursor: default;
     }
   }
 }

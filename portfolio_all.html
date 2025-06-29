@@ -1,34 +1,32 @@
 ---
-title: My portfolio
+title: Extended portfolio
 description: |
-  A summary of my research, which is the domains of HCI and CSCW, and list of
-  projects I have been involved in.
+  An extended list of my user experience design and research projects.
+
+permalink: /portfolio/all/
 
 sections:
   collapsible: true
-
-menu:
-  main:
-    label: Portfolio
-    title: Details of various research projects I have participated in or led
-    weight: 1
 ---
 
-This collection of projects reflects my work at the intersection of human-computer interaction, user experience, and emerging technologies. My research spans domains such as conversational interfaces, interactive AI, and medical devices. Across all my work, I stay focused on truly understanding how people engage with technology in real-world contexts.
+Throughout my career, I’ have  led UX research across a wide range of projects; from early exploratory work to applied studies—spanning conversational interfaces, AI, medical devices, and more. Below is the extended list of my past research and design projects, however, I recommend you start with my <a href="/portfolio/" title="An abridged portfolio consisting of highlights of projects completed by Dr Martin Porcheron">abridged portfolio of research highlights</a>.
 
-From foundational exploratory studies to usability testing and applied UX research, these projects have informed product strategy, clarified user mental models, and shaped the design of technologies across industries.
-
-These are selected higlights from my research portfolio; a [full list of projects](/portfolio/all/) is available.
-
+{%- assign recentCutoff =  site.time | date: "%Y" | minus: 4 -%}
+{%- assign shownOlderTitle = false -%}
 
 {%- for year in site.data.portfolio -%}
 
+{%- unless shownOlderTitle %}
+{%- if year[0] < recentCutoff -%}
+<h2 class="mt-md-5 mt-3 mt-2 fw-medium">Older projects</h2>
+{%- assign shownOlderTitle = true -%}
+{%- endif -%}
+{%- endunless -%}
+
 {%- for project in year[1] -%}
 
-{%- unless project.star -%}{% continue %}{%- endunless -%}
-
 {% unless foreach.last %}
-<!-- begin section -->
+<!-- begin collapsible section -->
 {% endunless %}
 
 <h3 id="{{ project.slug }}">
@@ -84,10 +82,9 @@ These are selected higlights from my research portfolio; a [full list of project
 {{ project.description }}
 
 {% unless foreach.last %}
-<!-- end section -->
+<!-- end collapsible section -->
 {% endunless %}
 
 {%- endfor -%}
 
 {%- endfor -%}
-

@@ -28,7 +28,7 @@ Below is a selection of videos and recorded talks I have given, including exampl
 
 I am open to giving guest lectures and workshops on the design and use of conversational technologies, as well as the application of user experience and human-computer interaction in industry from a practitioner’s perspective. Please [contact me](mailto:{{ site.contact.email }}) for more information.
 
-<!-- begin section -->
+<!-- begin collapsible section -->
 
 ### Videos
 
@@ -55,8 +55,8 @@ I am open to giving guest lectures and workshops on the design and use of conver
 </div>
 {%- endfor %}
 
-<!-- end section -->
-<!-- begin section -->
+<!-- end collapsible section -->
+<!-- begin collapsible section -->
 
 ### Talks, workshops, and conferences
 
@@ -120,8 +120,8 @@ I am open to giving guest lectures and workshops on the design and use of conver
   {%- endfor %}
 </ul>
 
-<!-- end section -->
-<!-- begin section -->
+<!-- end collapsible section -->
+<!-- begin collapsible section -->
 
 ### Teaching in academia
 
@@ -129,4 +129,4 @@ While I was a Senior Lecturer at [Swansea University](https://www.swansea.ac.uk/
 
 While I was a Research Fellow at the [University of Nottingham](https://www.nottingham.ac.uk/computerscience/index.aspx "Computer Science at the University of Nottingham"), I assisted with the teaching of a number of modules including ethnography and design, binary arithmetic and logic, *Java* (advanced), *C/C++* (advanced), *Python* (introductory), and *Android* (advanced).
 
-<!-- end section -->
+<!-- end collapsible section -->
