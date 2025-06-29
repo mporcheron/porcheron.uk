@@ -1,8 +1,5 @@
 ---
 permalink: /privacy/
-
-sections:
-  collapsible: true
 ---
 
 # Privacy and cookies information

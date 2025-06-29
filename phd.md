@@ -3,8 +3,8 @@ title: My PhD
 description: |
   A summary of my PhD research, which focused on the everyday use of devices such as smartphones and smart speakers among groups of friends and family while socialising.
 
-sections:
-  collapsible: true
+seo:
+  name: Dr Martin Porcheron's PhD
 
 menu:
   main:

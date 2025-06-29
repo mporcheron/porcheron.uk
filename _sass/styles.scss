@@ -142,6 +142,28 @@ h2 {
   font-weight: bold;
 }
 
+.section, section {
+  &.fade-content > p, &.fade-content > figure {
+    opacity: 0;
+    @include auto-transition((opacity));
+  }
+
+  &.section-star {
+    color: $link-color;
+    margin-top: -5px;
+  }
+
+  &.graded-title {
+    color: lighten($body-color, 5%);
+    font-weight: 400;
+
+    b {
+      color: darken($body-color, 5%);
+      font-weight: 500;
+    }
+  }
+}
+
 section {
   border: $section-border;
   box-shadow: $box-shadow-sm;
@@ -190,27 +212,6 @@ section {
     border: 1px solid $body-bg;
   }
 }
-
-.fade-in-p > p, .fade-in-p > figure {
-  opacity: 0;
-  @include auto-transition((opacity));
-}
-
-.section-star {
-  color: $link-color;
-  margin-top: -5px;
-}
-
-.graded-title {
-  color: lighten($body-color, 5%);
-  font-weight: 400;
-
-  b {
-    color: darken($body-color, 5%);
-    font-weight: 500;
-  }
-}
-
 
 .bibliography {
   list-style: none;

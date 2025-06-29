@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
     setTimeout(() => {elem.style.opacity=100;}, i*150);
   });
 
-  document.querySelectorAll('.fade-in-p > *').forEach((elem, i) => {
+  document.querySelectorAll('.section.fade-content > *').forEach((elem, i) => {
     setTimeout(() => {elem.style.opacity=100;}, i*150);
   });
 

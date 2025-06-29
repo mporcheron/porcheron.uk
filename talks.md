@@ -3,6 +3,15 @@ label: My talks and events
 title: My talks and events
 description: A list of the talks, workshops, and conferences organised by Martin Porcheron, including a number of recorded videos.
 
+seo:
+  name: Talks and events by Dr Martin Porcheron
+
+menu:
+  main:
+    label: Talks and events
+    title: A summary of talks and events given and organised by Martin Porhceron, as well as courses taught in academia.
+    weight: 2
+
 redirect_from:
   /teaching/
 
@@ -12,16 +21,8 @@ lastmod:
     - videos.yml
     - talks.yml
 
-sections:
-  collapsible: true
-
-containsVideo: true
-
-menu:
-  main:
-    label: Talks and events
-    title: A summary of talks and events given and organised by Martin Porhceron, as well as courses taught in academia.
-    weight: 2
+design:
+  containsVideo: true
 ---
 
 Below is a selection of videos and recorded talks I have given, including examples from my teaching during my time in academia. While I have delivered many more talks than are listed here, unfortunately, many were either not recorded or are not publicly available due to rights restrictions.
