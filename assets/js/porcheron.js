@@ -7,8 +7,9 @@ const mobileNavReposition = () => {
     mn.style.marginLeft = ((window.innerWidth - width)/2) + "px";
     mn.style.marginRight = mn.style.marginLeft;
   } else {
-    mn.style.marginTop = mnToggler.offsetTop + "px";
-    mn.style.marginLeft = mnToggler.offsetLeft + "px";
+    const mnTogglerPos = mnToggler.getBoundingClientRect();
+    mn.style.marginTop = (mnTogglerPos.top + 15) + "px";
+    mn.style.marginLeft = (mnTogglerPos.left + 15) + "px";
     mn.style.marginRight = mn.style.marginLeft;
   }
 };

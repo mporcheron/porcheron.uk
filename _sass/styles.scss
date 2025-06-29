@@ -95,11 +95,11 @@ a.contact-link {
 
 .mobilenav {
   background: transparent !important;
-  position: fixed;
-  z-index: 2000;
   max-width: 100%;
-  width: 100%;
   min-width: 300px;
+  position: fixed;
+  width: 100%;
+  z-index: 2000;
 
   .modal-dialog {
     transform-origin: top left;
