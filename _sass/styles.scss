@@ -95,6 +95,7 @@ a.contact-link {
   z-index: 2000;
   max-width: 100%;
   width: 100%;
+  min-width: 300px;
 
   .modal-dialog {
     transform-origin: top left;

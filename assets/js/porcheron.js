@@ -1,9 +1,16 @@
 const mobileNavReposition = () => {
   const mn = document.getElementById('mobilenavModal');
   const mnToggler = document.getElementById('mobilenavToggler');
-  mn.style.marginTop = mnToggler.offsetTop + "px";
-  mn.style.marginLeft = mnToggler.offsetLeft + "px";
-  mn.style.marginRight = mnToggler.offsetLeft + "px";
+  if (mnToggler.offsetTop == 0) {
+    var width = Math.max(mn.offsetWidth, 300);
+    mn.style.marginTop = ((window.innerHeight - mn.offsetHeight)/2) + "px";
+    mn.style.marginLeft = ((window.innerWidth - width)/2) + "px";
+    mn.style.marginRight = mn.style.marginLeft;
+  } else {
+    mn.style.marginTop = mnToggler.offsetTop + "px";
+    mn.style.marginLeft = mnToggler.offsetLeft + "px";
+    mn.style.marginRight = mn.style.marginLeft;
+  }
 };
 
 window.addEventListener('load', () => {
