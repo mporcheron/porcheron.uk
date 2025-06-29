@@ -24,7 +24,7 @@ $body-bg: #fafafa;
 
 // HEADER /////////////////////////////////////////////////////////////////////
 
-$header-bg-gradient: linear-gradient(180deg, #E7EFEF 0%, rgba($primary, 7.5%) 0%);
+$header-bg-gradient: linear-gradient(180deg, #E7EFEF 0%, lighten($primary, 75%) 100%);
 
 $sitetitle-font-family: "Fascinate Inline", $font-family-sans-serif;
 $sitetitle-font-size: 2rem;

@@ -16,7 +16,6 @@ body {
 header {
   background: $header-bg-gradient;
   border-bottom: 3px double $border-color;
-  box-shadow: $box-shadow-inset;
 
   h1 {
     @extend %heading;
