@@ -18,11 +18,14 @@ This collection of projects reflects my work at the intersection of human-comput
 
 From foundational exploratory studies to usability testing and applied UX research, these projects have informed product strategy, clarified user mental models, and shaped the design of technologies across industries.
 
-{% assign recent =  site.time | date: "%Y" | minus: 4 %}
+These are selected higlights from my research portfolio; a [full list of projects](/portfolio/all/) is available.
+
 
 {%- for year in site.data.portfolio -%}
 
 {%- for project in year[1] -%}
+
+{%- unless project.star -%}{% continue %}{%- endunless -%}
 
 {% unless foreach.last %}
 <!-- begin section -->
@@ -87,3 +90,4 @@ From foundational exploratory studies to usability testing and applied UX resear
 {%- endfor -%}
 
 {%- endfor -%}
+

@@ -3,9 +3,9 @@ layout: default
 ---
 <article class="container h-100">
   <div class="section {% if page.fade_paragraphs %}fade-in-p{% endif %}">
-    <h3 class="text-start pb-2 {% if page.hide_title_mobile %}d-md-block d-none{% endif %}">
+    <h2 class="text-start pb-2 {% if page.hide_title_mobile %}d-md-block d-none{% endif %}">
       {{ page.title | escape }}
-    </h3>
+    </h2>
     {%- capture content_html -%}
       {{- content -}}
     {%- endcapture -%}
