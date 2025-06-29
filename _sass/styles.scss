@@ -148,7 +148,7 @@ h2 {
     @include auto-transition((opacity));
   }
 
-  &.section-star {
+  .section-star {
     color: $link-color;
     margin-top: -5px;
   }
