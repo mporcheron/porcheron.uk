@@ -14,9 +14,13 @@
 
   - slug: tset-copd
     name: NHS Accelerated Access Collaborative Technology-Specific Evaluation Team (TSET)
+    industries:
+      - AI
+      - Healthcare
+      - Public Sector
     title: Peer review of a tool for */managing patients with COPD/*
     client: NHS England
-    dates: January 2022–February 2024
+    dates: Jan 2022–Feb 2024
     description: >
       As a project lead, I led the UX-focused peer review of a digital support tool designed to assist with the management of patients with Chronic Obstructive Pulmonary Disease (COPD). Funded by the NHS, this work assessed the quality and effectiveness of an existing evaluation study through a **combination of documentation analysis and software testing**. The review focused on how the tool aligned with real-world patient needs and clinical workflows, highlighting gaps in usability, adoption barriers, and opportunities to improve engagement and impact in chronic care management.
 
@@ -53,6 +57,7 @@
     industries:
       - AI
       - Food
+      - Smarthome
     client: EPSRC
     dates: Apr 2019–Oct 2019
     description: >
