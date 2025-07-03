@@ -49,6 +49,10 @@ window.addEventListener('load', () => {
     elem.setAttribute('aria-expanded', true);
   });
 
+  document.getElementById('mobilenavToggler').addEventListener('click', () => {
+    mobileNavReposition();
+  });
+
   document.querySelectorAll('.mobilenav .nav-link').forEach((link) => {
     link.addEventListener('click', event => {
       event.preventDefault();
