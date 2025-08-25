@@ -84,6 +84,10 @@ a.contact-link {
     box-shadow: $box-shadow;
   }
 
+  .nav-link:active {
+    box-shadow: $box-shadow-inset;
+  }
+
   .nav-link:hover {
     border: $nav-link-border-hover;
   }
