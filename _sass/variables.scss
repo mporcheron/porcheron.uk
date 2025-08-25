@@ -9,8 +9,8 @@ $font-family-sans-serif: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', "Noto 
 
 $line-height-base: 1.67;
 
-$transition-duration: .15s;
-$transition-function: cubic-bezier(.1,1,0,1);
+$transition-duration: .3s;
+$transition-function: ease-in-out;
 
 $backdrop-bg: rgba(232,232,237,.6);
 $backdrop-filter: saturate(220%) blur(2px);
