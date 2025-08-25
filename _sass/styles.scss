@@ -1,5 +1,19 @@
 // OVERALL LAYOUT /////////////////////////////////////////////////////////////
 
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: fade 0.3s ease both;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 html, body {
   background: $body-bg;
   direction: ltr;
